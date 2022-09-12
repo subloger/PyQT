@@ -1,0 +1,1089 @@
+2022-09-06 17:21:15,326   INFO       server               Получен запрос на соединение от ('127.0.0.1', 60362)
+2022-09-06 17:21:15,327   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Tue Sep  6 17:21:15 2022', 'account_name': 'user-1'}
+2022-09-06 17:21:15,327   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep  6 17:21:15 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:21:15,330   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Tue Sep  6 17:21:15 2022', 'account_name': 'user-1'}, 'client': <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8853), raddr=('127.0.0.1', 60362)>}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-06 17:21:15,330   INFO       server               Отправлен ответ - ('127.0.0.1', 60362){'response': 200, 'time': 'Tue Sep  6 17:21:15 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:21:16,327   INFO       server               Получен запрос на соединение от ('127.0.0.1', 60376)
+2022-09-06 17:21:16,327   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Tue Sep  6 17:21:16 2022', 'account_name': 'user-2'}
+2022-09-06 17:21:16,327   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep  6 17:21:16 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:21:16,327   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Tue Sep  6 17:21:16 2022', 'account_name': 'user-2'}, 'client': <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8853), raddr=('127.0.0.1', 60376)>}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-06 17:21:16,328   INFO       server               Отправлен ответ - ('127.0.0.1', 60362){'response': 200, 'time': 'Tue Sep  6 17:21:16 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:21:16,328   INFO       server               Отправлен ответ - ('127.0.0.1', 60376){'response': 200, 'time': 'Tue Sep  6 17:21:16 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:21:36,349   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Tue Sep  6 17:21:36 2022', 'target_user': 'user-2', 'sender_user': 'user-1', 'message': 'hello'}
+2022-09-06 17:21:36,349   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep  6 17:21:36 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'hello'}
+2022-09-06 17:21:36,350   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'msg', 'time': 'Tue Sep  6 17:21:36 2022', 'target_user': 'user-2', 'sender_user': 'user-1', 'message': 'hello'}, 'client': <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8853), raddr=('127.0.0.1', 60362)>}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-06 17:21:36,350   INFO       server               Отправлен ответ - ('127.0.0.1', 60362){'response': 200, 'time': 'Tue Sep  6 17:21:36 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'hello'}
+2022-09-06 17:21:36,351   INFO       server               Отправлен ответ - ('127.0.0.1', 60376){'response': 200, 'time': 'Tue Sep  6 17:21:36 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'hello'}
+2022-09-06 17:21:58,371   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Tue Sep  6 17:21:58 2022', 'target_user': 'user-1', 'sender_user': 'user-2', 'message': 'hi'}
+2022-09-06 17:21:58,371   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep  6 17:21:58 2022', 'from_user': 'user-2', 'to_user': 'user-1', 'answer': 'hi'}
+2022-09-06 17:21:58,371   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'msg', 'time': 'Tue Sep  6 17:21:58 2022', 'target_user': 'user-1', 'sender_user': 'user-2', 'message': 'hi'}, 'client': <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8853), raddr=('127.0.0.1', 60376)>}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-06 17:21:58,371   INFO       server               Отправлен ответ - ('127.0.0.1', 60362){'response': 200, 'time': 'Tue Sep  6 17:21:58 2022', 'from_user': 'user-2', 'to_user': 'user-1', 'answer': 'hi'}
+2022-09-06 17:21:58,371   INFO       server               Отправлен ответ - ('127.0.0.1', 60376){'response': 200, 'time': 'Tue Sep  6 17:21:58 2022', 'from_user': 'user-2', 'to_user': 'user-1', 'answer': 'hi'}
+2022-09-06 17:25:37,407   INFO       server               Получен запрос на соединение от ('127.0.0.1', 32962)
+2022-09-06 17:25:37,407   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Tue Sep  6 17:25:37 2022', 'account_name': 'user-1'}
+2022-09-06 17:25:37,407   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep  6 17:25:37 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:25:37,410   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Tue Sep  6 17:25:37 2022', 'account_name': 'user-1'}, 'client': <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8853), raddr=('127.0.0.1', 32962)>}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-06 17:25:37,410   INFO       server               Отправлен ответ - ('127.0.0.1', 32962){'response': 200, 'time': 'Tue Sep  6 17:25:37 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:25:38,412   INFO       server               Получен запрос на соединение от ('127.0.0.1', 32966)
+2022-09-06 17:25:38,412   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Tue Sep  6 17:25:38 2022', 'account_name': 'user-2'}
+2022-09-06 17:25:38,412   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep  6 17:25:38 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:25:38,412   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Tue Sep  6 17:25:38 2022', 'account_name': 'user-2'}, 'client': <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8853), raddr=('127.0.0.1', 32966)>}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-06 17:25:38,413   INFO       server               Отправлен ответ - ('127.0.0.1', 32962){'response': 200, 'time': 'Tue Sep  6 17:25:38 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:25:38,413   INFO       server               Отправлен ответ - ('127.0.0.1', 32966){'response': 200, 'time': 'Tue Sep  6 17:25:38 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:29:21,633   INFO       server               Клиент ('127.0.0.1', 32962) отключился
+2022-09-06 17:29:23,636   INFO       server               Клиент ('127.0.0.1', 32966) отключился
+2022-09-06 17:29:24,637   INFO       server               Клиент ('127.0.0.1', 32966) отключился
+2022-09-06 17:29:28,171   INFO       server               Получен запрос на соединение от ('127.0.0.1', 36254)
+2022-09-06 17:29:28,172   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Tue Sep  6 17:29:28 2022', 'account_name': 'user-1'}
+2022-09-06 17:29:28,172   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep  6 17:29:28 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:29:28,175   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Tue Sep  6 17:29:28 2022', 'account_name': 'user-1'}, 'client': <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8853), raddr=('127.0.0.1', 36254)>}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-06 17:29:28,175   INFO       server               Отправлен ответ - ('127.0.0.1', 36254){'response': 200, 'time': 'Tue Sep  6 17:29:28 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:29:29,168   INFO       server               Получен запрос на соединение от ('127.0.0.1', 36270)
+2022-09-06 17:29:29,168   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Tue Sep  6 17:29:29 2022', 'account_name': 'user-2'}
+2022-09-06 17:29:29,168   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep  6 17:29:29 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:29:29,168   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Tue Sep  6 17:29:29 2022', 'account_name': 'user-2'}, 'client': <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8853), raddr=('127.0.0.1', 36270)>}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-06 17:29:29,169   INFO       server               Отправлен ответ - ('127.0.0.1', 36254){'response': 200, 'time': 'Tue Sep  6 17:29:29 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:29:29,169   INFO       server               Отправлен ответ - ('127.0.0.1', 36270){'response': 200, 'time': 'Tue Sep  6 17:29:29 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:29:57,197   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Tue Sep  6 17:29:56 2022', 'target_user': 'user-1', 'sender_user': 'user-1', 'message': 'hello'}
+2022-09-06 17:29:57,198   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep  6 17:29:57 2022', 'from_user': 'user-1', 'to_user': 'user-1', 'answer': 'hello'}
+2022-09-06 17:29:57,198   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'msg', 'time': 'Tue Sep  6 17:29:56 2022', 'target_user': 'user-1', 'sender_user': 'user-1', 'message': 'hello'}, 'client': <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8853), raddr=('127.0.0.1', 36254)>}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-06 17:29:57,199   INFO       server               Отправлен ответ - ('127.0.0.1', 36254){'response': 200, 'time': 'Tue Sep  6 17:29:57 2022', 'from_user': 'user-1', 'to_user': 'user-1', 'answer': 'hello'}
+2022-09-06 17:29:57,199   INFO       server               Отправлен ответ - ('127.0.0.1', 36270){'response': 200, 'time': 'Tue Sep  6 17:29:57 2022', 'from_user': 'user-1', 'to_user': 'user-1', 'answer': 'hello'}
+2022-09-06 17:30:22,225   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Tue Sep  6 17:30:21 2022', 'target_user': 'user-1', 'sender_user': 'user-2', 'message': 'hi'}
+2022-09-06 17:30:22,225   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep  6 17:30:22 2022', 'from_user': 'user-2', 'to_user': 'user-1', 'answer': 'hi'}
+2022-09-06 17:30:22,226   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'msg', 'time': 'Tue Sep  6 17:30:21 2022', 'target_user': 'user-1', 'sender_user': 'user-2', 'message': 'hi'}, 'client': <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8853), raddr=('127.0.0.1', 36270)>}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-06 17:30:22,227   INFO       server               Отправлен ответ - ('127.0.0.1', 36254){'response': 200, 'time': 'Tue Sep  6 17:30:22 2022', 'from_user': 'user-2', 'to_user': 'user-1', 'answer': 'hi'}
+2022-09-06 17:30:22,227   INFO       server               Отправлен ответ - ('127.0.0.1', 36270){'response': 200, 'time': 'Tue Sep  6 17:30:22 2022', 'from_user': 'user-2', 'to_user': 'user-1', 'answer': 'hi'}
+2022-09-06 17:30:37,243   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Tue Sep  6 17:30:37 2022', 'target_user': 'user-2', 'sender_user': 'user-1', 'message': 'hello'}
+2022-09-06 17:30:37,243   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep  6 17:30:37 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'hello'}
+2022-09-06 17:30:37,244   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'msg', 'time': 'Tue Sep  6 17:30:37 2022', 'target_user': 'user-2', 'sender_user': 'user-1', 'message': 'hello'}, 'client': <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8853), raddr=('127.0.0.1', 36254)>}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-06 17:30:37,244   INFO       server               Отправлен ответ - ('127.0.0.1', 36254){'response': 200, 'time': 'Tue Sep  6 17:30:37 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'hello'}
+2022-09-06 17:30:37,245   INFO       server               Отправлен ответ - ('127.0.0.1', 36270){'response': 200, 'time': 'Tue Sep  6 17:30:37 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'hello'}
+2022-09-06 17:33:09,314   INFO       server               Получен запрос на соединение от ('127.0.0.1', 49934)
+2022-09-06 17:33:09,314   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Tue Sep  6 17:33:09 2022', 'account_name': 'user-1'}
+2022-09-06 17:33:09,314   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep  6 17:33:09 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:33:09,318   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Tue Sep  6 17:33:09 2022', 'account_name': 'user-1'}, 'client': <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8853), raddr=('127.0.0.1', 49934)>}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-06 17:33:09,318   INFO       server               Отправлен ответ - ('127.0.0.1', 49934){'response': 200, 'time': 'Tue Sep  6 17:33:09 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:33:10,315   INFO       server               Получен запрос на соединение от ('127.0.0.1', 49936)
+2022-09-06 17:33:10,315   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Tue Sep  6 17:33:10 2022', 'account_name': 'user-2'}
+2022-09-06 17:33:10,315   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep  6 17:33:10 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:33:10,315   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Tue Sep  6 17:33:10 2022', 'account_name': 'user-2'}, 'client': <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8853), raddr=('127.0.0.1', 49936)>}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-06 17:33:10,315   INFO       server               Отправлен ответ - ('127.0.0.1', 49934){'response': 200, 'time': 'Tue Sep  6 17:33:10 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:33:10,315   INFO       server               Отправлен ответ - ('127.0.0.1', 49936){'response': 200, 'time': 'Tue Sep  6 17:33:10 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:33:28,333   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Tue Sep  6 17:33:27 2022', 'target_user': 'user-2', 'sender_user': 'user-1', 'message': 'hhelo'}
+2022-09-06 17:33:28,333   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep  6 17:33:28 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'hhelo'}
+2022-09-06 17:33:28,334   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'msg', 'time': 'Tue Sep  6 17:33:27 2022', 'target_user': 'user-2', 'sender_user': 'user-1', 'message': 'hhelo'}, 'client': <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8853), raddr=('127.0.0.1', 49934)>}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-06 17:33:28,335   INFO       server               Отправлен ответ - ('127.0.0.1', 49934){'response': 200, 'time': 'Tue Sep  6 17:33:28 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'hhelo'}
+2022-09-06 17:33:28,335   INFO       server               Отправлен ответ - ('127.0.0.1', 49936){'response': 200, 'time': 'Tue Sep  6 17:33:28 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'hhelo'}
+2022-09-06 17:34:24,608   INFO       server               Получен запрос на соединение от ('127.0.0.1', 44296)
+2022-09-06 17:34:24,608   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Tue Sep  6 17:34:24 2022', 'account_name': 'user-1'}
+2022-09-06 17:34:24,609   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep  6 17:34:24 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:24,612   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Tue Sep  6 17:34:24 2022', 'account_name': 'user-1'}, 'client': <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8853), raddr=('127.0.0.1', 44296)>}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-06 17:34:24,612   INFO       server               Отправлен ответ - ('127.0.0.1', 44296) - {'response': 200, 'time': 'Tue Sep  6 17:34:24 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:25,603   INFO       server               Получен запрос на соединение от ('127.0.0.1', 44312)
+2022-09-06 17:34:25,603   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Tue Sep  6 17:34:25 2022', 'account_name': 'user-2'}
+2022-09-06 17:34:25,603   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep  6 17:34:25 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:25,603   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Tue Sep  6 17:34:25 2022', 'account_name': 'user-2'}, 'client': <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8853), raddr=('127.0.0.1', 44312)>}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-06 17:34:25,604   INFO       server               Отправлен ответ - ('127.0.0.1', 44296) - {'response': 200, 'time': 'Tue Sep  6 17:34:24 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:25,604   INFO       server               Отправлен ответ - ('127.0.0.1', 44312) - {'response': 200, 'time': 'Tue Sep  6 17:34:25 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:26,605   INFO       server               Отправлен ответ - ('127.0.0.1', 44296) - {'response': 200, 'time': 'Tue Sep  6 17:34:24 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:26,606   INFO       server               Отправлен ответ - ('127.0.0.1', 44312) - {'response': 200, 'time': 'Tue Sep  6 17:34:25 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:27,607   INFO       server               Отправлен ответ - ('127.0.0.1', 44296) - {'response': 200, 'time': 'Tue Sep  6 17:34:24 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:27,607   INFO       server               Отправлен ответ - ('127.0.0.1', 44312) - {'response': 200, 'time': 'Tue Sep  6 17:34:25 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:28,609   INFO       server               Отправлен ответ - ('127.0.0.1', 44296) - {'response': 200, 'time': 'Tue Sep  6 17:34:24 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:28,609   INFO       server               Отправлен ответ - ('127.0.0.1', 44312) - {'response': 200, 'time': 'Tue Sep  6 17:34:25 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:29,610   INFO       server               Отправлен ответ - ('127.0.0.1', 44296) - {'response': 200, 'time': 'Tue Sep  6 17:34:24 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:29,611   INFO       server               Отправлен ответ - ('127.0.0.1', 44312) - {'response': 200, 'time': 'Tue Sep  6 17:34:25 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:30,612   INFO       server               Отправлен ответ - ('127.0.0.1', 44296) - {'response': 200, 'time': 'Tue Sep  6 17:34:24 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:30,613   INFO       server               Отправлен ответ - ('127.0.0.1', 44312) - {'response': 200, 'time': 'Tue Sep  6 17:34:25 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:31,615   INFO       server               Отправлен ответ - ('127.0.0.1', 44296) - {'response': 200, 'time': 'Tue Sep  6 17:34:24 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:31,615   INFO       server               Отправлен ответ - ('127.0.0.1', 44312) - {'response': 200, 'time': 'Tue Sep  6 17:34:25 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:32,617   INFO       server               Отправлен ответ - ('127.0.0.1', 44296) - {'response': 200, 'time': 'Tue Sep  6 17:34:24 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:32,618   INFO       server               Отправлен ответ - ('127.0.0.1', 44312) - {'response': 200, 'time': 'Tue Sep  6 17:34:25 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:33,619   INFO       server               Отправлен ответ - ('127.0.0.1', 44296) - {'response': 200, 'time': 'Tue Sep  6 17:34:24 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:33,619   INFO       server               Отправлен ответ - ('127.0.0.1', 44312) - {'response': 200, 'time': 'Tue Sep  6 17:34:25 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:34,621   INFO       server               Отправлен ответ - ('127.0.0.1', 44296) - {'response': 200, 'time': 'Tue Sep  6 17:34:24 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:34,621   INFO       server               Отправлен ответ - ('127.0.0.1', 44312) - {'response': 200, 'time': 'Tue Sep  6 17:34:25 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:35,623   INFO       server               Отправлен ответ - ('127.0.0.1', 44296) - {'response': 200, 'time': 'Tue Sep  6 17:34:24 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:35,624   INFO       server               Отправлен ответ - ('127.0.0.1', 44312) - {'response': 200, 'time': 'Tue Sep  6 17:34:25 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:36,625   INFO       server               Отправлен ответ - ('127.0.0.1', 44296) - {'response': 200, 'time': 'Tue Sep  6 17:34:24 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:36,626   INFO       server               Отправлен ответ - ('127.0.0.1', 44312) - {'response': 200, 'time': 'Tue Sep  6 17:34:25 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:37,627   INFO       server               Отправлен ответ - ('127.0.0.1', 44296) - {'response': 200, 'time': 'Tue Sep  6 17:34:24 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:37,628   INFO       server               Отправлен ответ - ('127.0.0.1', 44312) - {'response': 200, 'time': 'Tue Sep  6 17:34:25 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:38,629   INFO       server               Отправлен ответ - ('127.0.0.1', 44296) - {'response': 200, 'time': 'Tue Sep  6 17:34:24 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:38,629   INFO       server               Отправлен ответ - ('127.0.0.1', 44312) - {'response': 200, 'time': 'Tue Sep  6 17:34:25 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:39,631   INFO       server               Отправлен ответ - ('127.0.0.1', 44296) - {'response': 200, 'time': 'Tue Sep  6 17:34:24 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:39,632   INFO       server               Отправлен ответ - ('127.0.0.1', 44312) - {'response': 200, 'time': 'Tue Sep  6 17:34:25 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:40,633   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Tue Sep  6 17:34:40 2022', 'target_user': 'user-2', 'sender_user': 'user-1', 'message': 'helo'}
+2022-09-06 17:34:40,634   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep  6 17:34:40 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'helo'}
+2022-09-06 17:34:40,634   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'msg', 'time': 'Tue Sep  6 17:34:40 2022', 'target_user': 'user-2', 'sender_user': 'user-1', 'message': 'helo'}, 'client': <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8853), raddr=('127.0.0.1', 44296)>}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-06 17:34:40,635   INFO       server               Отправлен ответ - ('127.0.0.1', 44296) - {'response': 200, 'time': 'Tue Sep  6 17:34:24 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:40,635   INFO       server               Отправлен ответ - ('127.0.0.1', 44312) - {'response': 200, 'time': 'Tue Sep  6 17:34:25 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:40,636   INFO       server               Отправлен ответ - ('127.0.0.1', 44312) - {'response': 200, 'time': 'Tue Sep  6 17:34:40 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'helo'}
+2022-09-06 17:34:41,638   INFO       server               Отправлен ответ - ('127.0.0.1', 44296) - {'response': 200, 'time': 'Tue Sep  6 17:34:24 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:41,638   INFO       server               Отправлен ответ - ('127.0.0.1', 44312) - {'response': 200, 'time': 'Tue Sep  6 17:34:25 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:41,639   INFO       server               Отправлен ответ - ('127.0.0.1', 44312) - {'response': 200, 'time': 'Tue Sep  6 17:34:40 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'helo'}
+2022-09-06 17:34:42,640   INFO       server               Отправлен ответ - ('127.0.0.1', 44296) - {'response': 200, 'time': 'Tue Sep  6 17:34:24 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:42,641   INFO       server               Отправлен ответ - ('127.0.0.1', 44312) - {'response': 200, 'time': 'Tue Sep  6 17:34:25 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:42,642   INFO       server               Отправлен ответ - ('127.0.0.1', 44312) - {'response': 200, 'time': 'Tue Sep  6 17:34:40 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'helo'}
+2022-09-06 17:34:43,643   INFO       server               Отправлен ответ - ('127.0.0.1', 44296) - {'response': 200, 'time': 'Tue Sep  6 17:34:24 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:43,644   INFO       server               Отправлен ответ - ('127.0.0.1', 44312) - {'response': 200, 'time': 'Tue Sep  6 17:34:25 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:43,644   INFO       server               Отправлен ответ - ('127.0.0.1', 44312) - {'response': 200, 'time': 'Tue Sep  6 17:34:40 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'helo'}
+2022-09-06 17:34:44,646   INFO       server               Отправлен ответ - ('127.0.0.1', 44296) - {'response': 200, 'time': 'Tue Sep  6 17:34:24 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:44,646   INFO       server               Отправлен ответ - ('127.0.0.1', 44312) - {'response': 200, 'time': 'Tue Sep  6 17:34:25 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:44,646   INFO       server               Отправлен ответ - ('127.0.0.1', 44312) - {'response': 200, 'time': 'Tue Sep  6 17:34:40 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'helo'}
+2022-09-06 17:34:45,647   INFO       server               Отправлен ответ - ('127.0.0.1', 44296) - {'response': 200, 'time': 'Tue Sep  6 17:34:24 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:45,647   INFO       server               Отправлен ответ - ('127.0.0.1', 44312) - {'response': 200, 'time': 'Tue Sep  6 17:34:25 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:45,648   INFO       server               Отправлен ответ - ('127.0.0.1', 44312) - {'response': 200, 'time': 'Tue Sep  6 17:34:40 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'helo'}
+2022-09-06 17:34:46,649   INFO       server               Отправлен ответ - ('127.0.0.1', 44296) - {'response': 200, 'time': 'Tue Sep  6 17:34:24 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:46,649   INFO       server               Отправлен ответ - ('127.0.0.1', 44312) - {'response': 200, 'time': 'Tue Sep  6 17:34:25 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:46,649   INFO       server               Отправлен ответ - ('127.0.0.1', 44312) - {'response': 200, 'time': 'Tue Sep  6 17:34:40 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'helo'}
+2022-09-06 17:34:47,651   INFO       server               Отправлен ответ - ('127.0.0.1', 44296) - {'response': 200, 'time': 'Tue Sep  6 17:34:24 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:47,651   INFO       server               Отправлен ответ - ('127.0.0.1', 44312) - {'response': 200, 'time': 'Tue Sep  6 17:34:25 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:47,651   INFO       server               Отправлен ответ - ('127.0.0.1', 44312) - {'response': 200, 'time': 'Tue Sep  6 17:34:40 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'helo'}
+2022-09-06 17:34:48,652   INFO       server               Отправлен ответ - ('127.0.0.1', 44296) - {'response': 200, 'time': 'Tue Sep  6 17:34:24 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:48,653   INFO       server               Отправлен ответ - ('127.0.0.1', 44312) - {'response': 200, 'time': 'Tue Sep  6 17:34:25 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:48,653   INFO       server               Отправлен ответ - ('127.0.0.1', 44312) - {'response': 200, 'time': 'Tue Sep  6 17:34:40 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'helo'}
+2022-09-06 17:34:49,655   INFO       server               Отправлен ответ - ('127.0.0.1', 44296) - {'response': 200, 'time': 'Tue Sep  6 17:34:24 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:49,656   INFO       server               Отправлен ответ - ('127.0.0.1', 44312) - {'response': 200, 'time': 'Tue Sep  6 17:34:25 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:49,656   INFO       server               Отправлен ответ - ('127.0.0.1', 44312) - {'response': 200, 'time': 'Tue Sep  6 17:34:40 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'helo'}
+2022-09-06 17:34:50,657   INFO       server               Отправлен ответ - ('127.0.0.1', 44296) - {'response': 200, 'time': 'Tue Sep  6 17:34:24 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:50,658   INFO       server               Отправлен ответ - ('127.0.0.1', 44312) - {'response': 200, 'time': 'Tue Sep  6 17:34:25 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:50,658   INFO       server               Отправлен ответ - ('127.0.0.1', 44312) - {'response': 200, 'time': 'Tue Sep  6 17:34:40 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'helo'}
+2022-09-06 17:34:51,660   INFO       server               Отправлен ответ - ('127.0.0.1', 44296) - {'response': 200, 'time': 'Tue Sep  6 17:34:24 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:51,661   INFO       server               Отправлен ответ - ('127.0.0.1', 44312) - {'response': 200, 'time': 'Tue Sep  6 17:34:25 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:51,661   INFO       server               Отправлен ответ - ('127.0.0.1', 44312) - {'response': 200, 'time': 'Tue Sep  6 17:34:40 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'helo'}
+2022-09-06 17:34:52,663   INFO       server               Отправлен ответ - ('127.0.0.1', 44296) - {'response': 200, 'time': 'Tue Sep  6 17:34:24 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:52,664   INFO       server               Отправлен ответ - ('127.0.0.1', 44312) - {'response': 200, 'time': 'Tue Sep  6 17:34:25 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:52,664   INFO       server               Отправлен ответ - ('127.0.0.1', 44312) - {'response': 200, 'time': 'Tue Sep  6 17:34:40 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'helo'}
+2022-09-06 17:34:53,666   INFO       server               Отправлен ответ - ('127.0.0.1', 44296) - {'response': 200, 'time': 'Tue Sep  6 17:34:24 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:53,666   INFO       server               Отправлен ответ - ('127.0.0.1', 44312) - {'response': 200, 'time': 'Tue Sep  6 17:34:25 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:53,667   INFO       server               Отправлен ответ - ('127.0.0.1', 44312) - {'response': 200, 'time': 'Tue Sep  6 17:34:40 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'helo'}
+2022-09-06 17:34:54,669   INFO       server               Отправлен ответ - ('127.0.0.1', 44296) - {'response': 200, 'time': 'Tue Sep  6 17:34:24 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:54,669   INFO       server               Отправлен ответ - ('127.0.0.1', 44312) - {'response': 200, 'time': 'Tue Sep  6 17:34:25 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:54,670   INFO       server               Отправлен ответ - ('127.0.0.1', 44312) - {'response': 200, 'time': 'Tue Sep  6 17:34:40 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'helo'}
+2022-09-06 17:34:55,671   INFO       server               Отправлен ответ - ('127.0.0.1', 44296) - {'response': 200, 'time': 'Tue Sep  6 17:34:24 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:55,671   INFO       server               Отправлен ответ - ('127.0.0.1', 44312) - {'response': 200, 'time': 'Tue Sep  6 17:34:25 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:55,671   INFO       server               Отправлен ответ - ('127.0.0.1', 44312) - {'response': 200, 'time': 'Tue Sep  6 17:34:40 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'helo'}
+2022-09-06 17:34:56,672   INFO       server               Отправлен ответ - ('127.0.0.1', 44296) - {'response': 200, 'time': 'Tue Sep  6 17:34:24 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:56,673   INFO       server               Отправлен ответ - ('127.0.0.1', 44312) - {'response': 200, 'time': 'Tue Sep  6 17:34:25 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:56,673   INFO       server               Отправлен ответ - ('127.0.0.1', 44312) - {'response': 200, 'time': 'Tue Sep  6 17:34:40 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'helo'}
+2022-09-06 17:34:57,674   INFO       server               Отправлен ответ - ('127.0.0.1', 44296) - {'response': 200, 'time': 'Tue Sep  6 17:34:24 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:57,674   INFO       server               Отправлен ответ - ('127.0.0.1', 44312) - {'response': 200, 'time': 'Tue Sep  6 17:34:25 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:57,675   INFO       server               Отправлен ответ - ('127.0.0.1', 44312) - {'response': 200, 'time': 'Tue Sep  6 17:34:40 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'helo'}
+2022-09-06 17:34:58,677   INFO       server               Отправлен ответ - ('127.0.0.1', 44296) - {'response': 200, 'time': 'Tue Sep  6 17:34:24 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:58,677   INFO       server               Отправлен ответ - ('127.0.0.1', 44312) - {'response': 200, 'time': 'Tue Sep  6 17:34:25 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:58,678   INFO       server               Отправлен ответ - ('127.0.0.1', 44312) - {'response': 200, 'time': 'Tue Sep  6 17:34:40 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'helo'}
+2022-09-06 17:34:59,679   INFO       server               Отправлен ответ - ('127.0.0.1', 44296) - {'response': 200, 'time': 'Tue Sep  6 17:34:24 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:59,679   INFO       server               Отправлен ответ - ('127.0.0.1', 44312) - {'response': 200, 'time': 'Tue Sep  6 17:34:25 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:34:59,679   INFO       server               Отправлен ответ - ('127.0.0.1', 44312) - {'response': 200, 'time': 'Tue Sep  6 17:34:40 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'helo'}
+2022-09-06 17:35:00,681   INFO       server               Отправлен ответ - ('127.0.0.1', 44296) - {'response': 200, 'time': 'Tue Sep  6 17:34:24 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:35:00,681   INFO       server               Отправлен ответ - ('127.0.0.1', 44312) - {'response': 200, 'time': 'Tue Sep  6 17:34:25 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:35:00,682   INFO       server               Отправлен ответ - ('127.0.0.1', 44312) - {'response': 200, 'time': 'Tue Sep  6 17:34:40 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'helo'}
+2022-09-06 17:44:47,602   INFO       server               Получен запрос на соединение от ('127.0.0.1', 36268)
+2022-09-06 17:44:47,603   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Tue Sep  6 17:44:47 2022', 'account_name': 'user-1'}
+2022-09-06 17:44:47,603   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep  6 17:44:47 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:44:47,606   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Tue Sep  6 17:44:47 2022', 'account_name': 'user-1'}, 'client': <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8853), raddr=('127.0.0.1', 36268)>}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-06 17:44:47,606   INFO       server               Отправлен ответ - ('127.0.0.1', 36268) - {'response': 200, 'time': 'Tue Sep  6 17:44:47 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:44:48,607   INFO       server               Отправлен ответ - ('127.0.0.1', 36268) - {'response': 200, 'time': 'Tue Sep  6 17:44:47 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:44:48,611   INFO       server               Получен запрос на соединение от ('127.0.0.1', 36276)
+2022-09-06 17:44:48,611   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Tue Sep  6 17:44:48 2022', 'account_name': 'user-2'}
+2022-09-06 17:44:48,611   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep  6 17:44:48 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:44:48,611   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Tue Sep  6 17:44:48 2022', 'account_name': 'user-2'}, 'client': <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8853), raddr=('127.0.0.1', 36276)>}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-06 17:44:48,612   INFO       server               Отправлен ответ - ('127.0.0.1', 36268) - {'response': 200, 'time': 'Tue Sep  6 17:44:47 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:44:48,612   INFO       server               Отправлен ответ - ('127.0.0.1', 36276) - {'response': 200, 'time': 'Tue Sep  6 17:44:48 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:44:49,612   INFO       server               Отправлен ответ - ('127.0.0.1', 36268) - {'response': 200, 'time': 'Tue Sep  6 17:44:47 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:44:49,613   INFO       server               Отправлен ответ - ('127.0.0.1', 36276) - {'response': 200, 'time': 'Tue Sep  6 17:44:48 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:44:50,614   INFO       server               Отправлен ответ - ('127.0.0.1', 36268) - {'response': 200, 'time': 'Tue Sep  6 17:44:47 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:44:50,614   INFO       server               Отправлен ответ - ('127.0.0.1', 36276) - {'response': 200, 'time': 'Tue Sep  6 17:44:48 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:44:51,615   INFO       server               Отправлен ответ - ('127.0.0.1', 36268) - {'response': 200, 'time': 'Tue Sep  6 17:44:47 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:44:51,615   INFO       server               Отправлен ответ - ('127.0.0.1', 36276) - {'response': 200, 'time': 'Tue Sep  6 17:44:48 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:44:52,617   INFO       server               Отправлен ответ - ('127.0.0.1', 36268) - {'response': 200, 'time': 'Tue Sep  6 17:44:47 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:44:52,618   INFO       server               Отправлен ответ - ('127.0.0.1', 36276) - {'response': 200, 'time': 'Tue Sep  6 17:44:48 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:44:53,619   INFO       server               Отправлен ответ - ('127.0.0.1', 36268) - {'response': 200, 'time': 'Tue Sep  6 17:44:47 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:44:53,620   INFO       server               Отправлен ответ - ('127.0.0.1', 36276) - {'response': 200, 'time': 'Tue Sep  6 17:44:48 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:44:54,621   INFO       server               Отправлен ответ - ('127.0.0.1', 36268) - {'response': 200, 'time': 'Tue Sep  6 17:44:47 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:44:54,622   INFO       server               Отправлен ответ - ('127.0.0.1', 36276) - {'response': 200, 'time': 'Tue Sep  6 17:44:48 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:44:55,623   INFO       server               Отправлен ответ - ('127.0.0.1', 36268) - {'response': 200, 'time': 'Tue Sep  6 17:44:47 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:44:55,624   INFO       server               Отправлен ответ - ('127.0.0.1', 36276) - {'response': 200, 'time': 'Tue Sep  6 17:44:48 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:45:21,650   INFO       server               Получен запрос на соединение от ('127.0.0.1', 42616)
+2022-09-06 17:45:21,650   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Tue Sep  6 17:45:21 2022', 'account_name': 'user-1'}
+2022-09-06 17:45:21,650   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep  6 17:45:21 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:45:21,653   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Tue Sep  6 17:45:21 2022', 'account_name': 'user-1'}, 'client': <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8853), raddr=('127.0.0.1', 42616)>}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-06 17:45:21,653   INFO       server               Отправлен ответ - ('127.0.0.1', 42616){'response': 200, 'time': 'Tue Sep  6 17:45:21 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:45:22,661   INFO       server               Получен запрос на соединение от ('127.0.0.1', 47428)
+2022-09-06 17:45:23,663   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Tue Sep  6 17:45:22 2022', 'account_name': 'user-2'}
+2022-09-06 17:45:23,663   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep  6 17:45:23 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:45:23,663   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Tue Sep  6 17:45:22 2022', 'account_name': 'user-2'}, 'client': <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8853), raddr=('127.0.0.1', 47428)>}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-06 17:45:23,663   INFO       server               Отправлен ответ - ('127.0.0.1', 42616){'response': 200, 'time': 'Tue Sep  6 17:45:23 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:45:23,664   INFO       server               Отправлен ответ - ('127.0.0.1', 47428){'response': 200, 'time': 'Tue Sep  6 17:45:23 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:45:36,676   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Tue Sep  6 17:45:36 2022', 'target_user': 'user-2', 'sender_user': 'user-1', 'message': 'helo'}
+2022-09-06 17:45:36,676   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep  6 17:45:36 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'helo'}
+2022-09-06 17:45:36,677   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'msg', 'time': 'Tue Sep  6 17:45:36 2022', 'target_user': 'user-2', 'sender_user': 'user-1', 'message': 'helo'}, 'client': <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8853), raddr=('127.0.0.1', 42616)>}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-06 17:45:36,678   INFO       server               Отправлен ответ - ('127.0.0.1', 42616){'response': 200, 'time': 'Tue Sep  6 17:45:36 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'helo'}
+2022-09-06 17:45:36,678   INFO       server               Отправлен ответ - ('127.0.0.1', 47428){'response': 200, 'time': 'Tue Sep  6 17:45:36 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'helo'}
+2022-09-06 17:50:18,966   INFO       server               Получен запрос на соединение от ('127.0.0.1', 36868)
+2022-09-06 17:50:19,914   INFO       server               Получен запрос на соединение от ('127.0.0.1', 36876)
+2022-09-06 17:50:19,914   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Tue Sep  6 17:50:18 2022', 'account_name': 'user-1'}
+2022-09-06 17:50:19,914   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep  6 17:50:19 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:50:19,917   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Tue Sep  6 17:50:18 2022', 'account_name': 'user-1'}, 'client': <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8853), raddr=('127.0.0.1', 36868)>}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-06 17:50:19,917   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Tue Sep  6 17:50:19 2022', 'account_name': 'user-2'}
+2022-09-06 17:50:19,918   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep  6 17:50:19 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:50:19,918   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Tue Sep  6 17:50:19 2022', 'account_name': 'user-2'}, 'client': <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8853), raddr=('127.0.0.1', 36876)>}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-06 17:50:19,918   INFO       server               Отправлен ответ - ('127.0.0.1', 36868){'response': 200, 'time': 'Tue Sep  6 17:50:19 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:50:19,918   INFO       server               Отправлен ответ - ('127.0.0.1', 36876){'response': 200, 'time': 'Tue Sep  6 17:50:19 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:50:37,840   INFO       server               Получен запрос на соединение от ('127.0.0.1', 35246)
+2022-09-06 17:50:37,840   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Tue Sep  6 17:50:37 2022', 'account_name': 'user'}
+2022-09-06 17:50:37,840   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep  6 17:50:37 2022', 'to_user': 'user', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:50:37,843   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Tue Sep  6 17:50:37 2022', 'account_name': 'user'}, 'client': <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8853), raddr=('127.0.0.1', 35246)>}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-06 17:50:37,843   INFO       server               Отправлен ответ - ('127.0.0.1', 35246){'response': 200, 'time': 'Tue Sep  6 17:50:37 2022', 'to_user': 'user', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:51:21,971   INFO       server               Получен запрос на соединение от ('127.0.0.1', 46694)
+2022-09-06 17:51:21,971   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Tue Sep  6 17:51:21 2022', 'account_name': 'user'}
+2022-09-06 17:51:21,971   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep  6 17:51:21 2022', 'to_user': 'user', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:51:21,975   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Tue Sep  6 17:51:21 2022', 'account_name': 'user'}, 'client': <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8853), raddr=('127.0.0.1', 46694)>}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-06 17:51:21,975   INFO       server               Отправлен ответ - ('127.0.0.1', 46694){'response': 200, 'time': 'Tue Sep  6 17:51:21 2022', 'to_user': 'user', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:51:56,628   INFO       server               Получен запрос на соединение от ('127.0.0.1', 59212)
+2022-09-06 17:51:56,628   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Tue Sep  6 17:51:56 2022', 'account_name': 'user'}
+2022-09-06 17:51:56,628   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep  6 17:51:56 2022', 'to_user': 'user', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:51:56,632   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Tue Sep  6 17:51:56 2022', 'account_name': 'user'}, 'client': <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8853), raddr=('127.0.0.1', 59212)>}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-06 17:51:56,632   INFO       server               Отправлен ответ - ('127.0.0.1', 59212){'response': 200, 'time': 'Tue Sep  6 17:51:56 2022', 'to_user': 'user', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:51:59,634   INFO       server               Клиент ('127.0.0.1', 59212) отключился
+2022-09-06 17:52:00,635   INFO       server               Клиент ('127.0.0.1', 59212) отключился
+2022-09-06 17:56:52,394   INFO       server               Получен запрос на соединение от ('127.0.0.1', 55186)
+2022-09-06 17:56:52,394   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Tue Sep  6 17:56:52 2022', 'account_name': 'user'}
+2022-09-06 17:56:52,394   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep  6 17:56:52 2022', 'to_user': 'user', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:56:52,399   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Tue Sep  6 17:56:52 2022', 'account_name': 'user'}, 'client': <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8853), raddr=('127.0.0.1', 55186)>}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-06 17:56:52,400   INFO       server               Отправлен ответ - ('127.0.0.1', 55186){'response': 200, 'time': 'Tue Sep  6 17:56:52 2022', 'to_user': 'user', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:56:55,403   INFO       server               Клиент ('127.0.0.1', 55186) отключился
+2022-09-06 17:56:56,404   INFO       server               Клиент ('127.0.0.1', 55186) отключился
+2022-09-06 17:57:21,321   INFO       server               Получен запрос на соединение от ('127.0.0.1', 39818)
+2022-09-06 17:57:21,321   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Tue Sep  6 17:57:21 2022', 'account_name': 'user'}
+2022-09-06 17:57:21,322   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep  6 17:57:21 2022', 'to_user': 'user', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:57:21,325   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Tue Sep  6 17:57:21 2022', 'account_name': 'user'}, 'client': <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8853), raddr=('127.0.0.1', 39818)>}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-06 17:57:21,325   INFO       server               Отправлен ответ - ('127.0.0.1', 39818){'response': 200, 'time': 'Tue Sep  6 17:57:21 2022', 'to_user': 'user', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:57:58,360   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Tue Sep  6 17:57:58 2022', 'target_user': 'user', 'sender_user': 'user', 'message': 'hello'}
+2022-09-06 17:57:58,361   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep  6 17:57:58 2022', 'from_user': 'user', 'to_user': 'user', 'answer': 'hello'}
+2022-09-06 17:57:58,361   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'msg', 'time': 'Tue Sep  6 17:57:58 2022', 'target_user': 'user', 'sender_user': 'user', 'message': 'hello'}, 'client': <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8853), raddr=('127.0.0.1', 39818)>}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-06 17:57:58,362   INFO       server               Отправлен ответ - ('127.0.0.1', 39818){'response': 200, 'time': 'Tue Sep  6 17:57:58 2022', 'from_user': 'user', 'to_user': 'user', 'answer': 'hello'}
+2022-09-06 17:58:24,666   INFO       server               Получен запрос на соединение от ('127.0.0.1', 46800)
+2022-09-06 17:58:24,666   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Tue Sep  6 17:58:24 2022', 'account_name': 'user-1'}
+2022-09-06 17:58:24,666   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep  6 17:58:24 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:58:24,669   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Tue Sep  6 17:58:24 2022', 'account_name': 'user-1'}, 'client': <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8853), raddr=('127.0.0.1', 46800)>}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-06 17:58:24,669   INFO       server               Отправлен ответ - ('127.0.0.1', 46800){'response': 200, 'time': 'Tue Sep  6 17:58:24 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:58:25,663   INFO       server               Получен запрос на соединение от ('127.0.0.1', 46804)
+2022-09-06 17:58:26,664   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Tue Sep  6 17:58:25 2022', 'account_name': 'user-2'}
+2022-09-06 17:58:26,665   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep  6 17:58:26 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:58:26,666   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Tue Sep  6 17:58:25 2022', 'account_name': 'user-2'}, 'client': <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8853), raddr=('127.0.0.1', 46804)>}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-06 17:58:26,666   INFO       server               Отправлен ответ - ('127.0.0.1', 46800){'response': 200, 'time': 'Tue Sep  6 17:58:26 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:58:26,667   INFO       server               Отправлен ответ - ('127.0.0.1', 46804){'response': 200, 'time': 'Tue Sep  6 17:58:26 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 17:58:40,681   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Tue Sep  6 17:58:40 2022', 'target_user': 'user-2', 'sender_user': 'user-1', 'message': 'hello'}
+2022-09-06 17:58:40,681   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep  6 17:58:40 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'hello'}
+2022-09-06 17:58:40,682   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'msg', 'time': 'Tue Sep  6 17:58:40 2022', 'target_user': 'user-2', 'sender_user': 'user-1', 'message': 'hello'}, 'client': <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8853), raddr=('127.0.0.1', 46800)>}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-06 17:58:40,682   INFO       server               Отправлен ответ - ('127.0.0.1', 46800){'response': 200, 'time': 'Tue Sep  6 17:58:40 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'hello'}
+2022-09-06 17:58:40,683   INFO       server               Отправлен ответ - ('127.0.0.1', 46804){'response': 200, 'time': 'Tue Sep  6 17:58:40 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'hello'}
+2022-09-06 18:00:36,042   INFO       server               Получен запрос на соединение от ('127.0.0.1', 44970)
+2022-09-06 18:00:37,043   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Tue Sep  6 18:00:36 2022', 'account_name': 'user-1'}
+2022-09-06 18:00:37,043   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep  6 18:00:37 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 18:00:37,046   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Tue Sep  6 18:00:36 2022', 'account_name': 'user-1'}, 'client': <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8853), raddr=('127.0.0.1', 44970)>}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-06 18:00:37,047   INFO       server               Отправлен ответ - ('127.0.0.1', 44970){'response': 200, 'time': 'Tue Sep  6 18:00:37 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 18:00:37,047   INFO       server               Получен запрос на соединение от ('127.0.0.1', 44972)
+2022-09-06 18:00:37,047   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Tue Sep  6 18:00:37 2022', 'account_name': 'user-2'}
+2022-09-06 18:00:37,047   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep  6 18:00:37 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 18:00:37,048   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Tue Sep  6 18:00:37 2022', 'account_name': 'user-2'}, 'client': <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8853), raddr=('127.0.0.1', 44972)>}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-06 18:00:37,048   INFO       server               Отправлен ответ - ('127.0.0.1', 44970){'response': 200, 'time': 'Tue Sep  6 18:00:37 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 18:00:37,048   INFO       server               Отправлен ответ - ('127.0.0.1', 44972){'response': 200, 'time': 'Tue Sep  6 18:00:37 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 18:05:11,199   INFO       server               Получен запрос на соединение от ('127.0.0.1', 58416)
+2022-09-06 18:05:11,199   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Tue Sep  6 18:05:11 2022', 'account_name': 'user-1'}
+2022-09-06 18:05:11,199   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep  6 18:05:11 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 18:05:11,202   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Tue Sep  6 18:05:11 2022', 'account_name': 'user-1'}, 'client': <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8853), raddr=('127.0.0.1', 58416)>}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-06 18:05:11,202   INFO       server               Отправлен ответ - ('127.0.0.1', 58416) - {'response': 200, 'time': 'Tue Sep  6 18:05:11 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 18:05:12,205   INFO       server               Получен запрос на соединение от ('127.0.0.1', 58430)
+2022-09-06 18:05:13,206   INFO       server               Клиент ('127.0.0.1', 58416) отключился
+2022-09-06 18:05:13,207   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Tue Sep  6 18:05:12 2022', 'account_name': 'user-2'}
+2022-09-06 18:05:13,207   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep  6 18:05:13 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 18:05:13,208   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Tue Sep  6 18:05:12 2022', 'account_name': 'user-2'}, 'client': <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8853), raddr=('127.0.0.1', 58430)>}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-06 18:05:13,208   INFO       server               Отправлен ответ - ('127.0.0.1', 58430) - {'response': 200, 'time': 'Tue Sep  6 18:05:13 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 18:05:14,209   INFO       server               Клиент ('127.0.0.1', 58430) отключился
+2022-09-06 18:05:15,211   INFO       server               Клиент ('127.0.0.1', 58430) отключился
+2022-09-06 18:06:43,760   INFO       server               Получен запрос на соединение от ('127.0.0.1', 36598)
+2022-09-06 18:06:43,761   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Tue Sep  6 18:06:43 2022', 'account_name': 'user'}
+2022-09-06 18:06:43,761   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep  6 18:06:43 2022', 'to_user': 'user', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 18:06:43,764   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Tue Sep  6 18:06:43 2022', 'account_name': 'user'}, 'client': <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8853), raddr=('127.0.0.1', 36598)>}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-06 18:06:43,765   INFO       server               Отправлен ответ - ('127.0.0.1', 36598) - {'response': 200, 'time': 'Tue Sep  6 18:06:43 2022', 'to_user': 'user', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 18:06:46,767   INFO       server               Клиент ('127.0.0.1', 36598) отключился
+2022-09-06 18:06:47,769   INFO       server               Клиент ('127.0.0.1', 36598) отключился
+2022-09-06 18:11:03,845   INFO       server               Получен запрос на соединение от ('127.0.0.1', 52044)
+2022-09-06 18:11:04,833   INFO       server               Получен запрос на соединение от ('127.0.0.1', 52050)
+2022-09-06 18:11:04,833   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Tue Sep  6 18:11:03 2022', 'account_name': 'user-1'}
+2022-09-06 18:11:04,833   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep  6 18:11:04 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 18:11:04,836   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Tue Sep  6 18:11:03 2022', 'account_name': 'user-1'}, 'client': <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8853), raddr=('127.0.0.1', 52044)>}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-06 18:11:04,836   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Tue Sep  6 18:11:04 2022', 'account_name': 'user-2'}
+2022-09-06 18:11:04,836   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep  6 18:11:04 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 18:11:04,837   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Tue Sep  6 18:11:04 2022', 'account_name': 'user-2'}, 'client': <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8853), raddr=('127.0.0.1', 52050)>}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-06 18:11:04,837   INFO       server               Отправлен ответ - ('127.0.0.1', 52050) - {'response': 200, 'time': 'Tue Sep  6 18:11:04 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 18:12:18,919   INFO       server               Получен запрос на соединение от ('127.0.0.1', 52016)
+2022-09-06 18:12:18,919   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Tue Sep  6 18:12:18 2022', 'account_name': 'user'}
+2022-09-06 18:12:18,919   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep  6 18:12:18 2022', 'to_user': 'user', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 18:12:18,922   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Tue Sep  6 18:12:18 2022', 'account_name': 'user'}, 'client': <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8853), raddr=('127.0.0.1', 52016)>}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-06 18:12:18,922   INFO       server               Отправлен ответ - ('127.0.0.1', 52016) - {'response': 200, 'time': 'Tue Sep  6 18:12:18 2022', 'to_user': 'user', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 18:12:48,597   INFO       server               Получен запрос на соединение от ('127.0.0.1', 40632)
+2022-09-06 18:12:48,598   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Tue Sep  6 18:12:48 2022', 'account_name': 'user-1'}
+2022-09-06 18:12:48,598   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep  6 18:12:48 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 18:12:48,601   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Tue Sep  6 18:12:48 2022', 'account_name': 'user-1'}, 'client': <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8851), raddr=('127.0.0.1', 40632)>}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-06 18:12:48,601   INFO       server               Отправлен ответ - ('127.0.0.1', 40632) - {'response': 200, 'time': 'Tue Sep  6 18:12:48 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 18:12:49,598   INFO       server               Получен запрос на соединение от ('127.0.0.1', 40646)
+2022-09-06 18:12:49,599   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Tue Sep  6 18:12:49 2022', 'account_name': 'user-2'}
+2022-09-06 18:12:49,599   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep  6 18:12:49 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 18:12:49,599   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Tue Sep  6 18:12:49 2022', 'account_name': 'user-2'}, 'client': <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8851), raddr=('127.0.0.1', 40646)>}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-06 18:12:49,599   INFO       server               Отправлен ответ - ('127.0.0.1', 40646) - {'response': 200, 'time': 'Tue Sep  6 18:12:49 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 18:13:06,617   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Tue Sep  6 18:13:06 2022', 'target_user': 'user-2', 'sender_user': 'user-1', 'message': 'hello'}
+2022-09-06 18:13:06,617   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep  6 18:13:06 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'hello'}
+2022-09-06 18:13:06,618   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'msg', 'time': 'Tue Sep  6 18:13:06 2022', 'target_user': 'user-2', 'sender_user': 'user-1', 'message': 'hello'}, 'client': <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8851), raddr=('127.0.0.1', 40632)>}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-06 18:13:06,618   INFO       server               Отправлен ответ - ('127.0.0.1', 40646) - {'response': 200, 'time': 'Tue Sep  6 18:13:06 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'hello'}
+2022-09-06 18:16:19,624   INFO       server               Получен запрос на соединение от ('127.0.0.1', 56380)
+2022-09-06 18:16:19,624   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Tue Sep  6 18:16:19 2022', 'account_name': 'user-1'}
+2022-09-06 18:16:19,624   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep  6 18:16:19 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 18:16:19,627   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Tue Sep  6 18:16:19 2022', 'account_name': 'user-1'}, 'client': <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8852), raddr=('127.0.0.1', 56380)>}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-06 18:16:19,627   INFO       server               Отправлен ответ - ('127.0.0.1', 56380) - {'response': 200, 'time': 'Tue Sep  6 18:16:19 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 18:16:20,624   INFO       server               Получен запрос на соединение от ('127.0.0.1', 56396)
+2022-09-06 18:16:20,624   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Tue Sep  6 18:16:20 2022', 'account_name': 'user-2'}
+2022-09-06 18:16:20,624   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep  6 18:16:20 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 18:16:20,625   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Tue Sep  6 18:16:20 2022', 'account_name': 'user-2'}, 'client': <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8852), raddr=('127.0.0.1', 56396)>}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-06 18:16:20,625   INFO       server               Отправлен ответ - ('127.0.0.1', 56396) - {'response': 200, 'time': 'Tue Sep  6 18:16:20 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 18:19:44,831   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Tue Sep  6 18:19:44 2022', 'target_user': 'user-2', 'sender_user': 'user-1', 'message': 'helo'}
+2022-09-06 18:19:44,831   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep  6 18:19:44 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'helo'}
+2022-09-06 18:19:44,832   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'msg', 'time': 'Tue Sep  6 18:19:44 2022', 'target_user': 'user-2', 'sender_user': 'user-1', 'message': 'helo'}, 'client': <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8852), raddr=('127.0.0.1', 56380)>}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-06 18:19:44,832   INFO       server               Отправлен ответ - ('127.0.0.1', 56396) - {'response': 200, 'time': 'Tue Sep  6 18:19:44 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'helo'}
+2022-09-06 18:22:04,969   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Tue Sep  6 18:22:04 2022', 'target_user': 'user-2', 'sender_user': 'user-1', 'message': 'hel'}
+2022-09-06 18:22:04,970   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep  6 18:22:04 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'hel'}
+2022-09-06 18:22:04,971   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'msg', 'time': 'Tue Sep  6 18:22:04 2022', 'target_user': 'user-2', 'sender_user': 'user-1', 'message': 'hel'}, 'client': <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8852), raddr=('127.0.0.1', 56380)>}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-06 18:22:04,971   INFO       server               Отправлен ответ - ('127.0.0.1', 56396) - {'response': 200, 'time': 'Tue Sep  6 18:22:04 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'hel'}
+2022-09-06 18:22:35,585   INFO       server               Получен запрос на соединение от ('127.0.0.1', 54734)
+2022-09-06 18:22:36,568   INFO       server               Получен запрос на соединение от ('127.0.0.1', 54750)
+2022-09-06 18:22:36,568   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Tue Sep  6 18:22:35 2022', 'account_name': 'user-1'}
+2022-09-06 18:22:36,568   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep  6 18:22:36 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 18:22:36,571   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Tue Sep  6 18:22:35 2022', 'account_name': 'user-1'}, 'client': <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8853), raddr=('127.0.0.1', 54734)>}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-06 18:22:36,572   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Tue Sep  6 18:22:36 2022', 'account_name': 'user-2'}
+2022-09-06 18:22:36,572   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep  6 18:22:36 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 18:22:36,572   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Tue Sep  6 18:22:36 2022', 'account_name': 'user-2'}, 'client': <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8853), raddr=('127.0.0.1', 54750)>}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-06 18:24:42,202   INFO       server               Получен запрос на соединение от ('127.0.0.1', 60802)
+2022-09-06 18:24:42,202   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Tue Sep  6 18:24:42 2022', 'account_name': 'user-1'}
+2022-09-06 18:24:42,202   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep  6 18:24:42 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 18:24:42,205   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Tue Sep  6 18:24:42 2022', 'account_name': 'user-1'}, 'client': <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8854), raddr=('127.0.0.1', 60802)>}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-06 18:24:42,205   INFO       server               Отправлен ответ - ('127.0.0.1', 60802) - {'response': 200, 'time': 'Tue Sep  6 18:24:42 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 18:24:43,209   INFO       server               Получен запрос на соединение от ('127.0.0.1', 35216)
+2022-09-06 18:24:43,209   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Tue Sep  6 18:24:43 2022', 'account_name': 'user-2'}
+2022-09-06 18:24:43,209   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep  6 18:24:43 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 18:24:43,209   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Tue Sep  6 18:24:43 2022', 'account_name': 'user-2'}, 'client': <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8854), raddr=('127.0.0.1', 35216)>}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-06 18:24:43,209   INFO       server               Отправлен ответ - ('127.0.0.1', 35216) - {'response': 200, 'time': 'Tue Sep  6 18:24:43 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 18:25:45,221   INFO       server               Получен запрос на соединение от ('127.0.0.1', 58812)
+2022-09-06 18:25:45,221   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Tue Sep  6 18:25:45 2022', 'account_name': 'user-1'}
+2022-09-06 18:25:45,222   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep  6 18:25:45 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 18:25:45,225   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Tue Sep  6 18:25:45 2022', 'account_name': 'user-1'}, 'client': <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8852), raddr=('127.0.0.1', 58812)>}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-06 18:25:45,225   INFO       server               Отправлен ответ - ('127.0.0.1', 58812) - {'response': 200, 'time': 'Tue Sep  6 18:25:45 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 18:25:46,225   INFO       server               Получен запрос на соединение от ('127.0.0.1', 58820)
+2022-09-06 18:25:46,225   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Tue Sep  6 18:25:46 2022', 'account_name': 'user-2'}
+2022-09-06 18:25:46,225   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep  6 18:25:46 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 18:25:46,225   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Tue Sep  6 18:25:46 2022', 'account_name': 'user-2'}, 'client': <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8852), raddr=('127.0.0.1', 58820)>}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-06 18:25:46,225   INFO       server               Отправлен ответ - ('127.0.0.1', 58820) - {'response': 200, 'time': 'Tue Sep  6 18:25:46 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 18:26:11,251   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Tue Sep  6 18:26:11 2022', 'target_user': 'user-2', 'sender_user': 'user-1', 'message': 'hello'}
+2022-09-06 18:26:11,251   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep  6 18:26:11 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'hello'}
+2022-09-06 18:26:11,252   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'msg', 'time': 'Tue Sep  6 18:26:11 2022', 'target_user': 'user-2', 'sender_user': 'user-1', 'message': 'hello'}, 'client': <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8852), raddr=('127.0.0.1', 58812)>}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-06 18:26:11,253   INFO       server               Отправлен ответ - ('127.0.0.1', 58820) - {'response': 200, 'time': 'Tue Sep  6 18:26:11 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'hello'}
+2022-09-06 18:32:00,285   INFO       server               Получен запрос на соединение от ('127.0.0.1', 33476)
+2022-09-06 18:32:00,285   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Tue Sep  6 18:32:00 2022', 'account_name': 'user-1'}
+2022-09-06 18:32:00,285   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep  6 18:32:00 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 18:32:00,288   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Tue Sep  6 18:32:00 2022', 'account_name': 'user-1'}, 'client': <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8851), raddr=('127.0.0.1', 33476)>}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-06 18:32:00,289   INFO       server               Отправлен ответ - ('127.0.0.1', 33476) - {'response': 200, 'time': 'Tue Sep  6 18:32:00 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 18:32:01,289   INFO       server               Получен запрос на соединение от ('127.0.0.1', 33482)
+2022-09-06 18:32:01,290   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Tue Sep  6 18:32:01 2022', 'account_name': 'user-2'}
+2022-09-06 18:32:01,290   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep  6 18:32:01 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 18:32:01,290   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Tue Sep  6 18:32:01 2022', 'account_name': 'user-2'}, 'client': <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8851), raddr=('127.0.0.1', 33482)>}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-06 18:32:01,290   INFO       server               Отправлен ответ - ('127.0.0.1', 33482) - {'response': 200, 'time': 'Tue Sep  6 18:32:01 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 18:32:41,329   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Tue Sep  6 18:32:41 2022', 'target_user': 'user-2', 'sender_user': 'user-1', 'message': 'hello'}
+2022-09-06 18:32:41,330   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep  6 18:32:41 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'hello'}
+2022-09-06 18:32:41,331   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'msg', 'time': 'Tue Sep  6 18:32:41 2022', 'target_user': 'user-2', 'sender_user': 'user-1', 'message': 'hello'}, 'client': <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8851), raddr=('127.0.0.1', 33476)>}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-06 18:32:41,331   INFO       server               Отправлен ответ - ('127.0.0.1', 33482) - {'response': 200, 'time': 'Tue Sep  6 18:32:41 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'hello'}
+2022-09-06 18:34:00,411   INFO       server               Клиент ('127.0.0.1', 33476) отключился
+2022-09-06 18:34:16,559   INFO       server               Получен запрос на соединение от ('127.0.0.1', 32932)
+2022-09-06 18:34:16,559   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Tue Sep  6 18:34:16 2022', 'account_name': 'user'}
+2022-09-06 18:34:16,559   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep  6 18:34:16 2022', 'to_user': 'user', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 18:34:16,562   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Tue Sep  6 18:34:16 2022', 'account_name': 'user'}, 'client': <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8851), raddr=('127.0.0.1', 32932)>}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-06 18:34:16,562   INFO       server               Отправлен ответ - ('127.0.0.1', 32932) - {'response': 200, 'time': 'Tue Sep  6 18:34:16 2022', 'to_user': 'user', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 18:35:37,687   INFO       server               Получен запрос на соединение от ('127.0.0.1', 39608)
+2022-09-06 18:35:37,688   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Tue Sep  6 18:35:37 2022', 'account_name': 'user-1'}
+2022-09-06 18:35:37,688   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep  6 18:35:37 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 18:35:37,691   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Tue Sep  6 18:35:37 2022', 'account_name': 'user-1'}, 'client': <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8855), raddr=('127.0.0.1', 39608)>}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-06 18:35:37,691   INFO       server               Отправлен ответ - ('127.0.0.1', 39608) - {'response': 200, 'time': 'Tue Sep  6 18:35:37 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 18:35:38,676   INFO       server               Получен запрос на соединение от ('127.0.0.1', 39622)
+2022-09-06 18:35:38,676   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Tue Sep  6 18:35:38 2022', 'account_name': 'user-2'}
+2022-09-06 18:35:38,676   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep  6 18:35:38 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 18:35:38,677   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Tue Sep  6 18:35:38 2022', 'account_name': 'user-2'}, 'client': <socket.socket fd=6, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8855), raddr=('127.0.0.1', 39622)>}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-06 18:35:38,677   INFO       server               Отправлен ответ - ('127.0.0.1', 39622) - {'response': 200, 'time': 'Tue Sep  6 18:35:38 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-06 18:35:59,698   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Tue Sep  6 18:35:59 2022', 'target_user': 'user-2', 'sender_user': 'user-1', 'message': 'hello'}
+2022-09-06 18:35:59,699   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep  6 18:35:59 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'hello'}
+2022-09-06 18:35:59,699   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'msg', 'time': 'Tue Sep  6 18:35:59 2022', 'target_user': 'user-2', 'sender_user': 'user-1', 'message': 'hello'}, 'client': <socket.socket fd=5, family=AddressFamily.AF_INET, type=SocketKind.SOCK_STREAM, proto=0, laddr=('127.0.0.1', 8855), raddr=('127.0.0.1', 39608)>}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-06 18:35:59,700   INFO       server               Отправлен ответ - ('127.0.0.1', 39622) - {'response': 200, 'time': 'Tue Sep  6 18:35:59 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'hello'}
+2022-09-06 18:43:01,124   INFO       server               Получено сообщение от клиента - {'action': 'quit', 'time': 'Tue Sep  6 18:43:00 2022', 'user': 'user-2'}
+2022-09-06 18:43:01,124   INFO       server               Клиент ('127.0.0.1', 39622) отключился
+2022-09-06 18:43:30,154   INFO       server               Получено сообщение от клиента - {'action': 'quit', 'time': 'Tue Sep  6 18:43:29 2022', 'user': 'user-1'}
+2022-09-06 18:43:30,154   INFO       server               Клиент ('127.0.0.1', 39608) отключился
+2022-09-07 17:56:49,557   INFO       server               Получен запрос на соединение от ('127.0.0.1', 44070)
+2022-09-07 17:56:49,557   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 17:56:49 2022', 'account_name': 'user'}
+2022-09-07 17:56:49,558   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 17:56:49 2022', 'to_user': 'user', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 17:56:49,562   INFO       server               Отправлен ответ - ('127.0.0.1', 44070) - {'response': 200, 'time': 'Wed Sep  7 17:56:49 2022', 'to_user': 'user', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 17:57:06,865   DEBUG      server_log_config    Отладочная информация
+2022-09-07 17:57:06,865   INFO       server_log_config    Информационное сообщение
+2022-09-07 17:57:06,865   WARNING    server_log_config    Внимание, предупреждение!
+2022-09-07 17:57:06,865   CRITICAL   server_log_config    Внимание, критическая ошибка!
+2022-09-07 17:57:36,446   INFO       server               Получен запрос на соединение от ('127.0.0.1', 57616)
+2022-09-07 17:57:36,447   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 17:57:36 2022', 'account_name': 'user-1'}
+2022-09-07 17:57:36,447   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 17:57:36 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 17:57:36,450   INFO       server               Отправлен ответ - ('127.0.0.1', 57616) - {'response': 200, 'time': 'Wed Sep  7 17:57:36 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 17:57:37,446   INFO       server               Получен запрос на соединение от ('127.0.0.1', 37720)
+2022-09-07 17:57:37,446   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 17:57:37 2022', 'account_name': 'user-2'}
+2022-09-07 17:57:37,446   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 17:57:37 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 17:57:37,446   INFO       server               Отправлен ответ - ('127.0.0.1', 37720) - {'response': 200, 'time': 'Wed Sep  7 17:57:37 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 17:58:32,500   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Wed Sep  7 17:58:32 2022', 'target_user': 'user-2', 'sender_user': 'user-1', 'message': 'hello'}
+2022-09-07 17:58:32,500   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 17:58:32 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'hello'}
+2022-09-07 17:58:32,501   INFO       server               Отправлен ответ - ('127.0.0.1', 37720) - {'response': 200, 'time': 'Wed Sep  7 17:58:32 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'hello'}
+2022-09-07 18:09:05,826   INFO       server               Получен запрос на соединение от ('127.0.0.1', 55664)
+2022-09-07 18:09:05,826   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 18:09:05 2022', 'account_name': 'user-1'}
+2022-09-07 18:09:05,826   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 18:09:05 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 18:09:05,829   INFO       server               Отправлен ответ - ('127.0.0.1', 55664) - {'response': 200, 'time': 'Wed Sep  7 18:09:05 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 18:09:06,829   INFO       server               Получен запрос на соединение от ('127.0.0.1', 55678)
+2022-09-07 18:09:07,830   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 18:09:06 2022', 'account_name': 'user-2'}
+2022-09-07 18:09:07,831   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 18:09:07 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 18:09:07,831   INFO       server               Отправлен ответ - ('127.0.0.1', 55678) - {'response': 200, 'time': 'Wed Sep  7 18:09:07 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 18:13:23,653   INFO       server               Получен запрос на соединение от ('127.0.0.1', 59422)
+2022-09-07 18:13:24,651   INFO       server               Получен запрос на соединение от ('127.0.0.1', 59426)
+2022-09-07 18:13:24,652   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 18:13:23 2022', 'account_name': 'user-1'}
+2022-09-07 18:13:24,652   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 18:13:24 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 18:13:24,655   INFO       server               Отправлен ответ - ('127.0.0.1', 59422) - {'response': 200, 'time': 'Wed Sep  7 18:13:24 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 18:13:25,656   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 18:13:24 2022', 'account_name': 'user-2'}
+2022-09-07 18:13:25,657   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 18:13:25 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 18:13:25,658   INFO       server               Отправлен ответ - ('127.0.0.1', 59426) - {'response': 200, 'time': 'Wed Sep  7 18:13:25 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 18:13:49,681   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Wed Sep  7 18:13:49 2022', 'target_user': 'user-2', 'sender_user': 'user-1', 'message': 'hello'}
+2022-09-07 18:13:49,682   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 18:13:49 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'hello'}
+2022-09-07 18:13:49,683   INFO       server               Отправлен ответ - ('127.0.0.1', 59426) - {'response': 200, 'time': 'Wed Sep  7 18:13:49 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'hello'}
+2022-09-07 18:16:36,272   INFO       server               Получен запрос на соединение от ('127.0.0.1', 33710)
+2022-09-07 18:16:36,273   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 18:16:36 2022', 'account_name': 'user-1'}
+2022-09-07 18:16:36,273   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 18:16:36 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 18:16:36,275   INFO       server               Отправлен ответ - ('127.0.0.1', 33710) - {'response': 200, 'time': 'Wed Sep  7 18:16:36 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 18:16:37,282   INFO       server               Получен запрос на соединение от ('127.0.0.1', 34258)
+2022-09-07 18:16:38,283   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 18:16:37 2022', 'account_name': 'user-2'}
+2022-09-07 18:16:38,283   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 18:16:38 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 18:16:38,284   INFO       server               Отправлен ответ - ('127.0.0.1', 34258) - {'response': 200, 'time': 'Wed Sep  7 18:16:38 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 18:17:01,307   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Wed Sep  7 18:17:00 2022', 'target_user': 'user-2', 'sender_user': 'user-1', 'message': 'hello'}
+2022-09-07 18:17:01,307   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 18:17:01 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'hello'}
+2022-09-07 18:17:01,307   INFO       server               Отправлен ответ - ('127.0.0.1', 34258) - {'response': 200, 'time': 'Wed Sep  7 18:17:01 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'hello'}
+2022-09-07 18:18:01,368   INFO       server               Клиент ('127.0.0.1', 33710) отключился
+2022-09-07 18:22:30,332   INFO       server               Получен запрос на соединение от ('127.0.0.1', 41470)
+2022-09-07 18:22:30,332   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 18:22:30 2022', 'account_name': 'user-1'}
+2022-09-07 18:22:30,332   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 18:22:30 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 18:22:30,335   INFO       server               Отправлен ответ - ('127.0.0.1', 41470) - {'response': 200, 'time': 'Wed Sep  7 18:22:30 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 18:22:31,303   INFO       server               Получен запрос на соединение от ('127.0.0.1', 41474)
+2022-09-07 18:22:31,303   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 18:22:31 2022', 'account_name': 'user-2'}
+2022-09-07 18:22:31,303   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 18:22:31 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 18:22:31,304   INFO       server               Отправлен ответ - ('127.0.0.1', 41474) - {'response': 200, 'time': 'Wed Sep  7 18:22:31 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 18:26:06,050   INFO       server               Получен запрос на соединение от ('127.0.0.1', 34772)
+2022-09-07 18:26:18,421   INFO       server               Получен запрос на соединение от ('127.0.0.1', 45048)
+2022-09-07 18:26:34,763   INFO       server               Получен запрос на соединение от ('127.0.0.1', 58204)
+2022-09-07 18:28:22,298   INFO       server               Получен запрос на соединение от ('127.0.0.1', 38266)
+2022-09-07 18:28:22,298   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 18:28:22 2022', 'account_name': 'user-1'}
+2022-09-07 18:28:22,298   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 18:28:22 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 18:28:22,301   INFO       server               Отправлен ответ - ('127.0.0.1', 38266) - {'response': 200, 'time': 'Wed Sep  7 18:28:22 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 18:28:23,300   INFO       server               Получен запрос на соединение от ('127.0.0.1', 38274)
+2022-09-07 18:28:23,301   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 18:28:23 2022', 'account_name': 'user-2'}
+2022-09-07 18:28:23,301   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 18:28:23 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 18:28:23,301   INFO       server               Отправлен ответ - ('127.0.0.1', 38274) - {'response': 200, 'time': 'Wed Sep  7 18:28:23 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 18:39:18,497   INFO       server               Получен запрос на соединение от ('127.0.0.1', 51514)
+2022-09-07 18:39:18,498   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 18:39:18 2022', 'account_name': 'user-1'}
+2022-09-07 18:39:18,498   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 18:39:18 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 18:39:18,501   INFO       server               Отправлен ответ - ('127.0.0.1', 51514) - {'response': 200, 'time': 'Wed Sep  7 18:39:18 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 18:39:19,510   INFO       server               Получен запрос на соединение от ('127.0.0.1', 51518)
+2022-09-07 18:39:19,510   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 18:39:19 2022', 'account_name': 'user-2'}
+2022-09-07 18:39:19,510   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 18:39:19 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 18:39:19,510   INFO       server               Отправлен ответ - ('127.0.0.1', 51518) - {'response': 200, 'time': 'Wed Sep  7 18:39:19 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 18:39:39,530   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Wed Sep  7 18:39:39 2022', 'target_user': 'user-2', 'sender_user': 'user-1', 'message': 'hello'}
+2022-09-07 18:39:39,530   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 18:39:39 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'hello'}
+2022-09-07 18:39:39,530   INFO       server               Отправлен ответ - ('127.0.0.1', 51518) - {'response': 200, 'time': 'Wed Sep  7 18:39:39 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'hello'}
+2022-09-07 18:40:05,556   INFO       server               Получено сообщение от клиента - {'action': 'quit', 'time': 'Wed Sep  7 18:40:05 2022', 'user': 'user-1'}
+2022-09-07 18:40:05,557   INFO       server               Клиент ('127.0.0.1', 51514) отключился
+2022-09-07 18:52:36,376   INFO       server               Получен запрос на соединение от ('127.0.0.1', 40122)
+2022-09-07 18:52:36,377   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 18:52:36 2022', 'account_name': 'user-1'}
+2022-09-07 18:52:36,377   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 18:52:36 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 18:52:36,380   INFO       server               Отправлен ответ - ('127.0.0.1', 40122) - {'response': 200, 'time': 'Wed Sep  7 18:52:36 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 18:52:37,382   INFO       server               Получен запрос на соединение от ('127.0.0.1', 43268)
+2022-09-07 18:52:37,383   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 18:52:37 2022', 'account_name': 'user-2'}
+2022-09-07 18:52:37,383   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 18:52:37 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 18:52:37,383   INFO       server               Отправлен ответ - ('127.0.0.1', 43268) - {'response': 200, 'time': 'Wed Sep  7 18:52:37 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 18:55:58,823   INFO       server               Получен запрос на соединение от ('127.0.0.1', 38158)
+2022-09-07 18:55:58,823   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 18:55:58 2022', 'account_name': 'user-1'}
+2022-09-07 18:55:58,823   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 18:55:58 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 18:55:58,826   INFO       server               Отправлен ответ - ('127.0.0.1', 38158) - {'response': 200, 'time': 'Wed Sep  7 18:55:58 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 18:55:59,830   INFO       server               Получен запрос на соединение от ('127.0.0.1', 38166)
+2022-09-07 18:55:59,830   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 18:55:59 2022', 'account_name': 'user-2'}
+2022-09-07 18:55:59,830   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 18:55:59 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 18:55:59,831   INFO       server               Отправлен ответ - ('127.0.0.1', 38166) - {'response': 200, 'time': 'Wed Sep  7 18:55:59 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 18:58:10,002   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Wed Sep  7 18:58:09 2022', 'target_user': 'user-1', 'sender_user': 'user-1', 'message': 'hello'}
+2022-09-07 18:58:10,003   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 18:58:10 2022', 'from_user': 'user-1', 'to_user': 'user-1', 'answer': 'hello'}
+2022-09-07 18:58:10,004   INFO       server               Отправлен ответ - ('127.0.0.1', 38158) - {'response': 200, 'time': 'Wed Sep  7 18:58:10 2022', 'from_user': 'user-1', 'to_user': 'user-1', 'answer': 'hello'}
+2022-09-07 19:02:09,336   INFO       server               Получен запрос на соединение от ('127.0.0.1', 44944)
+2022-09-07 19:02:10,275   INFO       server               Получен запрос на соединение от ('127.0.0.1', 44956)
+2022-09-07 19:02:10,275   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 19:02:09 2022', 'account_name': 'user-1'}
+2022-09-07 19:02:10,275   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 19:02:10 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 19:02:10,278   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 19:02:10 2022', 'account_name': 'user-2'}
+2022-09-07 19:02:10,279   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 19:02:10 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 19:02:10,279   INFO       server               Отправлен ответ - ('127.0.0.1', 44944) - {'response': 200, 'time': 'Wed Sep  7 19:02:10 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 19:02:10,279   INFO       server               Отправлен ответ - ('127.0.0.1', 44956) - {'response': 200, 'time': 'Wed Sep  7 19:02:10 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 19:09:39,227   INFO       server               Получен запрос на соединение от ('127.0.0.1', 39574)
+2022-09-07 19:09:39,227   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 19:09:39 2022', 'account_name': 'user-1'}
+2022-09-07 19:09:39,227   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 19:09:39 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 19:09:39,230   INFO       server               Отправлен ответ - ('127.0.0.1', 39574) - {'response': 200, 'time': 'Wed Sep  7 19:09:39 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 19:09:40,231   INFO       server               Получен запрос на соединение от ('127.0.0.1', 39590)
+2022-09-07 19:09:40,231   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 19:09:40 2022', 'account_name': 'user-2'}
+2022-09-07 19:09:40,231   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 19:09:40 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 19:09:40,232   INFO       server               Отправлен ответ - ('127.0.0.1', 39590) - {'response': 200, 'time': 'Wed Sep  7 19:09:40 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 19:09:59,255   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Wed Sep  7 19:09:58 2022', 'target_user': 'user-2', 'sender_user': 'user-1', 'message': 'hello'}
+2022-09-07 19:09:59,256   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 19:09:59 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'hello'}
+2022-09-07 19:09:59,257   INFO       server               Отправлен ответ - ('127.0.0.1', 39590) - {'response': 200, 'time': 'Wed Sep  7 19:09:59 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'hello'}
+2022-09-07 19:10:16,278   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Wed Sep  7 19:10:16 2022', 'target_user': 'user-1', 'sender_user': 'user-2', 'message': 'hello'}
+2022-09-07 19:10:16,278   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 19:10:16 2022', 'from_user': 'user-2', 'to_user': 'user-1', 'answer': 'hello'}
+2022-09-07 19:10:16,279   INFO       server               Отправлен ответ - ('127.0.0.1', 39574) - {'response': 200, 'time': 'Wed Sep  7 19:10:16 2022', 'from_user': 'user-2', 'to_user': 'user-1', 'answer': 'hello'}
+2022-09-07 19:11:53,547   INFO       server               Получен запрос на соединение от ('127.0.0.1', 39878)
+2022-09-07 19:11:54,557   INFO       server               Получен запрос на соединение от ('127.0.0.1', 39882)
+2022-09-07 19:14:03,563   INFO       server               Получен запрос на соединение от ('127.0.0.1', 43894)
+2022-09-07 19:14:04,565   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 19:14:03 2022', 'account_name': 'user-1'}
+2022-09-07 19:14:04,565   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 19:14:04 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 19:14:04,568   INFO       server               Отправлен ответ - ('127.0.0.1', 43894) - {'response': 200, 'time': 'Wed Sep  7 19:14:04 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 19:14:04,568   INFO       server               Получен запрос на соединение от ('127.0.0.1', 43902)
+2022-09-07 19:14:04,568   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 19:14:04 2022', 'account_name': 'user-2'}
+2022-09-07 19:14:04,568   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 19:14:04 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 19:14:04,569   INFO       server               Отправлен ответ - ('127.0.0.1', 43902) - {'response': 200, 'time': 'Wed Sep  7 19:14:04 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 19:14:23,595   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Wed Sep  7 19:14:22 2022', 'target_user': 'user-2', 'sender_user': 'user-1', 'message': 'hello'}
+2022-09-07 19:14:23,595   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 19:14:23 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'hello'}
+2022-09-07 19:14:23,596   INFO       server               Отправлен ответ - ('127.0.0.1', 43902) - {'response': 200, 'time': 'Wed Sep  7 19:14:23 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'hello'}
+2022-09-07 19:15:52,847   INFO       server               Получен запрос на соединение от ('127.0.0.1', 51534)
+2022-09-07 19:15:53,848   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 19:15:52 2022', 'account_name': 'user-1'}
+2022-09-07 19:15:53,848   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 19:15:53 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 19:15:53,852   INFO       server               Отправлен ответ - ('127.0.0.1', 51534) - {'response': 200, 'time': 'Wed Sep  7 19:15:53 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 19:15:53,852   INFO       server               Получен запрос на соединение от ('127.0.0.1', 51544)
+2022-09-07 19:15:53,853   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 19:15:53 2022', 'account_name': 'user-2'}
+2022-09-07 19:15:53,853   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 19:15:53 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 19:15:53,853   INFO       server               Отправлен ответ - ('127.0.0.1', 51544) - {'response': 200, 'time': 'Wed Sep  7 19:15:53 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 19:16:38,913   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Wed Sep  7 19:16:38 2022', 'target_user': 'user-2', 'sender_user': 'user-1', 'message': 'hello'}
+2022-09-07 19:16:38,913   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 19:16:38 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'hello'}
+2022-09-07 19:16:38,913   INFO       server               Отправлен ответ - ('127.0.0.1', 51544) - {'response': 200, 'time': 'Wed Sep  7 19:16:38 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'hello'}
+2022-09-07 19:18:58,903   INFO       server               Получен запрос на соединение от ('127.0.0.1', 41992)
+2022-09-07 19:18:59,869   INFO       server               Получен запрос на соединение от ('127.0.0.1', 42000)
+2022-09-07 19:18:59,870   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 19:18:58 2022', 'account_name': 'user-1'}
+2022-09-07 19:18:59,870   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 19:18:59 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 19:18:59,873   INFO       server               Отправлен ответ - ('127.0.0.1', 41992) - {'response': 200, 'time': 'Wed Sep  7 19:18:59 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 19:19:00,875   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 19:18:59 2022', 'account_name': 'user-2'}
+2022-09-07 19:19:00,875   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 19:19:00 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 19:19:00,876   INFO       server               Отправлен ответ - ('127.0.0.1', 42000) - {'response': 200, 'time': 'Wed Sep  7 19:19:00 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 19:19:21,904   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Wed Sep  7 19:19:21 2022', 'target_user': 'user-2', 'sender_user': 'user-1', 'message': 'hello'}
+2022-09-07 19:19:21,905   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 19:19:21 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'hello'}
+2022-09-07 19:19:21,906   INFO       server               Отправлен ответ - ('127.0.0.1', 42000) - {'response': 200, 'time': 'Wed Sep  7 19:19:21 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'hello'}
+2022-09-07 19:24:54,684   INFO       server               Получен запрос на соединение от ('127.0.0.1', 53382)
+2022-09-07 19:24:54,685   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 19:24:54 2022', 'account_name': 'user-1'}
+2022-09-07 19:24:54,685   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 19:24:54 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 19:24:54,688   INFO       server               Отправлен ответ - ('127.0.0.1', 53382) - {'response': 200, 'time': 'Wed Sep  7 19:24:54 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 19:24:55,690   INFO       server               Получен запрос на соединение от ('127.0.0.1', 53390)
+2022-09-07 19:24:55,691   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 19:24:55 2022', 'account_name': 'user-2'}
+2022-09-07 19:24:55,691   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 19:24:55 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 19:24:55,691   INFO       server               Отправлен ответ - ('127.0.0.1', 53390) - {'response': 200, 'time': 'Wed Sep  7 19:24:55 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 19:25:01,699   INFO       server               Клиент ('127.0.0.1', 53390) отключился
+2022-09-07 19:25:02,700   INFO       server               Клиент ('127.0.0.1', 53382) отключился
+2022-09-07 19:25:31,739   INFO       server               Получен запрос на соединение от ('127.0.0.1', 46504)
+2022-09-07 19:25:32,741   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 19:25:31 2022', 'account_name': 'user-1'}
+2022-09-07 19:25:32,741   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 19:25:32 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 19:25:32,744   INFO       server               Отправлен ответ - ('127.0.0.1', 46504) - {'response': 200, 'time': 'Wed Sep  7 19:25:32 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 19:25:32,745   INFO       server               Получен запрос на соединение от ('127.0.0.1', 46508)
+2022-09-07 19:25:32,745   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 19:25:32 2022', 'account_name': 'user-2'}
+2022-09-07 19:25:32,745   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 19:25:32 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 19:25:32,745   INFO       server               Отправлен ответ - ('127.0.0.1', 46508) - {'response': 200, 'time': 'Wed Sep  7 19:25:32 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 19:28:34,987   INFO       server               Клиент ('127.0.0.1', 46504) отключился
+2022-09-07 19:28:37,991   INFO       server               Клиент ('127.0.0.1', 46508) отключился
+2022-09-07 19:28:38,993   INFO       server               Клиент ('127.0.0.1', 46508) отключился
+2022-09-07 19:28:43,563   INFO       server               Получен запрос на соединение от ('127.0.0.1', 45314)
+2022-09-07 19:28:43,563   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 19:28:43 2022', 'account_name': 'user-1'}
+2022-09-07 19:28:43,564   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 19:28:43 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 19:28:43,567   INFO       server               Отправлен ответ - ('127.0.0.1', 45314) - {'response': 200, 'time': 'Wed Sep  7 19:28:43 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 19:28:44,565   INFO       server               Получен запрос на соединение от ('127.0.0.1', 45324)
+2022-09-07 19:28:45,567   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 19:28:44 2022', 'account_name': 'user-2'}
+2022-09-07 19:28:45,567   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 19:28:45 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 19:28:45,568   INFO       server               Отправлен ответ - ('127.0.0.1', 45324) - {'response': 200, 'time': 'Wed Sep  7 19:28:45 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 19:29:11,603   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Wed Sep  7 19:29:11 2022', 'target_user': 'user-2', 'sender_user': 'user-1', 'message': 'hello'}
+2022-09-07 19:29:11,603   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 19:29:11 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'hello'}
+2022-09-07 19:29:11,604   INFO       server               Отправлен ответ - ('127.0.0.1', 45324) - {'response': 200, 'time': 'Wed Sep  7 19:29:11 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'hello'}
+2022-09-07 19:29:26,627   INFO       server               Клиент ('127.0.0.1', 45314) отключился
+2022-09-07 19:32:58,385   INFO       server               Получен запрос на соединение от ('127.0.0.1', 48736)
+2022-09-07 19:32:58,385   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 19:32:58 2022', 'account_name': 'user'}
+2022-09-07 19:32:58,385   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 19:32:58 2022', 'to_user': 'user', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 19:32:58,390   INFO       server               Клиент user отключился
+2022-09-07 19:35:34,447   INFO       server               Получен запрос на соединение от ('127.0.0.1', 48926)
+2022-09-07 19:35:34,447   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 19:35:34 2022', 'account_name': 'user'}
+2022-09-07 19:35:34,447   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 19:35:34 2022', 'to_user': 'user', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 19:35:34,450   INFO       server               Отправлен ответ - ('127.0.0.1', 48926) - {'response': 200, 'time': 'Wed Sep  7 19:35:34 2022', 'to_user': 'user', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 19:36:14,500   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Wed Sep  7 19:36:14 2022', 'target_user': 'user', 'sender_user': 'user', 'message': 'hello'}
+2022-09-07 19:36:14,500   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 19:36:14 2022', 'from_user': 'user', 'to_user': 'user', 'answer': 'hello'}
+2022-09-07 19:36:14,501   INFO       server               Отправлен ответ - ('127.0.0.1', 48926) - {'response': 200, 'time': 'Wed Sep  7 19:36:14 2022', 'from_user': 'user', 'to_user': 'user', 'answer': 'hello'}
+2022-09-07 19:38:17,970   INFO       server               Получен запрос на соединение от ('127.0.0.1', 52170)
+2022-09-07 19:38:18,971   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 19:38:17 2022', 'account_name': 'user-1'}
+2022-09-07 19:38:18,971   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 19:38:18 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 19:38:18,975   INFO       server               Отправлен ответ - ('127.0.0.1', 52170) - {'response': 200, 'time': 'Wed Sep  7 19:38:18 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 19:38:18,977   INFO       server               Получен запрос на соединение от ('127.0.0.1', 52184)
+2022-09-07 19:38:18,977   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 19:38:18 2022', 'account_name': 'user-2'}
+2022-09-07 19:38:18,977   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 19:38:18 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 19:38:18,978   INFO       server               Отправлен ответ - ('127.0.0.1', 52184) - {'response': 200, 'time': 'Wed Sep  7 19:38:18 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 19:38:39,005   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Wed Sep  7 19:38:38 2022', 'target_user': 'user-1', 'sender_user': 'user-2', 'message': 'hello'}
+2022-09-07 19:38:39,005   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 19:38:39 2022', 'from_user': 'user-2', 'to_user': 'user-1', 'answer': 'hello'}
+2022-09-07 19:38:39,006   INFO       server               Отправлен ответ - ('127.0.0.1', 52170) - {'response': 200, 'time': 'Wed Sep  7 19:38:39 2022', 'from_user': 'user-2', 'to_user': 'user-1', 'answer': 'hello'}
+2022-09-07 19:39:08,048   INFO       server               Клиент ('127.0.0.1', 52184) отключился
+2022-09-07 19:47:27,771   INFO       server               Получен запрос на соединение от ('127.0.0.1', 59154)
+2022-09-07 19:47:28,773   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 19:47:27 2022', 'account_name': 'user-1'}
+2022-09-07 19:47:28,773   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 19:47:28 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 19:47:28,776   INFO       server               Отправлен ответ - ('127.0.0.1', 59154) - {'response': 200, 'time': 'Wed Sep  7 19:47:28 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 19:47:28,780   INFO       server               Получен запрос на соединение от ('127.0.0.1', 59162)
+2022-09-07 19:47:28,780   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 19:47:28 2022', 'account_name': 'user-2'}
+2022-09-07 19:47:28,780   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 19:47:28 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 19:47:28,780   INFO       server               Отправлен ответ - ('127.0.0.1', 59162) - {'response': 200, 'time': 'Wed Sep  7 19:47:28 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 19:47:46,804   INFO       server               Клиент ('127.0.0.1', 59154) отключился
+2022-09-07 19:48:59,738   INFO       server               Получен запрос на соединение от ('127.0.0.1', 49956)
+2022-09-07 19:48:59,739   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 19:48:59 2022', 'account_name': 'user-1'}
+2022-09-07 19:48:59,739   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 19:48:59 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 19:48:59,742   INFO       server               Отправлен ответ - ('127.0.0.1', 49956) - {'response': 200, 'time': 'Wed Sep  7 19:48:59 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 19:49:00,745   INFO       server               Получен запрос на соединение от ('127.0.0.1', 49970)
+2022-09-07 19:49:01,746   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 19:49:00 2022', 'account_name': 'user-2'}
+2022-09-07 19:49:01,747   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 19:49:01 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 19:49:01,747   INFO       server               Отправлен ответ - ('127.0.0.1', 49970) - {'response': 200, 'time': 'Wed Sep  7 19:49:01 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 19:49:11,760   INFO       server               Клиент ('127.0.0.1', 49956) отключился
+2022-09-07 19:52:22,226   INFO       server               Получен запрос на соединение от ('127.0.0.1', 41840)
+2022-09-07 19:52:22,227   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 19:52:22 2022', 'account_name': 'user-1'}
+2022-09-07 19:52:22,227   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 19:52:22 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 19:52:22,230   INFO       server               Отправлен ответ - ('127.0.0.1', 41840) - {'response': 200, 'time': 'Wed Sep  7 19:52:22 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 19:52:23,241   INFO       server               Получен запрос на соединение от ('127.0.0.1', 41844)
+2022-09-07 19:52:23,241   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 19:52:23 2022', 'account_name': 'user-2'}
+2022-09-07 19:52:23,241   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 19:52:23 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 19:52:23,241   INFO       server               Отправлен ответ - ('127.0.0.1', 41844) - {'response': 200, 'time': 'Wed Sep  7 19:52:23 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 19:52:45,270   INFO       server               Клиент ('127.0.0.1', 41840) отключился
+2022-09-07 19:53:34,906   INFO       server               Получен запрос на соединение от ('127.0.0.1', 34638)
+2022-09-07 19:53:34,906   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 19:53:34 2022', 'account_name': 'user-1'}
+2022-09-07 19:53:34,907   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 19:53:34 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 19:53:34,910   INFO       server               Отправлен ответ - ('127.0.0.1', 34638) - {'response': 200, 'time': 'Wed Sep  7 19:53:34 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 19:53:35,913   INFO       server               Получен запрос на соединение от ('127.0.0.1', 34644)
+2022-09-07 19:53:36,914   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 19:53:35 2022', 'account_name': 'user-2'}
+2022-09-07 19:53:36,914   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 19:53:36 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 19:53:36,914   INFO       server               Отправлен ответ - ('127.0.0.1', 34644) - {'response': 200, 'time': 'Wed Sep  7 19:53:36 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 19:54:03,952   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Wed Sep  7 19:54:03 2022', 'target_user': 'user-2', 'sender_user': 'user-1', 'message': 'hello'}
+2022-09-07 19:54:03,953   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 19:54:03 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'hello'}
+2022-09-07 19:54:03,954   INFO       server               Отправлен ответ - ('127.0.0.1', 34644) - {'response': 200, 'time': 'Wed Sep  7 19:54:03 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'hello'}
+2022-09-07 19:54:25,984   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Wed Sep  7 19:54:25 2022', 'target_user': 'user-1', 'sender_user': 'user-2', 'message': 'hello'}
+2022-09-07 19:54:25,985   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 19:54:25 2022', 'from_user': 'user-2', 'to_user': 'user-1', 'answer': 'hello'}
+2022-09-07 19:54:25,986   INFO       server               Отправлен ответ - ('127.0.0.1', 34638) - {'response': 200, 'time': 'Wed Sep  7 19:54:25 2022', 'from_user': 'user-2', 'to_user': 'user-1', 'answer': 'hello'}
+2022-09-07 19:54:49,018   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Wed Sep  7 19:54:48 2022', 'target_user': 'user-2', 'sender_user': 'user-1', 'message': 'hi'}
+2022-09-07 19:54:49,019   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 19:54:49 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'hi'}
+2022-09-07 19:54:49,020   INFO       server               Отправлен ответ - ('127.0.0.1', 34644) - {'response': 200, 'time': 'Wed Sep  7 19:54:49 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'hi'}
+2022-09-07 19:55:10,049   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Wed Sep  7 19:55:09 2022', 'target_user': 'user-1', 'sender_user': 'user-2', 'message': 'hi'}
+2022-09-07 19:55:10,049   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 19:55:10 2022', 'from_user': 'user-2', 'to_user': 'user-1', 'answer': 'hi'}
+2022-09-07 19:55:10,050   INFO       server               Отправлен ответ - ('127.0.0.1', 34638) - {'response': 200, 'time': 'Wed Sep  7 19:55:10 2022', 'from_user': 'user-2', 'to_user': 'user-1', 'answer': 'hi'}
+2022-09-07 19:55:27,077   INFO       server               Клиент ('127.0.0.1', 34638) отключился
+2022-09-07 19:55:29,080   INFO       server               Клиент ('127.0.0.1', 34644) отключился
+2022-09-07 20:09:24,031   INFO       server               Получен запрос на соединение от ('127.0.0.1', 36426)
+2022-09-07 20:09:24,031   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 20:09:24 2022', 'account_name': 'user-1'}
+2022-09-07 20:09:24,031   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 20:09:24 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 20:09:24,034   INFO       server               Отправлен ответ - ('127.0.0.1', 36426) - {'response': 200, 'time': 'Wed Sep  7 20:09:24 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 20:09:25,043   INFO       server               Получен запрос на соединение от ('127.0.0.1', 36434)
+2022-09-07 20:09:25,043   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 20:09:25 2022', 'account_name': 'user-2'}
+2022-09-07 20:09:25,043   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 20:09:25 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 20:09:25,044   INFO       server               Отправлен ответ - ('127.0.0.1', 36434) - {'response': 200, 'time': 'Wed Sep  7 20:09:25 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 20:09:54,080   INFO       server               Клиент ('127.0.0.1', 36426) отключился
+2022-09-07 20:13:40,078   INFO       server               Получен запрос на соединение от ('127.0.0.1', 53492)
+2022-09-07 20:13:40,078   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 20:13:40 2022', 'account_name': 'user-1'}
+2022-09-07 20:13:40,078   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 20:13:40 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 20:13:40,081   INFO       server               Отправлен ответ - ('127.0.0.1', 53492) - {'response': 200, 'time': 'Wed Sep  7 20:13:40 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 20:13:41,092   INFO       server               Получен запрос на соединение от ('127.0.0.1', 53496)
+2022-09-07 20:13:41,092   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 20:13:41 2022', 'account_name': 'user-2'}
+2022-09-07 20:13:41,092   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 20:13:41 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 20:13:41,092   INFO       server               Отправлен ответ - ('127.0.0.1', 53496) - {'response': 200, 'time': 'Wed Sep  7 20:13:41 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 20:14:21,143   INFO       server               Клиент ('127.0.0.1', 53492) отключился
+2022-09-07 20:22:31,516   INFO       server               Получен запрос на соединение от ('127.0.0.1', 55778)
+2022-09-07 20:22:31,817   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 20:22:31 2022', 'account_name': 'user-1'}
+2022-09-07 20:22:31,817   INFO       server               Клиент ('127.0.0.1', 55778) отключился
+2022-09-07 20:23:01,843   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Wed Sep  7 20:23:01 2022', 'target_user': 'user-2', 'sender_user': 'user-1', 'message': 'hello'}
+2022-09-07 20:23:01,844   INFO       server               Клиент ('127.0.0.1', 55778) отключился
+2022-09-07 20:25:53,234   INFO       server               Получен запрос на соединение от ('127.0.0.1', 33428)
+2022-09-07 20:25:53,235   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 20:25:53 2022', 'account_name': 'user-1'}
+2022-09-07 20:25:53,235   INFO       server               Клиент ('127.0.0.1', 33428) отключился
+2022-09-07 20:28:07,084   INFO       server               Получен запрос на соединение от ('127.0.0.1', 48710)
+2022-09-07 20:28:07,085   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 20:28:07 2022', 'account_name': 'user'}
+2022-09-07 20:28:07,085   INFO       server               Клиент ('127.0.0.1', 48710) отключился
+2022-09-07 20:28:45,002   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Wed Sep  7 20:28:45 2022', 'target_user': 'user', 'sender_user': 'user', 'message': 'hello'}
+2022-09-07 20:28:45,003   INFO       server               Клиент ('127.0.0.1', 48710) отключился
+2022-09-07 20:29:44,116   INFO       server               Получен запрос на соединение от ('127.0.0.1', 50752)
+2022-09-07 20:29:44,116   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 20:29:44 2022', 'account_name': 'user-1'}
+2022-09-07 20:29:44,116   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 20:29:44 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 20:29:44,120   INFO       server               Отправлен ответ - ('127.0.0.1', 50752) - {'response': 200, 'time': 'Wed Sep  7 20:29:44 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 20:29:45,120   INFO       server               Получен запрос на соединение от ('127.0.0.1', 50768)
+2022-09-07 20:29:45,120   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 20:29:45 2022', 'account_name': 'user-2'}
+2022-09-07 20:29:45,120   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 20:29:45 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 20:29:45,120   INFO       server               Отправлен ответ - ('127.0.0.1', 50768) - {'response': 200, 'time': 'Wed Sep  7 20:29:45 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 20:30:24,779   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Wed Sep  7 20:30:24 2022', 'target_user': 'user-2', 'sender_user': 'user-1', 'message': 'hello'}
+2022-09-07 20:30:24,779   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 20:30:24 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'hello'}
+2022-09-07 20:30:24,779   INFO       server               Отправлен ответ - ('127.0.0.1', 50768) - {'response': 200, 'time': 'Wed Sep  7 20:30:24 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'hello'}
+2022-09-07 20:31:30,697   INFO       server               Получен запрос на соединение от ('127.0.0.1', 43714)
+2022-09-07 20:31:30,697   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 20:31:30 2022', 'account_name': 'user-1'}
+2022-09-07 20:31:30,697   INFO       server               Клиент ('127.0.0.1', 43714) отключился
+2022-09-07 20:31:53,663   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Wed Sep  7 20:31:53 2022', 'target_user': 'user-2', 'sender_user': 'user-1', 'message': 'hello'}
+2022-09-07 20:31:53,663   INFO       server               Клиент ('127.0.0.1', 43714) отключился
+2022-09-07 20:32:25,503   INFO       server               Получен запрос на соединение от ('127.0.0.1', 48818)
+2022-09-07 20:32:25,504   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 20:32:25 2022', 'account_name': 'user-1'}
+2022-09-07 20:32:25,504   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 20:32:25 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 20:32:25,507   INFO       server               Отправлен ответ - ('127.0.0.1', 48818) - {'response': 200, 'time': 'Wed Sep  7 20:32:25 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 20:32:26,517   INFO       server               Получен запрос на соединение от ('127.0.0.1', 48830)
+2022-09-07 20:32:26,517   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 20:32:26 2022', 'account_name': 'user-2'}
+2022-09-07 20:32:26,517   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 20:32:26 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 20:32:26,518   INFO       server               Отправлен ответ - ('127.0.0.1', 48830) - {'response': 200, 'time': 'Wed Sep  7 20:32:26 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 20:33:54,166   INFO       server               Получен запрос на соединение от ('127.0.0.1', 58848)
+2022-09-07 20:33:54,166   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 20:33:54 2022', 'account_name': 'user-1'}
+2022-09-07 20:34:08,486   INFO       server               Получен запрос на соединение от ('127.0.0.1', 42554)
+2022-09-07 20:34:08,486   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 20:34:08 2022', 'account_name': 'user-1'}
+2022-09-07 20:34:08,486   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 20:34:08 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 20:34:08,489   INFO       server               Отправлен ответ - ('127.0.0.1', 42554) - {'response': 200, 'time': 'Wed Sep  7 20:34:08 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 20:34:09,490   INFO       server               Получен запрос на соединение от ('127.0.0.1', 42562)
+2022-09-07 20:34:09,490   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 20:34:09 2022', 'account_name': 'user-2'}
+2022-09-07 20:34:09,490   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 20:34:09 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 20:34:09,490   INFO       server               Отправлен ответ - ('127.0.0.1', 42562) - {'response': 200, 'time': 'Wed Sep  7 20:34:09 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 20:34:42,539   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Wed Sep  7 20:34:42 2022', 'target_user': 'user-2', 'sender_user': 'user-1', 'message': 'hello'}
+2022-09-07 20:34:42,539   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 20:34:42 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'hello'}
+2022-09-07 20:34:42,540   INFO       server               Отправлен ответ - ('127.0.0.1', 42562) - {'response': 200, 'time': 'Wed Sep  7 20:34:42 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'hello'}
+2022-09-07 20:36:24,085   INFO       server               Получено сообщение от клиента - {'action': 'quit', 'time': 'Wed Sep  7 20:36:23 2022', 'user': 'user-1'}
+2022-09-07 20:36:24,086   INFO       server               Клиент ('127.0.0.1', 42554) отключился
+2022-09-07 20:36:34,301   INFO       server               Получено сообщение от клиента - {'action': 'quit', 'time': 'Wed Sep  7 20:36:34 2022', 'user': 'user-2'}
+2022-09-07 20:36:34,301   INFO       server               Клиент ('127.0.0.1', 42562) отключился
+2022-09-07 20:36:35,158   INFO       server               Клиент ('127.0.0.1', 42562) отключился
+2022-09-07 20:36:42,308   INFO       server               Получен запрос на соединение от ('127.0.0.1', 54158)
+2022-09-07 20:36:42,609   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 20:36:42 2022', 'account_name': 'user-1'}
+2022-09-07 20:36:42,609   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 20:36:42 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 20:36:42,612   INFO       server               Отправлен ответ - ('127.0.0.1', 54158) - {'response': 200, 'time': 'Wed Sep  7 20:36:42 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 20:36:43,310   INFO       server               Получен запрос на соединение от ('127.0.0.1', 54174)
+2022-09-07 20:36:43,310   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 20:36:43 2022', 'account_name': 'user-2'}
+2022-09-07 20:36:43,310   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 20:36:43 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 20:36:43,310   INFO       server               Отправлен ответ - ('127.0.0.1', 54174) - {'response': 200, 'time': 'Wed Sep  7 20:36:43 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 20:37:20,263   INFO       server               Получено сообщение от клиента - {'action': 'quit', 'time': 'Wed Sep  7 20:37:20 2022', 'user': 'user-2'}
+2022-09-07 20:37:20,264   INFO       server               Клиент ('127.0.0.1', 54174) отключился
+2022-09-07 20:37:26,573   INFO       server               Получено сообщение от клиента - {'action': 'quit', 'time': 'Wed Sep  7 20:37:26 2022', 'user': 'user-1'}
+2022-09-07 20:37:26,573   INFO       server               Клиент ('127.0.0.1', 54158) отключился
+2022-09-07 20:37:27,881   INFO       server               Клиент ('127.0.0.1', 54158) отключился
+2022-09-07 20:37:38,198   INFO       server               Получен запрос на соединение от ('127.0.0.1', 37526)
+2022-09-07 20:37:38,498   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 20:37:38 2022', 'account_name': 'user-1'}
+2022-09-07 20:37:38,498   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 20:37:38 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 20:37:38,502   INFO       server               Отправлен ответ - ('127.0.0.1', 37526) - {'response': 200, 'time': 'Wed Sep  7 20:37:38 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 20:37:39,196   INFO       server               Получен запрос на соединение от ('127.0.0.1', 37528)
+2022-09-07 20:37:39,196   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 20:37:39 2022', 'account_name': 'user-2'}
+2022-09-07 20:37:39,196   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 20:37:39 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 20:37:39,197   INFO       server               Отправлен ответ - ('127.0.0.1', 37528) - {'response': 200, 'time': 'Wed Sep  7 20:37:39 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 20:38:20,357   INFO       server               Получено сообщение от клиента - {'action': 'quit', 'time': 'Wed Sep  7 20:38:20 2022', 'user': 'user-2'}
+2022-09-07 20:38:20,357   INFO       server               Клиент ('127.0.0.1', 37528) отключился
+2022-09-07 20:38:25,465   INFO       server               Получено сообщение от клиента - {'action': 'quit', 'time': 'Wed Sep  7 20:38:25 2022', 'user': 'user-1'}
+2022-09-07 20:38:25,465   INFO       server               Клиент ('127.0.0.1', 37526) отключился
+2022-09-07 20:38:26,775   INFO       server               Клиент ('127.0.0.1', 37526) отключился
+2022-09-07 20:38:30,502   INFO       server               Получен запрос на соединение от ('127.0.0.1', 58358)
+2022-09-07 20:38:30,502   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 20:38:30 2022', 'account_name': 'user-1'}
+2022-09-07 20:38:30,502   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 20:38:30 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 20:38:30,506   INFO       server               Отправлен ответ - ('127.0.0.1', 58358) - {'response': 200, 'time': 'Wed Sep  7 20:38:30 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 20:38:31,475   INFO       server               Получен запрос на соединение от ('127.0.0.1', 58366)
+2022-09-07 20:38:31,475   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 20:38:31 2022', 'account_name': 'user-2'}
+2022-09-07 20:38:31,475   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 20:38:31 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 20:38:31,475   INFO       server               Отправлен ответ - ('127.0.0.1', 58366) - {'response': 200, 'time': 'Wed Sep  7 20:38:31 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 20:38:49,801   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Wed Sep  7 20:38:49 2022', 'target_user': 'user-1', 'sender_user': 'user-1', 'message': 'hello'}
+2022-09-07 20:38:49,802   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 20:38:49 2022', 'from_user': 'user-1', 'to_user': 'user-1', 'answer': 'hello'}
+2022-09-07 20:38:49,803   INFO       server               Отправлен ответ - ('127.0.0.1', 58358) - {'response': 200, 'time': 'Wed Sep  7 20:38:49 2022', 'from_user': 'user-1', 'to_user': 'user-1', 'answer': 'hello'}
+2022-09-07 20:39:07,830   INFO       server               Получено сообщение от клиента - {'action': 'quit', 'time': 'Wed Sep  7 20:39:07 2022', 'user': 'user-1'}
+2022-09-07 20:39:07,830   INFO       server               Клиент ('127.0.0.1', 58358) отключился
+2022-09-07 20:39:15,642   INFO       server               Получено сообщение от клиента - {'action': 'quit', 'time': 'Wed Sep  7 20:39:15 2022', 'user': 'user-2'}
+2022-09-07 20:39:15,642   INFO       server               Клиент ('127.0.0.1', 58366) отключился
+2022-09-07 20:39:16,048   INFO       server               Клиент ('127.0.0.1', 58366) отключился
+2022-09-07 20:40:21,173   INFO       server               Получен запрос на соединение от ('127.0.0.1', 42102)
+2022-09-07 20:40:21,173   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 20:40:21 2022', 'account_name': 'user-1'}
+2022-09-07 20:40:21,173   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 20:40:21 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 20:40:21,176   INFO       server               Отправлен ответ - ('127.0.0.1', 42102) - {'response': 200, 'time': 'Wed Sep  7 20:40:21 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 20:40:22,175   INFO       server               Получен запрос на соединение от ('127.0.0.1', 42108)
+2022-09-07 20:40:22,175   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 20:40:22 2022', 'account_name': 'user-2'}
+2022-09-07 20:40:22,176   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 20:40:22 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 20:40:22,176   INFO       server               Отправлен ответ - ('127.0.0.1', 42108) - {'response': 200, 'time': 'Wed Sep  7 20:40:22 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 20:40:56,727   INFO       server               Получено сообщение от клиента - {'action': 'quit', 'time': 'Wed Sep  7 20:40:56 2022', 'user': 'user-1'}
+2022-09-07 20:40:56,728   INFO       server               Клиент ('127.0.0.1', 42102) отключился
+2022-09-07 20:41:02,737   INFO       server               Получено сообщение от клиента - {'action': 'quit', 'time': 'Wed Sep  7 20:41:02 2022', 'user': 'user-2'}
+2022-09-07 20:41:02,738   INFO       server               Клиент ('127.0.0.1', 42108) отключился
+2022-09-07 20:41:03,746   INFO       server               Клиент ('127.0.0.1', 42108) отключился
+2022-09-07 20:45:42,329   INFO       server               Получен запрос на соединение от ('127.0.0.1', 60234)
+2022-09-07 20:45:42,329   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 20:45:42 2022', 'account_name': 'user-1'}
+2022-09-07 20:45:42,329   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 20:45:42 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 20:45:42,332   INFO       server               Отправлен ответ - ('127.0.0.1', 60234) - {'response': 200, 'time': 'Wed Sep  7 20:45:42 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 20:45:43,341   INFO       server               Получен запрос на соединение от ('127.0.0.1', 60242)
+2022-09-07 20:45:43,341   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 20:45:43 2022', 'account_name': 'user-2'}
+2022-09-07 20:45:43,341   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 20:45:43 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 20:45:43,341   INFO       server               Отправлен ответ - ('127.0.0.1', 60242) - {'response': 200, 'time': 'Wed Sep  7 20:45:43 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 20:45:48,749   INFO       server               Клиент ('127.0.0.1', 60242) отключился
+2022-09-07 20:45:49,651   INFO       server               Клиент ('127.0.0.1', 60234) отключился
+2022-09-07 20:45:49,951   INFO       server               Клиент ('127.0.0.1', 60234) отключился
+2022-09-07 20:46:22,164   INFO       server               Получен запрос на соединение от ('127.0.0.1', 53188)
+2022-09-07 20:46:22,164   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 20:46:22 2022', 'account_name': 'user-1'}
+2022-09-07 20:46:22,164   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 20:46:22 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 20:46:22,167   INFO       server               Отправлен ответ - ('127.0.0.1', 53188) - {'response': 200, 'time': 'Wed Sep  7 20:46:22 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 20:46:23,174   INFO       server               Получен запрос на соединение от ('127.0.0.1', 53192)
+2022-09-07 20:46:23,475   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 20:46:23 2022', 'account_name': 'user-2'}
+2022-09-07 20:46:23,475   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 20:46:23 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 20:46:23,476   INFO       server               Отправлен ответ - ('127.0.0.1', 53192) - {'response': 200, 'time': 'Wed Sep  7 20:46:23 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 20:46:30,986   INFO       server               Клиент ('127.0.0.1', 53192) отключился
+2022-09-07 20:46:31,587   INFO       server               Клиент ('127.0.0.1', 53188) отключился
+2022-09-07 20:46:31,888   INFO       server               Клиент ('127.0.0.1', 53188) отключился
+2022-09-07 20:47:01,532   INFO       server               Получен запрос на соединение от ('127.0.0.1', 51916)
+2022-09-07 20:47:01,532   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 20:47:01 2022', 'account_name': 'user-1'}
+2022-09-07 20:47:01,533   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 20:47:01 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 20:47:01,536   INFO       server               Отправлен ответ - ('127.0.0.1', 51916) - {'response': 200, 'time': 'Wed Sep  7 20:47:01 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 20:47:02,542   INFO       server               Получен запрос на соединение от ('127.0.0.1', 51930)
+2022-09-07 20:47:02,542   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 20:47:02 2022', 'account_name': 'user-2'}
+2022-09-07 20:47:02,542   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 20:47:02 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 20:47:02,542   INFO       server               Отправлен ответ - ('127.0.0.1', 51930) - {'response': 200, 'time': 'Wed Sep  7 20:47:02 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 20:47:30,483   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Wed Sep  7 20:47:30 2022', 'target_user': 'user-2', 'sender_user': 'user-1', 'message': 'hello'}
+2022-09-07 20:47:30,484   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 20:47:30 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'hello'}
+2022-09-07 20:47:30,485   INFO       server               Отправлен ответ - ('127.0.0.1', 51930) - {'response': 200, 'time': 'Wed Sep  7 20:47:30 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'hello'}
+2022-09-07 20:47:47,310   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Wed Sep  7 20:47:47 2022', 'target_user': 'user-2', 'sender_user': 'user-1', 'message': 'hi'}
+2022-09-07 20:47:47,310   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 20:47:47 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'hi'}
+2022-09-07 20:47:47,311   INFO       server               Отправлен ответ - ('127.0.0.1', 51930) - {'response': 200, 'time': 'Wed Sep  7 20:47:47 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'hi'}
+2022-09-07 20:48:56,713   INFO       server               Получено сообщение от клиента - {'action': 'quit', 'time': 'Wed Sep  7 20:48:56 2022', 'user': 'user-2'}
+2022-09-07 20:48:56,713   INFO       server               Клиент ('127.0.0.1', 51930) отключился
+2022-09-07 20:49:01,521   INFO       server               Получено сообщение от клиента - {'action': 'quit', 'time': 'Wed Sep  7 20:49:01 2022', 'user': 'user-1'}
+2022-09-07 20:49:01,521   INFO       server               Клиент ('127.0.0.1', 51916) отключился
+2022-09-07 20:49:02,681   INFO       server               Клиент ('127.0.0.1', 51916) отключился
+2022-09-07 20:57:35,866   INFO       server               Получен запрос на соединение от ('127.0.0.1', 42082)
+2022-09-07 20:57:35,866   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 20:57:35 2022', 'account_name': 'user-1'}
+2022-09-07 20:57:35,866   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 20:57:35 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 20:57:35,869   INFO       server               Отправлен ответ - ('127.0.0.1', 42082) - {'response': 200, 'time': 'Wed Sep  7 20:57:35 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 20:57:36,870   INFO       server               Получен запрос на соединение от ('127.0.0.1', 42090)
+2022-09-07 20:57:37,070   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 20:57:36 2022', 'account_name': 'user-2'}
+2022-09-07 20:57:37,071   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 20:57:37 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 20:57:37,071   INFO       server               Отправлен ответ - ('127.0.0.1', 42090) - {'response': 200, 'time': 'Wed Sep  7 20:57:37 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 20:58:04,716   INFO       server               Получен запрос на соединение от ('127.0.0.1', 44838)
+2022-09-07 20:58:04,716   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 20:58:04 2022', 'account_name': 'user-1'}
+2022-09-07 20:58:04,717   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 20:58:04 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 20:58:04,720   INFO       server               Отправлен ответ - ('127.0.0.1', 44838) - {'response': 200, 'time': 'Wed Sep  7 20:58:04 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 20:58:05,717   INFO       server               Получен запрос на соединение от ('127.0.0.1', 44844)
+2022-09-07 20:58:05,717   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 20:58:05 2022', 'account_name': 'user-2'}
+2022-09-07 20:58:05,717   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 20:58:05 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 20:58:05,717   INFO       server               Отправлен ответ - ('127.0.0.1', 44844) - {'response': 200, 'time': 'Wed Sep  7 20:58:05 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 21:00:50,251   INFO       server               Получен запрос на соединение от ('127.0.0.1', 53298)
+2022-09-07 21:00:50,251   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 21:00:50 2022', 'account_name': 'user-1'}
+2022-09-07 21:01:00,585   INFO       server               Получен запрос на соединение от ('127.0.0.1', 33974)
+2022-09-07 21:01:00,586   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 21:01:00 2022', 'account_name': 'user-1'}
+2022-09-07 21:01:00,586   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 21:01:00 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 21:01:00,589   INFO       server               Отправлен ответ - ('127.0.0.1', 33974) - {'response': 200, 'time': 'Wed Sep  7 21:01:00 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 21:01:01,588   INFO       server               Получен запрос на соединение от ('127.0.0.1', 33976)
+2022-09-07 21:01:01,588   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 21:01:01 2022', 'account_name': 'user-2'}
+2022-09-07 21:01:01,588   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 21:01:01 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 21:01:01,588   INFO       server               Отправлен ответ - ('127.0.0.1', 33976) - {'response': 200, 'time': 'Wed Sep  7 21:01:01 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 21:01:59,866   INFO       server               Получен запрос на соединение от ('127.0.0.1', 48628)
+2022-09-07 21:01:59,867   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 21:01:59 2022', 'account_name': 'user-1'}
+2022-09-07 21:01:59,867   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 21:01:59 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 21:01:59,870   INFO       server               Отправлен ответ - ('127.0.0.1', 48628) - {'response': 200, 'time': 'Wed Sep  7 21:01:59 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 21:02:00,869   INFO       server               Получен запрос на соединение от ('127.0.0.1', 48634)
+2022-09-07 21:02:01,070   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 21:02:00 2022', 'account_name': 'user-2'}
+2022-09-07 21:02:01,070   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 21:02:01 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 21:02:01,071   INFO       server               Отправлен ответ - ('127.0.0.1', 48634) - {'response': 200, 'time': 'Wed Sep  7 21:02:01 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 21:06:55,449   INFO       server               Получен запрос на соединение от ('127.0.0.1', 36012)
+2022-09-07 21:06:55,450   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 21:06:55 2022', 'account_name': 'user-1'}
+2022-09-07 21:06:55,450   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 21:06:55 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 21:06:55,453   INFO       server               Отправлен ответ - ('127.0.0.1', 36012) - {'response': 200, 'time': 'Wed Sep  7 21:06:55 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 21:06:56,449   INFO       server               Получен запрос на соединение от ('127.0.0.1', 36028)
+2022-09-07 21:06:56,650   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 21:06:56 2022', 'account_name': 'user-2'}
+2022-09-07 21:06:56,650   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 21:06:56 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 21:06:56,650   INFO       server               Отправлен ответ - ('127.0.0.1', 36028) - {'response': 200, 'time': 'Wed Sep  7 21:06:56 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 21:07:44,931   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Wed Sep  7 21:07:44 2022', 'target_user': 'user-2', 'sender_user': 'user-1', 'message': 'hello'}
+2022-09-07 21:07:44,931   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 21:07:44 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'hello'}
+2022-09-07 21:07:44,932   INFO       server               Отправлен ответ - ('127.0.0.1', 36028) - {'response': 200, 'time': 'Wed Sep  7 21:07:44 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'hello'}
+2022-09-07 21:09:37,014   INFO       server               Получен запрос на соединение от ('127.0.0.1', 46142)
+2022-09-07 21:09:37,014   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 21:09:37 2022', 'account_name': 'user-1'}
+2022-09-07 21:09:37,014   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 21:09:37 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 21:09:37,018   INFO       server               Отправлен ответ - ('127.0.0.1', 46142) - {'response': 200, 'time': 'Wed Sep  7 21:09:37 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 21:09:38,016   INFO       server               Получен запрос на соединение от ('127.0.0.1', 45348)
+2022-09-07 21:09:38,016   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 21:09:38 2022', 'account_name': 'user-2'}
+2022-09-07 21:09:38,016   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 21:09:38 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 21:09:38,017   INFO       server               Отправлен ответ - ('127.0.0.1', 45348) - {'response': 200, 'time': 'Wed Sep  7 21:09:38 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 21:11:51,119   INFO       server               Получен запрос на соединение от ('127.0.0.1', 51784)
+2022-09-07 21:11:51,120   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 21:11:51 2022', 'account_name': 'user-1'}
+2022-09-07 21:11:51,120   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 21:11:51 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 21:11:51,123   INFO       server               Отправлен ответ - ('127.0.0.1', 51784) - {'response': 200, 'time': 'Wed Sep  7 21:11:51 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 21:11:52,128   INFO       server               Получен запрос на соединение от ('127.0.0.1', 51790)
+2022-09-07 21:11:52,128   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 21:11:52 2022', 'account_name': 'user-2'}
+2022-09-07 21:11:52,128   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 21:11:52 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 21:11:52,128   INFO       server               Отправлен ответ - ('127.0.0.1', 51790) - {'response': 200, 'time': 'Wed Sep  7 21:11:52 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 21:24:49,720   INFO       server               Получен запрос на соединение от ('127.0.0.1', 53696)
+2022-09-07 21:24:49,720   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 21:24:49 2022', 'account_name': 'user-1'}
+2022-09-07 21:24:49,721   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 21:24:49 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 21:24:49,724   INFO       server               Отправлен ответ - ('127.0.0.1', 53696) - {'response': 200, 'time': 'Wed Sep  7 21:24:49 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 21:24:50,738   INFO       server               Получен запрос на соединение от ('127.0.0.1', 53710)
+2022-09-07 21:24:50,738   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 21:24:50 2022', 'account_name': 'user-2'}
+2022-09-07 21:24:50,738   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 21:24:50 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 21:24:50,738   INFO       server               Отправлен ответ - ('127.0.0.1', 53710) - {'response': 200, 'time': 'Wed Sep  7 21:24:50 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 21:26:23,875   INFO       server               Получен запрос на соединение от ('127.0.0.1', 49604)
+2022-09-07 21:26:24,076   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 21:26:23 2022', 'account_name': 'user-1'}
+2022-09-07 21:26:24,076   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 21:26:24 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 21:26:24,079   INFO       server               Отправлен ответ - ('127.0.0.1', 49604) - {'response': 200, 'time': 'Wed Sep  7 21:26:24 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 21:26:24,884   INFO       server               Получен запрос на соединение от ('127.0.0.1', 49612)
+2022-09-07 21:26:24,884   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 21:26:24 2022', 'account_name': 'user-2'}
+2022-09-07 21:26:24,884   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 21:26:24 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 21:26:24,884   INFO       server               Отправлен ответ - ('127.0.0.1', 49612) - {'response': 200, 'time': 'Wed Sep  7 21:26:24 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 21:27:28,181   INFO       server               Получен запрос на соединение от ('127.0.0.1', 59292)
+2022-09-07 21:27:28,181   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 21:27:28 2022', 'account_name': 'user-1'}
+2022-09-07 21:27:28,181   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 21:27:28 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 21:27:28,185   INFO       server               Отправлен ответ - ('127.0.0.1', 59292) - {'response': 200, 'time': 'Wed Sep  7 21:27:28 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 21:27:29,181   INFO       server               Получен запрос на соединение от ('127.0.0.1', 59300)
+2022-09-07 21:27:29,181   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 21:27:29 2022', 'account_name': 'user-2'}
+2022-09-07 21:27:29,181   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 21:27:29 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 21:27:29,181   INFO       server               Отправлен ответ - ('127.0.0.1', 59300) - {'response': 200, 'time': 'Wed Sep  7 21:27:29 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 21:27:49,613   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Wed Sep  7 21:27:49 2022', 'target_user': 'user-2', 'sender_user': 'user-1', 'message': 'hello'}
+2022-09-07 21:27:49,613   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 21:27:49 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'hello'}
+2022-09-07 21:27:49,614   INFO       server               Отправлен ответ - ('127.0.0.1', 59300) - {'response': 200, 'time': 'Wed Sep  7 21:27:49 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'hello'}
+2022-09-07 21:28:00,832   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Wed Sep  7 21:28:00 2022', 'target_user': 'user-1', 'sender_user': 'user-2', 'message': 'hi'}
+2022-09-07 21:28:00,832   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 21:28:00 2022', 'from_user': 'user-2', 'to_user': 'user-1', 'answer': 'hi'}
+2022-09-07 21:28:00,833   INFO       server               Отправлен ответ - ('127.0.0.1', 59292) - {'response': 200, 'time': 'Wed Sep  7 21:28:00 2022', 'from_user': 'user-2', 'to_user': 'user-1', 'answer': 'hi'}
+2022-09-07 21:29:29,817   INFO       server               Получен запрос на соединение от ('127.0.0.1', 39946)
+2022-09-07 21:29:29,817   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 21:29:29 2022', 'account_name': 'user-1'}
+2022-09-07 21:29:29,818   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 21:29:29 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 21:29:29,820   INFO       server               Отправлен ответ - ('127.0.0.1', 39946) - {'response': 200, 'time': 'Wed Sep  7 21:29:29 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 21:29:30,812   INFO       server               Получен запрос на соединение от ('127.0.0.1', 39960)
+2022-09-07 21:29:30,812   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Wed Sep  7 21:29:30 2022', 'account_name': 'user-2'}
+2022-09-07 21:29:30,812   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 21:29:30 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 21:29:30,812   INFO       server               Отправлен ответ - ('127.0.0.1', 39960) - {'response': 200, 'time': 'Wed Sep  7 21:29:30 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-07 21:29:49,441   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Wed Sep  7 21:29:49 2022', 'target_user': 'user-1', 'sender_user': 'user-2', 'message': 'Привет'}
+2022-09-07 21:29:49,442   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Wed Sep  7 21:29:49 2022', 'from_user': 'user-2', 'to_user': 'user-1', 'answer': 'Привет'}
+2022-09-07 21:29:49,442   INFO       server               Отправлен ответ - ('127.0.0.1', 39946) - {'response': 200, 'time': 'Wed Sep  7 21:29:49 2022', 'from_user': 'user-2', 'to_user': 'user-1', 'answer': 'Привет'}
+2022-09-07 21:30:46,485   INFO       server               Получено сообщение от клиента - {'action': 'quit', 'time': 'Wed Sep  7 21:30:46 2022', 'user': 'user-2'}
