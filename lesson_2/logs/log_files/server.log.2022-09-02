@@ -1,0 +1,718 @@
+2022-09-02 11:13:55,031   INFO       server               Получен запрос на соединение от ('127.0.0.1', 56928)
+2022-09-02 11:13:56,033   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 11:13:55 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 11:13:56,033   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 11:13:56 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 11:13:56,036   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 11:13:55 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 11:13:56,036   INFO       server               Отправлен ответ - ('127.0.0.1', 56928){'response': 200, 'time': 'Fri Sep  2 11:13:56 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 11:13:59,040   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Fri Sep  2 11:13:58 2022', 'user': 'USERNAME', 'message': 'sdf'}
+2022-09-02 11:13:59,040   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 11:13:59 2022', 'answer': 'SDF'}
+2022-09-02 11:13:59,041   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'msg', 'time': 'Fri Sep  2 11:13:58 2022', 'user': 'USERNAME', 'message': 'sdf'}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 11:13:59,041   INFO       server               Отправлен ответ - ('127.0.0.1', 56928){'response': 200, 'time': 'Fri Sep  2 11:13:59 2022', 'answer': 'SDF'}
+2022-09-02 11:14:10,903   INFO       server               Получен запрос на соединение от ('127.0.0.1', 56930)
+2022-09-02 11:14:10,904   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 11:14:10 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 11:14:10,904   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 11:14:10 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 11:14:10,904   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 11:14:10 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 11:14:10,904   INFO       server               Отправлен ответ - ('127.0.0.1', 56928){'response': 200, 'time': 'Fri Sep  2 11:14:10 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 11:14:14,910   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Fri Sep  2 11:14:14 2022', 'user': 'USERNAME', 'message': 'zxc'}
+2022-09-02 11:14:14,910   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 11:14:14 2022', 'answer': 'ZXC'}
+2022-09-02 11:14:14,911   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'msg', 'time': 'Fri Sep  2 11:14:14 2022', 'user': 'USERNAME', 'message': 'zxc'}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 11:14:14,911   INFO       server               Отправлен ответ - ('127.0.0.1', 56928){'response': 200, 'time': 'Fri Sep  2 11:14:14 2022', 'answer': 'ZXC'}
+2022-09-02 13:48:40,172   INFO       server               Получен запрос на соединение от ('127.0.0.1', 56940)
+2022-09-02 13:48:40,172   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 13:48:40 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 13:48:40,172   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 13:48:40 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 13:48:40,176   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 13:48:40 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 13:48:40,176   INFO       server               Отправлен ответ - ('127.0.0.1', 56940){'response': 200, 'time': 'Fri Sep  2 13:48:40 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 13:48:41,277   INFO       server               Получен запрос на соединение от ('127.0.0.1', 56942)
+2022-09-02 13:48:41,277   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 13:48:41 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 13:48:41,278   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 13:48:41 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 13:48:41,278   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 13:48:41 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 13:48:41,278   INFO       server               Отправлен ответ - ('127.0.0.1', 56940){'response': 200, 'time': 'Fri Sep  2 13:48:41 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 13:53:16,146   INFO       server               Получен запрос на соединение от ('127.0.0.1', 56948)
+2022-09-02 13:54:13,589   INFO       server               Получен запрос на соединение от ('127.0.0.1', 38148)
+2022-09-02 13:54:34,621   INFO       server               Получен запрос на соединение от ('127.0.0.1', 38152)
+2022-09-02 14:24:55,728   INFO       server               Получен запрос на соединение от ('127.0.0.1', 38156)
+2022-09-02 14:24:55,728   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 14:24:55 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 14:24:55,728   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 14:24:55 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 14:24:55,731   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 14:24:55 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 14:24:55,731   INFO       server               Отправлен ответ - ('127.0.0.1', 38156){'response': 200, 'time': 'Fri Sep  2 14:24:55 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 14:28:07,774   INFO       server               Получен запрос на соединение от ('127.0.0.1', 38160)
+2022-09-02 14:28:07,775   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 14:28:07 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 14:28:07,775   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 14:28:07 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 14:28:07,778   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 14:28:07 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 14:28:07,778   INFO       server               Отправлен ответ - ('127.0.0.1', 38160){'response': 200, 'time': 'Fri Sep  2 14:28:07 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 14:28:43,756   INFO       server               Получен запрос на соединение от ('127.0.0.1', 38166)
+2022-09-02 14:28:43,756   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 14:28:43 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 14:28:43,756   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 14:28:43 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 14:28:43,759   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 14:28:43 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 14:28:43,759   INFO       server               Отправлен ответ - ('127.0.0.1', 38166){'response': 200, 'time': 'Fri Sep  2 14:28:43 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 14:50:48,670   INFO       server               Получен запрос на соединение от ('127.0.0.1', 38170)
+2022-09-02 14:50:48,671   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 14:50:48 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 14:50:48,671   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 14:50:48 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 14:50:48,674   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 14:50:48 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 14:50:48,674   INFO       server               Отправлен ответ - ('127.0.0.1', 38170){'response': 200, 'time': 'Fri Sep  2 14:50:48 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 17:39:06,961   INFO       server               Получен запрос на соединение от ('127.0.0.1', 51608)
+2022-09-02 17:39:07,962   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 17:39:06 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 17:39:07,963   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 17:39:07 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 17:39:07,974   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 17:39:06 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 17:39:07,974   INFO       server               Отправлен ответ - ('127.0.0.1', 51608){'response': 200, 'time': 'Fri Sep  2 17:39:07 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 17:39:17,985   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Fri Sep  2 17:39:17 2022', 'user': 'USERNAME', 'message': 'sdf'}
+2022-09-02 17:39:17,985   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 17:39:17 2022', 'from_user': 'USERNAME', 'answer': 'sdf'}
+2022-09-02 17:39:17,986   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'msg', 'time': 'Fri Sep  2 17:39:17 2022', 'user': 'USERNAME', 'message': 'sdf'}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 17:39:17,986   INFO       server               Отправлен ответ - ('127.0.0.1', 51608){'response': 200, 'time': 'Fri Sep  2 17:39:17 2022', 'from_user': 'USERNAME', 'answer': 'sdf'}
+2022-09-02 17:52:00,174   INFO       server               Получен запрос на соединение от ('127.0.0.1', 56954)
+2022-09-02 17:52:00,174   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 17:52:00 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 17:52:00,175   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 17:52:00 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 17:52:00,177   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 17:52:00 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 17:52:00,177   INFO       server               Отправлен ответ - ('127.0.0.1', 56954){'response': 200, 'time': 'Fri Sep  2 17:52:00 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 17:52:08,186   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Fri Sep  2 17:52:07 2022', 'user': 'USERNAME', 'message': 'sdf'}
+2022-09-02 17:52:08,186   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 17:52:08 2022', 'from_user': 'USERNAME', 'answer': 'sdf'}
+2022-09-02 17:52:08,187   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'msg', 'time': 'Fri Sep  2 17:52:07 2022', 'user': 'USERNAME', 'message': 'sdf'}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 17:52:08,188   INFO       server               Отправлен ответ - ('127.0.0.1', 56954){'response': 200, 'time': 'Fri Sep  2 17:52:08 2022', 'from_user': 'USERNAME', 'answer': 'sdf'}
+2022-09-02 17:53:59,480   INFO       server               Получен запрос на соединение от ('127.0.0.1', 56958)
+2022-09-02 17:53:59,480   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 17:53:59 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 17:53:59,480   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 17:53:59 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 17:53:59,483   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 17:53:59 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 17:53:59,483   INFO       server               Отправлен ответ - ('127.0.0.1', 56958){'response': 200, 'time': 'Fri Sep  2 17:53:59 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 17:54:07,494   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Fri Sep  2 17:54:07 2022', 'user': 'USERNAME', 'message': 'sdf'}
+2022-09-02 17:54:07,494   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 17:54:07 2022', 'from_user': 'USERNAME', 'answer': 'sdf'}
+2022-09-02 17:54:07,495   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'msg', 'time': 'Fri Sep  2 17:54:07 2022', 'user': 'USERNAME', 'message': 'sdf'}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 17:54:07,495   INFO       server               Отправлен ответ - ('127.0.0.1', 56958){'response': 200, 'time': 'Fri Sep  2 17:54:07 2022', 'from_user': 'USERNAME', 'answer': 'sdf'}
+2022-09-02 17:55:05,005   INFO       server               Получен запрос на соединение от ('127.0.0.1', 56960)
+2022-09-02 17:55:05,005   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 17:55:05 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 17:55:05,005   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 17:55:05 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 17:55:05,008   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 17:55:05 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 17:55:05,009   INFO       server               Отправлен ответ - ('127.0.0.1', 56960){'response': 200, 'time': 'Fri Sep  2 17:55:05 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 17:55:06,015   INFO       server               Получен запрос на соединение от ('127.0.0.1', 56962)
+2022-09-02 17:55:06,015   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 17:55:06 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 17:55:06,015   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 17:55:06 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 17:55:06,015   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 17:55:06 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 17:55:06,015   INFO       server               Отправлен ответ - ('127.0.0.1', 56960){'response': 200, 'time': 'Fri Sep  2 17:55:06 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 17:55:06,015   INFO       server               Отправлен ответ - ('127.0.0.1', 56962){'response': 200, 'time': 'Fri Sep  2 17:55:06 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 17:55:14,025   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Fri Sep  2 17:55:13 2022', 'user': 'USERNAME', 'message': 'sdf'}
+2022-09-02 17:55:14,025   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 17:55:14 2022', 'from_user': 'USERNAME', 'answer': 'sdf'}
+2022-09-02 17:55:14,026   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'msg', 'time': 'Fri Sep  2 17:55:13 2022', 'user': 'USERNAME', 'message': 'sdf'}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 17:55:14,026   INFO       server               Отправлен ответ - ('127.0.0.1', 56960){'response': 200, 'time': 'Fri Sep  2 17:55:14 2022', 'from_user': 'USERNAME', 'answer': 'sdf'}
+2022-09-02 17:55:14,027   INFO       server               Отправлен ответ - ('127.0.0.1', 56962){'response': 200, 'time': 'Fri Sep  2 17:55:14 2022', 'from_user': 'USERNAME', 'answer': 'sdf'}
+2022-09-02 17:55:17,030   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Fri Sep  2 17:55:16 2022', 'user': 'USERNAME', 'message': 'sdfd'}
+2022-09-02 17:55:17,031   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 17:55:17 2022', 'from_user': 'USERNAME', 'answer': 'sdfd'}
+2022-09-02 17:55:17,031   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'msg', 'time': 'Fri Sep  2 17:55:16 2022', 'user': 'USERNAME', 'message': 'sdfd'}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 17:55:17,032   INFO       server               Отправлен ответ - ('127.0.0.1', 56960){'response': 200, 'time': 'Fri Sep  2 17:55:17 2022', 'from_user': 'USERNAME', 'answer': 'sdfd'}
+2022-09-02 17:55:17,032   INFO       server               Отправлен ответ - ('127.0.0.1', 56962){'response': 200, 'time': 'Fri Sep  2 17:55:17 2022', 'from_user': 'USERNAME', 'answer': 'sdfd'}
+2022-09-02 17:58:11,351   INFO       server               Получен запрос на соединение от ('127.0.0.1', 56964)
+2022-09-02 17:58:11,351   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 17:58:11 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 17:58:11,351   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 17:58:11 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 17:58:11,354   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 17:58:11 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 17:58:11,354   INFO       server               Отправлен ответ - ('127.0.0.1', 56964){'response': 200, 'time': 'Fri Sep  2 17:58:11 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 17:58:11,846   INFO       server               Получен запрос на соединение от ('127.0.0.1', 56966)
+2022-09-02 17:58:12,347   INFO       server               Получен запрос на соединение от ('127.0.0.1', 56968)
+2022-09-02 17:58:12,347   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 17:58:11 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 17:58:12,347   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 17:58:12 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 17:58:12,348   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 17:58:11 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 17:58:12,348   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 17:58:12 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 17:58:12,348   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 17:58:12 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 17:58:12,348   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 17:58:12 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 17:58:12,348   INFO       server               Отправлен ответ - ('127.0.0.1', 56964){'response': 200, 'time': 'Fri Sep  2 17:58:12 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 17:58:12,348   INFO       server               Отправлен ответ - ('127.0.0.1', 56966){'response': 200, 'time': 'Fri Sep  2 17:58:12 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 17:58:12,348   INFO       server               Отправлен ответ - ('127.0.0.1', 56968){'response': 200, 'time': 'Fri Sep  2 17:58:12 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 17:58:13,349   INFO       server               Отправлен ответ - ('127.0.0.1', 56964){'response': 200, 'time': 'Fri Sep  2 17:58:12 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 17:58:13,349   INFO       server               Отправлен ответ - ('127.0.0.1', 56966){'response': 200, 'time': 'Fri Sep  2 17:58:12 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 17:58:13,350   INFO       server               Отправлен ответ - ('127.0.0.1', 56968){'response': 200, 'time': 'Fri Sep  2 17:58:12 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:02:36,538   INFO       server               Получен запрос на соединение от ('127.0.0.1', 56970)
+2022-09-02 18:02:36,538   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 18:02:36 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 18:02:36,538   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 18:02:36 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:02:36,541   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 18:02:36 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 18:02:36,541   INFO       server               Отправлен ответ - ('127.0.0.1', 56970){'response': 200, 'time': 'Fri Sep  2 18:02:36 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:02:37,034   INFO       server               Получен запрос на соединение от ('127.0.0.1', 56972)
+2022-09-02 18:02:37,034   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 18:02:37 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 18:02:37,034   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 18:02:37 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:02:37,034   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 18:02:37 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 18:02:37,034   INFO       server               Отправлен ответ - ('127.0.0.1', 56970){'response': 200, 'time': 'Fri Sep  2 18:02:37 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:02:37,034   INFO       server               Отправлен ответ - ('127.0.0.1', 56972){'response': 200, 'time': 'Fri Sep  2 18:02:37 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:02:37,536   INFO       server               Получен запрос на соединение от ('127.0.0.1', 56974)
+2022-09-02 18:02:37,536   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 18:02:37 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 18:02:37,536   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 18:02:37 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:02:37,536   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 18:02:37 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 18:02:37,536   INFO       server               Отправлен ответ - ('127.0.0.1', 56970){'response': 200, 'time': 'Fri Sep  2 18:02:37 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:02:37,537   INFO       server               Отправлен ответ - ('127.0.0.1', 56972){'response': 200, 'time': 'Fri Sep  2 18:02:37 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:02:37,537   INFO       server               Отправлен ответ - ('127.0.0.1', 56974){'response': 200, 'time': 'Fri Sep  2 18:02:37 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:12:16,077   INFO       server               Клиент ('127.0.0.1', 56974) отключился
+2022-09-02 18:16:38,878   INFO       server               Получен запрос на соединение от ('127.0.0.1', 33662)
+2022-09-02 18:16:38,878   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 18:16:38 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 18:16:38,878   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 18:16:38 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:16:38,881   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 18:16:38 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 18:16:38,881   INFO       server               Отправлен ответ - ('127.0.0.1', 33662){'response': 200, 'time': 'Fri Sep  2 18:16:38 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:16:45,889   INFO       server               Клиент ('127.0.0.1', 33662) отключился
+2022-09-02 18:16:46,890   INFO       server               Клиент ('127.0.0.1', 33662) отключился
+2022-09-02 18:19:08,791   INFO       server               Получен запрос на соединение от ('127.0.0.1', 33664)
+2022-09-02 18:19:08,791   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 18:19:08 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 18:19:08,791   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 18:19:08 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:19:08,794   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 18:19:08 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 18:19:08,794   INFO       server               Отправлен ответ - ('127.0.0.1', 33664){'response': 200, 'time': 'Fri Sep  2 18:19:08 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:19:09,789   INFO       server               Получен запрос на соединение от ('127.0.0.1', 33666)
+2022-09-02 18:19:10,790   INFO       server               Получен запрос на соединение от ('127.0.0.1', 33668)
+2022-09-02 18:19:10,791   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 18:19:09 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 18:19:10,791   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 18:19:10 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:19:10,791   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 18:19:09 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 18:19:10,791   INFO       server               Отправлен ответ - ('127.0.0.1', 33664){'response': 200, 'time': 'Fri Sep  2 18:19:10 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:19:10,791   INFO       server               Отправлен ответ - ('127.0.0.1', 33666){'response': 200, 'time': 'Fri Sep  2 18:19:10 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:19:10,791   INFO       server               Отправлен ответ - ('127.0.0.1', 33668){'response': 200, 'time': 'Fri Sep  2 18:19:10 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:19:11,792   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 18:19:10 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 18:19:11,792   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 18:19:11 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:19:11,793   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 18:19:10 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 18:19:11,793   INFO       server               Отправлен ответ - ('127.0.0.1', 33664){'response': 200, 'time': 'Fri Sep  2 18:19:11 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:19:11,793   INFO       server               Отправлен ответ - ('127.0.0.1', 33666){'response': 200, 'time': 'Fri Sep  2 18:19:11 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:19:11,793   INFO       server               Отправлен ответ - ('127.0.0.1', 33668){'response': 200, 'time': 'Fri Sep  2 18:19:11 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:24:26,078   INFO       server               Получен запрос на соединение от ('127.0.0.1', 33670)
+2022-09-02 18:24:26,078   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 18:24:26 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 18:24:26,078   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 18:24:26 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:24:26,081   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 18:24:26 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 18:24:26,081   INFO       server               Отправлен ответ - ('127.0.0.1', 33670){'response': 200, 'time': 'Fri Sep  2 18:24:26 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:24:27,066   INFO       server               Получен запрос на соединение от ('127.0.0.1', 33672)
+2022-09-02 18:24:28,067   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 18:24:27 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 18:24:28,067   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 18:24:28 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:24:28,067   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 18:24:27 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 18:24:28,067   INFO       server               Отправлен ответ - ('127.0.0.1', 33670){'response': 200, 'time': 'Fri Sep  2 18:24:28 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:24:28,067   INFO       server               Отправлен ответ - ('127.0.0.1', 33672){'response': 200, 'time': 'Fri Sep  2 18:24:28 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:24:28,082   INFO       server               Получен запрос на соединение от ('127.0.0.1', 33674)
+2022-09-02 18:24:29,083   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 18:24:28 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 18:24:29,083   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 18:24:29 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:24:29,083   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 18:24:28 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 18:24:29,083   INFO       server               Отправлен ответ - ('127.0.0.1', 33670){'response': 200, 'time': 'Fri Sep  2 18:24:29 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:24:29,083   INFO       server               Отправлен ответ - ('127.0.0.1', 33672){'response': 200, 'time': 'Fri Sep  2 18:24:29 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:24:29,084   INFO       server               Отправлен ответ - ('127.0.0.1', 33674){'response': 200, 'time': 'Fri Sep  2 18:24:29 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:30:00,380   INFO       server               Получен запрос на соединение от ('127.0.0.1', 33676)
+2022-09-02 18:30:00,380   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 18:30:00 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 18:30:00,380   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 18:30:00 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:30:00,383   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 18:30:00 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 18:30:00,383   INFO       server               Отправлен ответ - ('127.0.0.1', 33676){'response': 200, 'time': 'Fri Sep  2 18:30:00 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:30:01,348   INFO       server               Получен запрос на соединение от ('127.0.0.1', 33678)
+2022-09-02 18:30:02,349   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 18:30:01 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 18:30:02,349   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 18:30:02 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:30:02,349   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 18:30:01 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 18:30:02,350   INFO       server               Отправлен ответ - ('127.0.0.1', 33676){'response': 200, 'time': 'Fri Sep  2 18:30:02 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:30:02,350   INFO       server               Отправлен ответ - ('127.0.0.1', 33678){'response': 200, 'time': 'Fri Sep  2 18:30:02 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:30:02,358   INFO       server               Получен запрос на соединение от ('127.0.0.1', 33680)
+2022-09-02 18:30:02,358   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 18:30:02 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 18:30:02,358   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 18:30:02 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:30:02,358   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 18:30:02 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 18:30:02,359   INFO       server               Отправлен ответ - ('127.0.0.1', 33676){'response': 200, 'time': 'Fri Sep  2 18:30:02 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:30:02,359   INFO       server               Отправлен ответ - ('127.0.0.1', 33678){'response': 200, 'time': 'Fri Sep  2 18:30:02 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:30:02,359   INFO       server               Отправлен ответ - ('127.0.0.1', 33680){'response': 200, 'time': 'Fri Sep  2 18:30:02 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:30:35,155   INFO       server               Получен запрос на соединение от ('127.0.0.1', 33682)
+2022-09-02 18:30:35,155   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 18:30:35 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 18:30:35,156   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 18:30:35 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:30:35,159   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 18:30:35 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 18:30:35,159   INFO       server               Отправлен ответ - ('127.0.0.1', 33682){'response': 200, 'time': 'Fri Sep  2 18:30:35 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:30:36,155   INFO       server               Получен запрос на соединение от ('127.0.0.1', 33684)
+2022-09-02 18:30:36,155   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 18:30:36 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 18:30:36,155   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 18:30:36 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:30:36,155   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 18:30:36 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 18:30:36,155   INFO       server               Отправлен ответ - ('127.0.0.1', 33682){'response': 200, 'time': 'Fri Sep  2 18:30:36 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:30:36,155   INFO       server               Отправлен ответ - ('127.0.0.1', 33684){'response': 200, 'time': 'Fri Sep  2 18:30:36 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:30:37,166   INFO       server               Получен запрос на соединение от ('127.0.0.1', 33686)
+2022-09-02 18:30:38,167   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 18:30:37 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 18:30:38,167   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 18:30:38 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:30:38,167   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 18:30:37 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 18:30:38,168   INFO       server               Отправлен ответ - ('127.0.0.1', 33682){'response': 200, 'time': 'Fri Sep  2 18:30:38 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:30:38,168   INFO       server               Отправлен ответ - ('127.0.0.1', 33684){'response': 200, 'time': 'Fri Sep  2 18:30:38 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:30:38,168   INFO       server               Отправлен ответ - ('127.0.0.1', 33686){'response': 200, 'time': 'Fri Sep  2 18:30:38 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:35:45,383   INFO       server               Получен запрос на соединение от ('127.0.0.1', 33688)
+2022-09-02 18:35:45,383   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 18:35:45 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 18:35:45,383   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 18:35:45 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:35:45,386   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 18:35:45 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 18:35:45,386   INFO       server               Отправлен ответ - ('127.0.0.1', 33688){'response': 200, 'time': 'Fri Sep  2 18:35:45 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:36:00,402   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Fri Sep  2 18:36:00 2022', 'user': 'USERNAME', 'message': 'привет'}
+2022-09-02 18:36:00,403   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 18:36:00 2022', 'from_user': 'USERNAME', 'answer': 'привет'}
+2022-09-02 18:36:00,403   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'msg', 'time': 'Fri Sep  2 18:36:00 2022', 'user': 'USERNAME', 'message': 'привет'}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 18:36:00,404   INFO       server               Отправлен ответ - ('127.0.0.1', 33688){'response': 200, 'time': 'Fri Sep  2 18:36:00 2022', 'from_user': 'USERNAME', 'answer': 'привет'}
+2022-09-02 18:36:01,406   INFO       server               Клиент ('127.0.0.1', 33688) отключился
+2022-09-02 18:36:02,407   INFO       server               Клиент ('127.0.0.1', 33688) отключился
+2022-09-02 18:37:35,425   INFO       server               Получен запрос на соединение от ('127.0.0.1', 33690)
+2022-09-02 18:37:35,426   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 18:37:35 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 18:37:35,426   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 18:37:35 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:37:35,429   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 18:37:35 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 18:37:35,429   INFO       server               Отправлен ответ - ('127.0.0.1', 33690){'response': 200, 'time': 'Fri Sep  2 18:37:35 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:37:46,442   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Fri Sep  2 18:37:45 2022', 'user': 'USERNAME', 'message': 'hello'}
+2022-09-02 18:37:46,442   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 18:37:46 2022', 'from_user': 'USERNAME', 'answer': 'hello'}
+2022-09-02 18:37:46,443   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'msg', 'time': 'Fri Sep  2 18:37:45 2022', 'user': 'USERNAME', 'message': 'hello'}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 18:37:46,444   INFO       server               Отправлен ответ - ('127.0.0.1', 33690){'response': 200, 'time': 'Fri Sep  2 18:37:46 2022', 'from_user': 'USERNAME', 'answer': 'hello'}
+2022-09-02 18:37:50,449   INFO       server               Клиент ('127.0.0.1', 33690) отключился
+2022-09-02 18:37:51,451   INFO       server               Клиент ('127.0.0.1', 33690) отключился
+2022-09-02 18:38:47,771   INFO       server               Получен запрос на соединение от ('127.0.0.1', 33692)
+2022-09-02 18:38:47,772   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 18:38:47 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 18:38:47,772   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 18:38:47 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:38:47,775   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 18:38:47 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 18:38:47,775   INFO       server               Отправлен ответ - ('127.0.0.1', 33692){'response': 200, 'time': 'Fri Sep  2 18:38:47 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:38:58,788   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Fri Sep  2 18:38:57 2022', 'user': 'USERNAME', 'message': 'hello'}
+2022-09-02 18:38:58,788   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 18:38:58 2022', 'from_user': 'USERNAME', 'answer': 'hello'}
+2022-09-02 18:38:58,789   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'msg', 'time': 'Fri Sep  2 18:38:57 2022', 'user': 'USERNAME', 'message': 'hello'}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 18:38:58,789   INFO       server               Отправлен ответ - ('127.0.0.1', 33692){'response': 200, 'time': 'Fri Sep  2 18:38:58 2022', 'from_user': 'USERNAME', 'answer': 'hello'}
+2022-09-02 18:39:09,805   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Fri Sep  2 18:39:09 2022', 'user': 'USERNAME', 'message': 'jkkjgsdlfgsdfg'}
+2022-09-02 18:39:09,805   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 18:39:09 2022', 'from_user': 'USERNAME', 'answer': 'jkkjgsdlfgsdfg'}
+2022-09-02 18:39:09,806   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'msg', 'time': 'Fri Sep  2 18:39:09 2022', 'user': 'USERNAME', 'message': 'jkkjgsdlfgsdfg'}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 18:39:09,806   INFO       server               Отправлен ответ - ('127.0.0.1', 33692){'response': 200, 'time': 'Fri Sep  2 18:39:09 2022', 'from_user': 'USERNAME', 'answer': 'jkkjgsdlfgsdfg'}
+2022-09-02 18:39:18,817   INFO       server               Клиент ('127.0.0.1', 33692) отключился
+2022-09-02 18:39:19,818   INFO       server               Клиент ('127.0.0.1', 33692) отключился
+2022-09-02 18:40:16,451   INFO       server               Получен запрос на соединение от ('127.0.0.1', 33696)
+2022-09-02 18:40:16,452   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 18:40:16 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 18:40:16,452   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 18:40:16 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:40:16,455   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 18:40:16 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 18:40:16,455   INFO       server               Отправлен ответ - ('127.0.0.1', 33696){'response': 200, 'time': 'Fri Sep  2 18:40:16 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:40:20,460   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Fri Sep  2 18:40:19 2022', 'user': 'USERNAME', 'message': 'sdf'}
+2022-09-02 18:40:20,460   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 18:40:20 2022', 'from_user': 'USERNAME', 'answer': 'sdf'}
+2022-09-02 18:40:20,461   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'msg', 'time': 'Fri Sep  2 18:40:19 2022', 'user': 'USERNAME', 'message': 'sdf'}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 18:40:20,461   INFO       server               Отправлен ответ - ('127.0.0.1', 33696){'response': 200, 'time': 'Fri Sep  2 18:40:20 2022', 'from_user': 'USERNAME', 'answer': 'sdf'}
+2022-09-02 18:40:25,466   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Fri Sep  2 18:40:24 2022', 'user': 'USERNAME', 'message': 'fff'}
+2022-09-02 18:40:25,466   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 18:40:25 2022', 'from_user': 'USERNAME', 'answer': 'fff'}
+2022-09-02 18:40:25,467   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'msg', 'time': 'Fri Sep  2 18:40:24 2022', 'user': 'USERNAME', 'message': 'fff'}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 18:40:25,467   INFO       server               Отправлен ответ - ('127.0.0.1', 33696){'response': 200, 'time': 'Fri Sep  2 18:40:25 2022', 'from_user': 'USERNAME', 'answer': 'fff'}
+2022-09-02 18:40:28,471   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Fri Sep  2 18:40:28 2022', 'user': 'USERNAME', 'message': 'fdsf'}
+2022-09-02 18:40:28,472   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 18:40:28 2022', 'from_user': 'USERNAME', 'answer': 'fdsf'}
+2022-09-02 18:40:28,472   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'msg', 'time': 'Fri Sep  2 18:40:28 2022', 'user': 'USERNAME', 'message': 'fdsf'}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 18:40:28,473   INFO       server               Отправлен ответ - ('127.0.0.1', 33696){'response': 200, 'time': 'Fri Sep  2 18:40:28 2022', 'from_user': 'USERNAME', 'answer': 'fdsf'}
+2022-09-02 18:41:05,234   INFO       server               Получен запрос на соединение от ('127.0.0.1', 33698)
+2022-09-02 18:41:05,235   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 18:41:05 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 18:41:05,235   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 18:41:05 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:41:05,237   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 18:41:05 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 18:41:05,238   INFO       server               Отправлен ответ - ('127.0.0.1', 33698){'response': 200, 'time': 'Fri Sep  2 18:41:05 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:41:06,230   INFO       server               Получен запрос на соединение от ('127.0.0.1', 33700)
+2022-09-02 18:41:06,231   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 18:41:06 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 18:41:06,231   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 18:41:06 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:41:06,231   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 18:41:06 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 18:41:06,231   INFO       server               Отправлен ответ - ('127.0.0.1', 33698){'response': 200, 'time': 'Fri Sep  2 18:41:06 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:41:06,231   INFO       server               Отправлен ответ - ('127.0.0.1', 33700){'response': 200, 'time': 'Fri Sep  2 18:41:06 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:41:07,255   INFO       server               Получен запрос на соединение от ('127.0.0.1', 33702)
+2022-09-02 18:41:08,256   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 18:41:07 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 18:41:08,256   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 18:41:08 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:41:08,256   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 18:41:07 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 18:41:08,256   INFO       server               Отправлен ответ - ('127.0.0.1', 33698){'response': 200, 'time': 'Fri Sep  2 18:41:08 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:41:08,257   INFO       server               Отправлен ответ - ('127.0.0.1', 33700){'response': 200, 'time': 'Fri Sep  2 18:41:08 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:41:08,257   INFO       server               Отправлен ответ - ('127.0.0.1', 33702){'response': 200, 'time': 'Fri Sep  2 18:41:08 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:41:13,262   INFO       server               Клиент ('127.0.0.1', 33702) отключился
+2022-09-02 18:41:49,957   INFO       server               Получен запрос на соединение от ('127.0.0.1', 33704)
+2022-09-02 18:41:49,957   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 18:41:49 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 18:41:49,957   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 18:41:49 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:41:49,960   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 18:41:49 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 18:41:49,960   INFO       server               Отправлен ответ - ('127.0.0.1', 33704){'response': 200, 'time': 'Fri Sep  2 18:41:49 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:41:50,959   INFO       server               Получен запрос на соединение от ('127.0.0.1', 33706)
+2022-09-02 18:41:50,959   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 18:41:50 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 18:41:50,959   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 18:41:50 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:41:50,959   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 18:41:50 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 18:41:50,960   INFO       server               Отправлен ответ - ('127.0.0.1', 33704){'response': 200, 'time': 'Fri Sep  2 18:41:50 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:41:50,960   INFO       server               Отправлен ответ - ('127.0.0.1', 33706){'response': 200, 'time': 'Fri Sep  2 18:41:50 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:41:51,951   INFO       server               Получен запрос на соединение от ('127.0.0.1', 33708)
+2022-09-02 18:41:51,951   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 18:41:51 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 18:41:51,951   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 18:41:51 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:41:51,951   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 18:41:51 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 18:41:51,952   INFO       server               Отправлен ответ - ('127.0.0.1', 33704){'response': 200, 'time': 'Fri Sep  2 18:41:51 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:41:51,952   INFO       server               Отправлен ответ - ('127.0.0.1', 33706){'response': 200, 'time': 'Fri Sep  2 18:41:51 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:41:51,952   INFO       server               Отправлен ответ - ('127.0.0.1', 33708){'response': 200, 'time': 'Fri Sep  2 18:41:51 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:41:58,959   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Fri Sep  2 18:41:58 2022', 'user': 'USERNAME', 'message': 'sdf'}
+2022-09-02 18:41:58,959   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 18:41:58 2022', 'from_user': 'USERNAME', 'answer': 'sdf'}
+2022-09-02 18:41:58,959   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'msg', 'time': 'Fri Sep  2 18:41:58 2022', 'user': 'USERNAME', 'message': 'sdf'}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 18:41:58,959   INFO       server               Отправлен ответ - ('127.0.0.1', 33704){'response': 200, 'time': 'Fri Sep  2 18:41:58 2022', 'from_user': 'USERNAME', 'answer': 'sdf'}
+2022-09-02 18:41:58,959   INFO       server               Отправлен ответ - ('127.0.0.1', 33706){'response': 200, 'time': 'Fri Sep  2 18:41:58 2022', 'from_user': 'USERNAME', 'answer': 'sdf'}
+2022-09-02 18:41:58,960   INFO       server               Отправлен ответ - ('127.0.0.1', 33708){'response': 200, 'time': 'Fri Sep  2 18:41:58 2022', 'from_user': 'USERNAME', 'answer': 'sdf'}
+2022-09-02 18:42:26,833   INFO       server               Получен запрос на соединение от ('127.0.0.1', 33710)
+2022-09-02 18:42:26,834   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 18:42:26 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 18:42:26,834   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 18:42:26 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:42:26,837   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 18:42:26 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 18:42:26,837   INFO       server               Отправлен ответ - ('127.0.0.1', 33710){'response': 200, 'time': 'Fri Sep  2 18:42:26 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:42:27,839   INFO       server               Получен запрос на соединение от ('127.0.0.1', 33714)
+2022-09-02 18:42:28,840   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 18:42:27 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 18:42:28,841   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 18:42:28 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:42:28,841   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 18:42:27 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 18:42:28,841   INFO       server               Отправлен ответ - ('127.0.0.1', 33710){'response': 200, 'time': 'Fri Sep  2 18:42:28 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:42:28,841   INFO       server               Отправлен ответ - ('127.0.0.1', 33714){'response': 200, 'time': 'Fri Sep  2 18:42:28 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:42:28,841   INFO       server               Получен запрос на соединение от ('127.0.0.1', 33716)
+2022-09-02 18:42:28,841   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 18:42:28 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 18:42:28,841   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 18:42:28 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:42:28,841   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 18:42:28 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 18:42:28,841   INFO       server               Отправлен ответ - ('127.0.0.1', 33710){'response': 200, 'time': 'Fri Sep  2 18:42:28 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:42:28,842   INFO       server               Отправлен ответ - ('127.0.0.1', 33714){'response': 200, 'time': 'Fri Sep  2 18:42:28 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:42:28,842   INFO       server               Отправлен ответ - ('127.0.0.1', 33716){'response': 200, 'time': 'Fri Sep  2 18:42:28 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:42:45,865   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Fri Sep  2 18:42:45 2022', 'user': 'USERNAME', 'message': 'asd'}
+2022-09-02 18:42:45,866   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 18:42:45 2022', 'from_user': 'USERNAME', 'answer': 'asd'}
+2022-09-02 18:42:45,866   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'msg', 'time': 'Fri Sep  2 18:42:45 2022', 'user': 'USERNAME', 'message': 'asd'}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 18:42:45,867   INFO       server               Отправлен ответ - ('127.0.0.1', 33710){'response': 200, 'time': 'Fri Sep  2 18:42:45 2022', 'from_user': 'USERNAME', 'answer': 'asd'}
+2022-09-02 18:42:45,867   INFO       server               Отправлен ответ - ('127.0.0.1', 33714){'response': 200, 'time': 'Fri Sep  2 18:42:45 2022', 'from_user': 'USERNAME', 'answer': 'asd'}
+2022-09-02 18:42:45,867   INFO       server               Отправлен ответ - ('127.0.0.1', 33716){'response': 200, 'time': 'Fri Sep  2 18:42:45 2022', 'from_user': 'USERNAME', 'answer': 'asd'}
+2022-09-02 18:42:50,874   INFO       server               Клиент ('127.0.0.1', 33710) отключился
+2022-09-02 18:42:55,881   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Fri Sep  2 18:42:55 2022', 'user': 'USERNAME', 'message': 'sdf'}
+2022-09-02 18:42:55,881   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 18:42:55 2022', 'from_user': 'USERNAME', 'answer': 'sdf'}
+2022-09-02 18:42:55,882   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'msg', 'time': 'Fri Sep  2 18:42:55 2022', 'user': 'USERNAME', 'message': 'sdf'}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 18:42:55,882   INFO       server               Отправлен ответ - ('127.0.0.1', 33714){'response': 200, 'time': 'Fri Sep  2 18:42:55 2022', 'from_user': 'USERNAME', 'answer': 'sdf'}
+2022-09-02 18:42:55,883   INFO       server               Отправлен ответ - ('127.0.0.1', 33716){'response': 200, 'time': 'Fri Sep  2 18:42:55 2022', 'from_user': 'USERNAME', 'answer': 'sdf'}
+2022-09-02 18:43:21,998   INFO       server               Получен запрос на соединение от ('127.0.0.1', 33718)
+2022-09-02 18:43:21,999   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 18:43:21 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 18:43:21,999   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 18:43:21 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:43:22,002   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 18:43:21 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 18:43:22,002   INFO       server               Отправлен ответ - ('127.0.0.1', 33718){'response': 200, 'time': 'Fri Sep  2 18:43:21 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:43:22,996   INFO       server               Получен запрос на соединение от ('127.0.0.1', 33722)
+2022-09-02 18:43:22,996   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 18:43:22 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 18:43:22,996   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 18:43:22 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:43:22,996   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 18:43:22 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 18:43:22,996   INFO       server               Отправлен ответ - ('127.0.0.1', 33718){'response': 200, 'time': 'Fri Sep  2 18:43:22 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:43:22,996   INFO       server               Отправлен ответ - ('127.0.0.1', 33722){'response': 200, 'time': 'Fri Sep  2 18:43:22 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:43:23,994   INFO       server               Получен запрос на соединение от ('127.0.0.1', 33724)
+2022-09-02 18:43:24,995   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 18:43:23 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 18:43:24,995   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 18:43:24 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:43:24,995   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 18:43:23 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 18:43:24,995   INFO       server               Отправлен ответ - ('127.0.0.1', 33718){'response': 200, 'time': 'Fri Sep  2 18:43:24 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:43:24,995   INFO       server               Отправлен ответ - ('127.0.0.1', 33722){'response': 200, 'time': 'Fri Sep  2 18:43:24 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:43:24,995   INFO       server               Отправлен ответ - ('127.0.0.1', 33724){'response': 200, 'time': 'Fri Sep  2 18:43:24 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:43:49,014   INFO       server               Клиент ('127.0.0.1', 33724) отключился
+2022-09-02 18:43:54,019   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Fri Sep  2 18:43:53 2022', 'user': 'USERNAME', 'message': 'asdasd'}
+2022-09-02 18:43:54,019   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 18:43:54 2022', 'from_user': 'USERNAME', 'answer': 'asdasd'}
+2022-09-02 18:43:54,019   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'msg', 'time': 'Fri Sep  2 18:43:53 2022', 'user': 'USERNAME', 'message': 'asdasd'}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 18:43:54,019   INFO       server               Отправлен ответ - ('127.0.0.1', 33718){'response': 200, 'time': 'Fri Sep  2 18:43:54 2022', 'from_user': 'USERNAME', 'answer': 'asdasd'}
+2022-09-02 18:43:54,019   INFO       server               Отправлен ответ - ('127.0.0.1', 33722){'response': 200, 'time': 'Fri Sep  2 18:43:54 2022', 'from_user': 'USERNAME', 'answer': 'asdasd'}
+2022-09-02 18:45:31,581   INFO       server               Получен запрос на соединение от ('127.0.0.1', 33726)
+2022-09-02 18:45:31,582   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 18:45:31 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 18:45:31,582   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 18:45:31 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:45:31,585   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 18:45:31 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 18:45:31,585   INFO       server               Отправлен ответ - ('127.0.0.1', 33726){'response': 200, 'time': 'Fri Sep  2 18:45:31 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:45:36,590   INFO       server               Клиент ('127.0.0.1', 33726) отключился
+2022-09-02 18:45:37,591   INFO       server               Клиент ('127.0.0.1', 33726) отключился
+2022-09-02 18:45:49,614   INFO       server               Получен запрос на соединение от ('127.0.0.1', 33728)
+2022-09-02 18:45:49,614   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 18:45:49 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 18:45:49,615   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 18:45:49 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:45:49,618   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 18:45:49 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 18:45:49,618   INFO       server               Отправлен ответ - ('127.0.0.1', 33728){'response': 200, 'time': 'Fri Sep  2 18:45:49 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:45:50,619   INFO       server               Получен запрос на соединение от ('127.0.0.1', 33730)
+2022-09-02 18:45:51,619   INFO       server               Получен запрос на соединение от ('127.0.0.1', 33732)
+2022-09-02 18:45:51,619   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 18:45:50 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 18:45:51,619   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 18:45:51 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:45:51,620   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 18:45:50 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 18:45:51,620   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 18:45:51 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 18:45:51,620   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 18:45:51 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:45:51,620   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 18:45:51 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 18:45:51,620   INFO       server               Отправлен ответ - ('127.0.0.1', 33728){'response': 200, 'time': 'Fri Sep  2 18:45:51 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:45:51,620   INFO       server               Отправлен ответ - ('127.0.0.1', 33730){'response': 200, 'time': 'Fri Sep  2 18:45:51 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:45:51,620   INFO       server               Отправлен ответ - ('127.0.0.1', 33732){'response': 200, 'time': 'Fri Sep  2 18:45:51 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:45:52,621   INFO       server               Отправлен ответ - ('127.0.0.1', 33728){'response': 200, 'time': 'Fri Sep  2 18:45:51 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:45:52,621   INFO       server               Отправлен ответ - ('127.0.0.1', 33730){'response': 200, 'time': 'Fri Sep  2 18:45:51 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:45:52,622   INFO       server               Отправлен ответ - ('127.0.0.1', 33732){'response': 200, 'time': 'Fri Sep  2 18:45:51 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:48:45,798   INFO       server               Получен запрос на соединение от ('127.0.0.1', 33734)
+2022-09-02 18:48:45,799   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 18:48:45 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 18:48:45,799   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 18:48:45 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:48:45,802   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 18:48:45 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 18:48:45,802   INFO       server               Отправлен ответ - ('127.0.0.1', 33734){'response': 200, 'time': 'Fri Sep  2 18:48:45 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:48:46,809   INFO       server               Получен запрос на соединение от ('127.0.0.1', 33736)
+2022-09-02 18:48:47,811   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 18:48:46 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 18:48:47,811   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 18:48:47 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:48:47,811   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 18:48:46 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 18:48:47,812   INFO       server               Отправлен ответ - ('127.0.0.1', 33734){'response': 200, 'time': 'Fri Sep  2 18:48:47 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:48:47,812   INFO       server               Отправлен ответ - ('127.0.0.1', 33736){'response': 200, 'time': 'Fri Sep  2 18:48:47 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:48:55,819   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Fri Sep  2 18:48:55 2022', 'user': 'USERNAME', 'message': 'xcc'}
+2022-09-02 18:48:55,819   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 18:48:55 2022', 'from_user': 'USERNAME', 'answer': 'xcc'}
+2022-09-02 18:48:55,819   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'msg', 'time': 'Fri Sep  2 18:48:55 2022', 'user': 'USERNAME', 'message': 'xcc'}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 18:48:55,819   INFO       server               Отправлен ответ - ('127.0.0.1', 33734){'response': 200, 'time': 'Fri Sep  2 18:48:55 2022', 'from_user': 'USERNAME', 'answer': 'xcc'}
+2022-09-02 18:48:55,820   INFO       server               Отправлен ответ - ('127.0.0.1', 33736){'response': 200, 'time': 'Fri Sep  2 18:48:55 2022', 'from_user': 'USERNAME', 'answer': 'xcc'}
+2022-09-02 18:50:37,694   INFO       server               Получен запрос на соединение от ('127.0.0.1', 33738)
+2022-09-02 18:50:37,695   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 18:50:37 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 18:50:37,695   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 18:50:37 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:50:37,698   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 18:50:37 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 18:50:37,698   INFO       server               Отправлен ответ - ('127.0.0.1', 33738){'response': 200, 'time': 'Fri Sep  2 18:50:37 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:50:38,699   INFO       server               Получен запрос на соединение от ('127.0.0.1', 33740)
+2022-09-02 18:50:38,699   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 18:50:38 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 18:50:38,699   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 18:50:38 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:50:38,699   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 18:50:38 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 18:50:38,699   INFO       server               Отправлен ответ - ('127.0.0.1', 33738){'response': 200, 'time': 'Fri Sep  2 18:50:38 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:50:38,700   INFO       server               Отправлен ответ - ('127.0.0.1', 33740){'response': 200, 'time': 'Fri Sep  2 18:50:38 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:50:39,701   INFO       server               Клиент ('127.0.0.1', 33740) отключился
+2022-09-02 18:50:56,205   INFO       server               Получен запрос на соединение от ('127.0.0.1', 33742)
+2022-09-02 18:50:56,205   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 18:50:56 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 18:50:56,205   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 18:50:56 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:50:56,208   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 18:50:56 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 18:50:56,208   INFO       server               Отправлен ответ - ('127.0.0.1', 33742){'response': 200, 'time': 'Fri Sep  2 18:50:56 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:50:57,208   INFO       server               Получен запрос на соединение от ('127.0.0.1', 33744)
+2022-09-02 18:50:57,208   INFO       server               Клиент ('127.0.0.1', 33742) отключился
+2022-09-02 18:50:57,209   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 18:50:57 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 18:50:57,209   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 18:50:57 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:50:57,209   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 18:50:57 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 18:56:05,964   INFO       server               Получен запрос на соединение от ('127.0.0.1', 33746)
+2022-09-02 18:56:05,965   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 18:56:05 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 18:56:05,965   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 18:56:05 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:56:05,968   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 18:56:05 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 18:56:05,968   INFO       server               Отправлен ответ - ('127.0.0.1', 33746){'response': 200, 'time': 'Fri Sep  2 18:56:05 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:56:06,967   INFO       server               Получен запрос на соединение от ('127.0.0.1', 33748)
+2022-09-02 18:56:06,968   INFO       server               Клиент ('127.0.0.1', 33746) отключился
+2022-09-02 18:56:06,968   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 18:56:06 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 18:56:06,968   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 18:56:06 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:56:06,968   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 18:56:06 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 18:59:17,939   INFO       server               Получен запрос на соединение от ('127.0.0.1', 33750)
+2022-09-02 18:59:17,940   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 18:59:17 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 18:59:17,940   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 18:59:17 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:59:17,942   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 18:59:17 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 18:59:17,942   INFO       server               Отправлен ответ - ('127.0.0.1', 33750){'response': 200, 'time': 'Fri Sep  2 18:59:17 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 18:59:18,944   INFO       server               Клиент ('127.0.0.1', 33750) отключился
+2022-09-02 18:59:19,945   INFO       server               Клиент ('127.0.0.1', 33750) отключился
+2022-09-02 19:00:07,413   INFO       server               Получен запрос на соединение от ('127.0.0.1', 33752)
+2022-09-02 19:00:07,413   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 19:00:07 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 19:00:07,413   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 19:00:07 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 19:00:07,416   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 19:00:07 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 19:00:07,416   INFO       server               Отправлен ответ - ('127.0.0.1', 33752){'response': 200, 'time': 'Fri Sep  2 19:00:07 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 19:00:08,418   INFO       server               Клиент ('127.0.0.1', 33752) отключился
+2022-09-02 19:00:09,419   INFO       server               Клиент ('127.0.0.1', 33752) отключился
+2022-09-02 19:01:21,343   INFO       server               Получен запрос на соединение от ('127.0.0.1', 33754)
+2022-09-02 19:01:21,343   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 19:01:21 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 19:01:21,344   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 19:01:21 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 19:01:21,346   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 19:01:21 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 19:01:21,346   INFO       server               Отправлен ответ - ('127.0.0.1', 33754){'response': 200, 'time': 'Fri Sep  2 19:01:21 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 19:01:26,352   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Fri Sep  2 19:01:25 2022', 'user': 'USERNAME', 'message': 'sdf'}
+2022-09-02 19:01:26,352   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 19:01:26 2022', 'from_user': 'USERNAME', 'answer': 'sdf'}
+2022-09-02 19:01:26,353   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'msg', 'time': 'Fri Sep  2 19:01:25 2022', 'user': 'USERNAME', 'message': 'sdf'}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 19:01:26,353   INFO       server               Отправлен ответ - ('127.0.0.1', 33754){'response': 200, 'time': 'Fri Sep  2 19:01:26 2022', 'from_user': 'USERNAME', 'answer': 'sdf'}
+2022-09-02 19:02:03,421   INFO       server               Получен запрос на соединение от ('127.0.0.1', 33756)
+2022-09-02 19:02:03,422   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 19:02:03 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 19:02:03,422   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 19:02:03 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 19:02:03,425   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 19:02:03 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 19:02:03,425   INFO       server               Отправлен ответ - ('127.0.0.1', 33756){'response': 200, 'time': 'Fri Sep  2 19:02:03 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 19:02:04,422   INFO       server               Получен запрос на соединение от ('127.0.0.1', 33758)
+2022-09-02 19:02:04,423   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 19:02:04 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 19:02:04,423   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 19:02:04 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 19:02:04,423   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 19:02:04 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 19:02:04,423   INFO       server               Отправлен ответ - ('127.0.0.1', 33756){'response': 200, 'time': 'Fri Sep  2 19:02:04 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 19:02:04,423   INFO       server               Отправлен ответ - ('127.0.0.1', 33758){'response': 200, 'time': 'Fri Sep  2 19:02:04 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 19:02:12,434   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Fri Sep  2 19:02:12 2022', 'user': 'USERNAME', 'message': 'hello'}
+2022-09-02 19:02:12,435   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 19:02:12 2022', 'from_user': 'USERNAME', 'answer': 'hello'}
+2022-09-02 19:02:12,435   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'msg', 'time': 'Fri Sep  2 19:02:12 2022', 'user': 'USERNAME', 'message': 'hello'}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 19:02:12,436   INFO       server               Отправлен ответ - ('127.0.0.1', 33756){'response': 200, 'time': 'Fri Sep  2 19:02:12 2022', 'from_user': 'USERNAME', 'answer': 'hello'}
+2022-09-02 19:02:12,436   INFO       server               Отправлен ответ - ('127.0.0.1', 33758){'response': 200, 'time': 'Fri Sep  2 19:02:12 2022', 'from_user': 'USERNAME', 'answer': 'hello'}
+2022-09-02 19:13:19,426   INFO       server               Получен запрос на соединение от ('127.0.0.1', 33760)
+2022-09-02 19:13:19,426   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 19:13:19 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 19:13:19,426   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 19:13:19 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 19:13:19,429   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 19:13:19 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 19:13:19,429   INFO       server               Отправлен ответ - ('127.0.0.1', 33760){'response': 200, 'time': 'Fri Sep  2 19:13:19 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 19:13:20,436   INFO       server               Получен запрос на соединение от ('127.0.0.1', 33762)
+2022-09-02 19:13:21,437   INFO       server               Получен запрос на соединение от ('127.0.0.1', 33764)
+2022-09-02 19:13:21,437   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 19:13:20 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 19:13:21,438   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 19:13:21 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 19:13:21,438   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 19:13:20 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 19:13:21,438   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 19:13:21 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 19:13:21,438   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 19:13:21 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 19:13:21,438   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 19:13:21 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 19:13:21,438   INFO       server               Отправлен ответ - ('127.0.0.1', 33760){'response': 200, 'time': 'Fri Sep  2 19:13:21 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 19:13:21,438   INFO       server               Отправлен ответ - ('127.0.0.1', 33762){'response': 200, 'time': 'Fri Sep  2 19:13:21 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 19:13:21,438   INFO       server               Отправлен ответ - ('127.0.0.1', 33764){'response': 200, 'time': 'Fri Sep  2 19:13:21 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 19:13:22,439   INFO       server               Отправлен ответ - ('127.0.0.1', 33760){'response': 200, 'time': 'Fri Sep  2 19:13:21 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 19:13:22,439   INFO       server               Отправлен ответ - ('127.0.0.1', 33762){'response': 200, 'time': 'Fri Sep  2 19:13:21 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 19:13:22,440   INFO       server               Отправлен ответ - ('127.0.0.1', 33764){'response': 200, 'time': 'Fri Sep  2 19:13:21 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 19:13:39,461   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Fri Sep  2 19:13:38 2022', 'user': 'USERNAME', 'message': 'Привет'}
+2022-09-02 19:13:39,462   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 19:13:39 2022', 'from_user': 'USERNAME', 'answer': 'Привет'}
+2022-09-02 19:13:39,462   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'msg', 'time': 'Fri Sep  2 19:13:38 2022', 'user': 'USERNAME', 'message': 'Привет'}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 19:13:39,463   INFO       server               Отправлен ответ - ('127.0.0.1', 33760){'response': 200, 'time': 'Fri Sep  2 19:13:39 2022', 'from_user': 'USERNAME', 'answer': 'Привет'}
+2022-09-02 19:13:39,463   INFO       server               Отправлен ответ - ('127.0.0.1', 33762){'response': 200, 'time': 'Fri Sep  2 19:13:39 2022', 'from_user': 'USERNAME', 'answer': 'Привет'}
+2022-09-02 19:13:39,463   INFO       server               Отправлен ответ - ('127.0.0.1', 33764){'response': 200, 'time': 'Fri Sep  2 19:13:39 2022', 'from_user': 'USERNAME', 'answer': 'Привет'}
+2022-09-02 19:29:06,149   INFO       server               Получен запрос на соединение от ('127.0.0.1', 33766)
+2022-09-02 19:29:06,149   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 19:29:06 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 19:29:06,149   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 19:29:06 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 19:29:06,152   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 19:29:06 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 19:29:06,152   INFO       server               Отправлен ответ - ('127.0.0.1', 33766){'response': 200, 'time': 'Fri Sep  2 19:29:06 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 19:29:07,158   INFO       server               Получен запрос на соединение от ('127.0.0.1', 33770)
+2022-09-02 19:29:07,158   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 19:29:07 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 19:29:07,158   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 19:29:07 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 19:29:07,158   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 19:29:07 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 19:29:07,158   INFO       server               Отправлен ответ - ('127.0.0.1', 33766){'response': 200, 'time': 'Fri Sep  2 19:29:07 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 19:29:07,159   INFO       server               Отправлен ответ - ('127.0.0.1', 33770){'response': 200, 'time': 'Fri Sep  2 19:29:07 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 19:29:08,158   INFO       server               Получен запрос на соединение от ('127.0.0.1', 33772)
+2022-09-02 19:29:08,158   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Fri Sep  2 19:29:08 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}
+2022-09-02 19:29:08,158   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 19:29:08 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 19:29:08,158   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'presence', 'time': 'Fri Sep  2 19:29:08 2022', 'user': {'account_name': 'USERNAME', 'status': 'Yep, I am here!'}}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 19:29:08,159   INFO       server               Отправлен ответ - ('127.0.0.1', 33766){'response': 200, 'time': 'Fri Sep  2 19:29:08 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 19:29:08,159   INFO       server               Отправлен ответ - ('127.0.0.1', 33770){'response': 200, 'time': 'Fri Sep  2 19:29:08 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 19:29:08,159   INFO       server               Отправлен ответ - ('127.0.0.1', 33772){'response': 200, 'time': 'Fri Sep  2 19:29:08 2022', 'alert': 'Подтверждение присутствия получено'}
+2022-09-02 19:29:20,174   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Fri Sep  2 19:29:19 2022', 'user': 'USERNAME', 'message': 'sdf'}
+2022-09-02 19:29:20,175   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Fri Sep  2 19:29:20 2022', 'from_user': 'USERNAME', 'answer': 'sdf'}
+2022-09-02 19:29:20,175   DEBUG      server               Была вызвана функция response_message с параметрами  (), {'client_message': {'action': 'msg', 'time': 'Fri Sep  2 19:29:19 2022', 'user': 'USERNAME', 'message': 'sdf'}}
+                                                          Вызов из модуля __main__
+                                                          Вызов из функции main
+2022-09-02 19:29:20,176   INFO       server               Отправлен ответ - ('127.0.0.1', 33766){'response': 200, 'time': 'Fri Sep  2 19:29:20 2022', 'from_user': 'USERNAME', 'answer': 'sdf'}
+2022-09-02 19:29:20,176   INFO       server               Отправлен ответ - ('127.0.0.1', 33770){'response': 200, 'time': 'Fri Sep  2 19:29:20 2022', 'from_user': 'USERNAME', 'answer': 'sdf'}
+2022-09-02 19:29:20,176   INFO       server               Отправлен ответ - ('127.0.0.1', 33772){'response': 200, 'time': 'Fri Sep  2 19:29:20 2022', 'from_user': 'USERNAME', 'answer': 'sdf'}
