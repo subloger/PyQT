@@ -14,7 +14,7 @@ FORMAT = logging.Formatter("%(asctime)-25s %(levelname)-10s %(module)-20s %(mess
 # формирование пути
 PATH = os.getcwd()
 tail = os.path.split(PATH)[1]
-if tail == "lesson_3":
+if tail == "lesson_4":
     os.chdir("logs/log_files")
     PATH = os.getcwd() + "/server.log"
 elif tail == "configs":
