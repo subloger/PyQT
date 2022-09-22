@@ -1,0 +1,746 @@
+2022-09-18 13:19:06,741   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140138727024192)>
+2022-09-18 13:19:07,441   INFO       server               Получен запрос на соединение от ('127.0.0.1', 47758)
+2022-09-18 13:19:07,441   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Sun Sep 18 13:19:07 2022', 'account_name': 'user-1'}
+2022-09-18 13:19:07,441   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Sun Sep 18 13:19:07 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 13:19:07,456   INFO       server               Отправлен ответ - ('127.0.0.1', 47758) - {'response': 200, 'time': 'Sun Sep 18 13:19:07 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 13:19:08,444   INFO       server               Получен запрос на соединение от ('127.0.0.1', 47762)
+2022-09-18 13:19:08,945   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Sun Sep 18 13:19:08 2022', 'account_name': 'user-2'}
+2022-09-18 13:19:08,945   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Sun Sep 18 13:19:08 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 13:19:08,958   INFO       server               Отправлен ответ - ('127.0.0.1', 47762) - {'response': 200, 'time': 'Sun Sep 18 13:19:08 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 13:19:28,481   INFO       server               Получено сообщение от клиента - {'contacts': {'action': 'get_contacts', 'time': 'Sun Sep 18 13:19:28 2022', 'user_login': 'login'}}
+2022-09-18 13:25:17,912   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 139898961733184)>
+2022-09-18 13:25:18,623   INFO       server               Получен запрос на соединение от ('127.0.0.1', 55602)
+2022-09-18 13:25:18,623   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Sun Sep 18 13:25:18 2022', 'account_name': 'user-1'}
+2022-09-18 13:25:18,623   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Sun Sep 18 13:25:18 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 13:25:18,639   INFO       server               Отправлен ответ - ('127.0.0.1', 55602) - {'response': 200, 'time': 'Sun Sep 18 13:25:18 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 13:25:19,626   INFO       server               Получен запрос на соединение от ('127.0.0.1', 55616)
+2022-09-18 13:25:19,626   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Sun Sep 18 13:25:19 2022', 'account_name': 'user-2'}
+2022-09-18 13:25:19,626   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Sun Sep 18 13:25:19 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 13:25:19,634   INFO       server               Отправлен ответ - ('127.0.0.1', 55616) - {'response': 200, 'time': 'Sun Sep 18 13:25:19 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 13:25:31,649   INFO       server               Получено сообщение от клиента - {'action': 'contacts', 'contacts': {'action': 'get_contacts', 'time': 'Sun Sep 18 13:25:31 2022', 'user_login': 'login'}}
+2022-09-18 13:28:29,164   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140038324823616)>
+2022-09-18 13:28:38,809   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 139659910522432)>
+2022-09-18 13:28:39,518   INFO       server               Получен запрос на соединение от ('127.0.0.1', 36366)
+2022-09-18 13:28:39,518   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Sun Sep 18 13:28:39 2022', 'account_name': 'user-1'}
+2022-09-18 13:28:39,518   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Sun Sep 18 13:28:39 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 13:28:39,533   INFO       server               Отправлен ответ - ('127.0.0.1', 36366) - {'response': 200, 'time': 'Sun Sep 18 13:28:39 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 13:28:40,520   INFO       server               Получен запрос на соединение от ('127.0.0.1', 36378)
+2022-09-18 13:28:40,521   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Sun Sep 18 13:28:40 2022', 'account_name': 'user-2'}
+2022-09-18 13:28:40,521   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Sun Sep 18 13:28:40 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 13:28:40,533   INFO       server               Отправлен ответ - ('127.0.0.1', 36378) - {'response': 200, 'time': 'Sun Sep 18 13:28:40 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 13:28:53,048   INFO       server               Получено сообщение от клиента - {'action': 'contacts', 'contacts': {'action': 'get_contacts', 'time': 'Sun Sep 18 13:28:53 2022', 'user_login': 'login'}}
+2022-09-18 13:28:53,049   INFO       server               Запрошен список контактов - [‘nick_1’, ‘nick_2’,...]
+2022-09-18 13:46:05,824   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140444696258112)>
+2022-09-18 13:46:06,532   INFO       server               Получен запрос на соединение от ('127.0.0.1', 43770)
+2022-09-18 13:46:07,032   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Sun Sep 18 13:46:06 2022', 'account_name': 'user-1'}
+2022-09-18 13:46:07,033   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Sun Sep 18 13:46:07 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 13:46:07,058   INFO       server               Отправлен ответ - ('127.0.0.1', 43770) - {'response': 200, 'time': 'Sun Sep 18 13:46:07 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 13:46:07,539   INFO       server               Получен запрос на соединение от ('127.0.0.1', 43778)
+2022-09-18 13:46:07,539   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Sun Sep 18 13:46:07 2022', 'account_name': 'user-2'}
+2022-09-18 13:46:07,539   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Sun Sep 18 13:46:07 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 13:46:07,548   INFO       server               Отправлен ответ - ('127.0.0.1', 43778) - {'response': 200, 'time': 'Sun Sep 18 13:46:07 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 13:46:17,560   INFO       server               Получено сообщение от клиента - {'action': 'contacts', 'contacts': {'action': 'get_contacts', 'time': 'Sun Sep 18 13:46:17 2022', 'sender_user': 'user-1'}}
+2022-09-18 13:46:17,561   INFO       server               Запрошен список контактов - [‘nick_1’, ‘nick_2’,...]
+2022-09-18 13:46:17,561   INFO       server               Отправлен ответ - ('127.0.0.1', 43770) - {'response': '202', 'to_user': 'user-1', 'contacts': '[‘nick_1’, ‘nick_2’,...]'}
+2022-09-18 13:46:40,591   INFO       server               Получено сообщение от клиента - {'action': 'contacts', 'contacts': {'action': 'add_contact', 'target_user': 'user-2', 'time': 'Sun Sep 18 13:46:40 2022', 'sender_user': 'user-1'}}
+2022-09-18 13:46:40,592   INFO       server               Отправлен ответ - ('127.0.0.1', 43770) - {'response': 202, 'to_user': 'user-1', 'contacts': 'Пользователь добавлен в список контактов'}
+2022-09-18 13:46:57,113   INFO       server               Получено сообщение от клиента - {'action': 'contacts', 'contacts': {'action': 'del_contact', 'target_user': 'user-2', 'time': 'Sun Sep 18 13:46:57 2022', 'sender_user': 'user-1'}}
+2022-09-18 13:46:57,113   INFO       server               Отправлен ответ - ('127.0.0.1', 43770) - {'response': 202, 'to_user': 'user-1', 'contacts': 'Пользователь удален из списка контактов'}
+2022-09-18 15:48:30,364   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140647801235008)>
+2022-09-18 15:48:31,044   INFO       server               Получен запрос на соединение от ('127.0.0.1', 34402)
+2022-09-18 15:48:31,044   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Sun Sep 18 15:48:31 2022', 'account_name': 'user-1'}
+2022-09-18 15:48:31,044   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Sun Sep 18 15:48:31 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 15:48:31,059   INFO       server               Отправлен ответ - ('127.0.0.1', 34402) - {'response': 200, 'time': 'Sun Sep 18 15:48:31 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 15:48:32,046   INFO       server               Получен запрос на соединение от ('127.0.0.1', 34408)
+2022-09-18 15:48:32,046   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Sun Sep 18 15:48:32 2022', 'account_name': 'user-2'}
+2022-09-18 15:48:32,046   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Sun Sep 18 15:48:32 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 15:48:32,054   INFO       server               Отправлен ответ - ('127.0.0.1', 34408) - {'response': 200, 'time': 'Sun Sep 18 15:48:32 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 15:49:06,098   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Sun Sep 18 15:49:05 2022', 'target_user': 'user-1', 'sender_user': 'user-2', 'message': 'hello'}
+2022-09-18 15:49:06,098   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Sun Sep 18 15:49:06 2022', 'from_user': 'user-2', 'to_user': 'user-1', 'answer': 'hello'}
+2022-09-18 15:49:06,099   INFO       server               Отправлен ответ - ('127.0.0.1', 34402) - {'response': 200, 'time': 'Sun Sep 18 15:49:06 2022', 'from_user': 'user-2', 'to_user': 'user-1', 'answer': 'hello'}
+2022-09-18 18:08:19,984   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140384082273856)>
+2022-09-18 18:08:20,840   INFO       server               Получен запрос на соединение от ('127.0.0.1', 60548)
+2022-09-18 18:09:40,669   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140145462027840)>
+2022-09-18 18:09:49,522   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 139730458715712)>
+2022-09-18 18:09:58,773   INFO       server               Получен запрос на соединение от ('127.0.0.1', 48050)
+2022-09-18 18:09:58,773   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Sun Sep 18 18:09:58 2022', 'account_name': 'user'}
+2022-09-18 18:09:58,774   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Sun Sep 18 18:09:58 2022', 'to_user': 'user', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 18:09:58,791   INFO       server               Отправлен ответ - ('127.0.0.1', 48050) - {'response': 200, 'time': 'Sun Sep 18 18:09:58 2022', 'to_user': 'user', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 18:09:59,292   INFO       server               Получено сообщение от клиента - {'action': 'contacts', 'contacts': {'action': 'all_users', 'time': 'Sun Sep 18 18:09:58 2022', 'sender_user': 'user'}}
+2022-09-18 18:15:00,658   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140136642455104)>
+2022-09-18 18:15:09,374   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140290496865856)>
+2022-09-18 18:15:10,232   INFO       server               Получен запрос на соединение от ('127.0.0.1', 34412)
+2022-09-18 18:15:10,232   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Sun Sep 18 18:15:10 2022', 'account_name': 'user-1'}
+2022-09-18 18:15:10,232   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Sun Sep 18 18:15:10 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 18:15:10,247   INFO       server               Отправлен ответ - ('127.0.0.1', 34412) - {'response': 200, 'time': 'Sun Sep 18 18:15:10 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 18:15:10,748   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Sun Sep 18 18:15:10 2022', 'sender_user': 'user-1'}
+2022-09-18 18:15:26,056   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140293750597184)>
+2022-09-18 18:15:33,561   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140348168545856)>
+2022-09-18 18:15:40,161   INFO       server               Получен запрос на соединение от ('127.0.0.1', 60792)
+2022-09-18 18:15:40,162   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Sun Sep 18 18:15:40 2022', 'account_name': 'user'}
+2022-09-18 18:15:40,162   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Sun Sep 18 18:15:40 2022', 'to_user': 'user', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 18:15:40,177   INFO       server               Отправлен ответ - ('127.0.0.1', 60792) - {'response': 200, 'time': 'Sun Sep 18 18:15:40 2022', 'to_user': 'user', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 18:15:40,678   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Sun Sep 18 18:15:40 2022', 'sender_user': 'user'}
+2022-09-18 18:20:31,218   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 139921967490624)>
+2022-09-18 18:20:39,937   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140579649037888)>
+2022-09-18 18:20:48,237   INFO       server               Получен запрос на соединение от ('127.0.0.1', 49496)
+2022-09-18 18:20:48,238   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Sun Sep 18 18:20:48 2022', 'account_name': 'user'}
+2022-09-18 18:20:48,238   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Sun Sep 18 18:20:48 2022', 'to_user': 'user', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 18:20:48,256   INFO       server               Отправлен ответ - ('127.0.0.1', 49496) - {'response': 200, 'time': 'Sun Sep 18 18:20:48 2022', 'to_user': 'user', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 18:20:48,756   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Sun Sep 18 18:20:48 2022', 'sender_user': 'user'}
+2022-09-18 18:23:50,252   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140290555586112)>
+2022-09-18 18:23:58,131   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140126369556032)>
+2022-09-18 18:24:09,391   INFO       server               Получен запрос на соединение от ('127.0.0.1', 41306)
+2022-09-18 18:24:09,391   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Sun Sep 18 18:24:09 2022', 'account_name': 'user'}
+2022-09-18 18:24:09,391   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Sun Sep 18 18:24:09 2022', 'to_user': 'user', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 18:24:09,406   INFO       server               Отправлен ответ - ('127.0.0.1', 41306) - {'response': 200, 'time': 'Sun Sep 18 18:24:09 2022', 'to_user': 'user', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 18:24:09,907   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Sun Sep 18 18:24:09 2022', 'sender_user': 'user'}
+2022-09-18 18:24:59,522   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 139894197003840)>
+2022-09-18 18:25:04,996   INFO       server               Получен запрос на соединение от ('127.0.0.1', 33962)
+2022-09-18 18:25:04,997   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Sun Sep 18 18:25:04 2022', 'account_name': 'user'}
+2022-09-18 18:25:04,997   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Sun Sep 18 18:25:04 2022', 'to_user': 'user', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 18:25:05,011   INFO       server               Отправлен ответ - ('127.0.0.1', 33962) - {'response': 200, 'time': 'Sun Sep 18 18:25:04 2022', 'to_user': 'user', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 18:25:05,512   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Sun Sep 18 18:25:05 2022', 'sender_user': 'user'}
+2022-09-18 18:38:33,324   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140132435568192)>
+2022-09-18 18:38:40,728   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 139975602153024)>
+2022-09-18 18:38:56,215   INFO       server               Получен запрос на соединение от ('127.0.0.1', 40966)
+2022-09-18 19:56:49,596   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 139953912358464)>
+2022-09-18 19:56:55,857   INFO       server               Получен запрос на соединение от ('127.0.0.1', 33626)
+2022-09-18 19:56:55,858   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Sun Sep 18 19:56:55 2022', 'account_name': 'user'}
+2022-09-18 19:56:55,858   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Sun Sep 18 19:56:55 2022', 'to_user': 'user', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 19:56:55,874   INFO       server               Отправлен ответ - ('127.0.0.1', 33626) - {'response': 200, 'time': 'Sun Sep 18 19:56:55 2022', 'to_user': 'user', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 19:56:56,375   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Sun Sep 18 19:56:55 2022', 'sender_user': 'user'}
+2022-09-18 20:02:47,137   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140557135062592)>
+2022-09-18 20:02:56,437   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 139798635030080)>
+2022-09-18 20:03:02,590   INFO       server               Получен запрос на соединение от ('127.0.0.1', 55288)
+2022-09-18 20:03:02,590   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Sun Sep 18 20:03:02 2022', 'account_name': 'user'}
+2022-09-18 20:03:02,590   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Sun Sep 18 20:03:02 2022', 'to_user': 'user', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 20:03:02,604   INFO       server               Отправлен ответ - ('127.0.0.1', 55288) - {'response': 200, 'time': 'Sun Sep 18 20:03:02 2022', 'to_user': 'user', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 20:03:03,105   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Sun Sep 18 20:03:02 2022', 'sender_user': 'user'}
+2022-09-18 20:04:44,598   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 139877329610304)>
+2022-09-18 20:04:52,493   INFO       server               Получен запрос на соединение от ('127.0.0.1', 40150)
+2022-09-18 20:04:52,494   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Sun Sep 18 20:04:52 2022', 'account_name': 'user'}
+2022-09-18 20:04:52,494   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Sun Sep 18 20:04:52 2022', 'to_user': 'user', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 20:04:52,510   INFO       server               Отправлен ответ - ('127.0.0.1', 40150) - {'response': 200, 'time': 'Sun Sep 18 20:04:52 2022', 'to_user': 'user', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 20:04:53,011   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Sun Sep 18 20:04:52 2022', 'sender_user': 'user'}
+2022-09-18 20:07:11,456   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 139806816020032)>
+2022-09-18 20:07:16,766   INFO       server               Получен запрос на соединение от ('127.0.0.1', 43132)
+2022-09-18 20:08:16,517   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140648402069056)>
+2022-09-18 20:08:23,746   INFO       server               Получен запрос на соединение от ('127.0.0.1', 37620)
+2022-09-18 20:08:23,746   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Sun Sep 18 20:08:23 2022', 'account_name': 'user'}
+2022-09-18 20:08:23,746   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Sun Sep 18 20:08:23 2022', 'to_user': 'user', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 20:08:23,761   INFO       server               Отправлен ответ - ('127.0.0.1', 37620) - {'response': 200, 'time': 'Sun Sep 18 20:08:23 2022', 'to_user': 'user', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 20:08:24,262   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Sun Sep 18 20:08:23 2022', 'sender_user': 'user'}
+2022-09-18 20:10:58,003   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140369347683904)>
+2022-09-18 20:11:05,675   INFO       server               Получен запрос на соединение от ('127.0.0.1', 39898)
+2022-09-18 20:11:05,675   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Sun Sep 18 20:11:05 2022', 'account_name': 'user'}
+2022-09-18 20:11:05,675   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Sun Sep 18 20:11:05 2022', 'to_user': 'user', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 20:11:05,690   INFO       server               Отправлен ответ - ('127.0.0.1', 39898) - {'response': 200, 'time': 'Sun Sep 18 20:11:05 2022', 'to_user': 'user', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 20:11:06,191   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Sun Sep 18 20:11:05 2022', 'sender_user': 'user'}
+2022-09-18 20:11:06,195   INFO       server               Отправлен ответ - ('127.0.0.1', 39898) - {'response': 202, 'to_user': 'user', 'load_clients': ['user-1', 'user-2', 'user']}
+2022-09-18 20:12:57,461   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140251672290880)>
+2022-09-18 20:13:05,939   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140593540572736)>
+2022-09-18 20:13:12,173   INFO       server               Получен запрос на соединение от ('127.0.0.1', 33484)
+2022-09-18 20:13:12,173   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Sun Sep 18 20:13:12 2022', 'account_name': 'user'}
+2022-09-18 20:13:12,173   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Sun Sep 18 20:13:12 2022', 'to_user': 'user', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 20:13:12,193   INFO       server               Отправлен ответ - ('127.0.0.1', 33484) - {'response': 200, 'time': 'Sun Sep 18 20:13:12 2022', 'to_user': 'user', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 20:13:12,694   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Sun Sep 18 20:13:12 2022', 'sender_user': 'user'}
+2022-09-18 20:13:12,698   INFO       server               Отправлен ответ - ('127.0.0.1', 33484) - {'response': 202, 'to_user': 'user', 'load_clients': ['user-1', 'user-2', 'user']}
+2022-09-18 20:13:59,358   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140166219638336)>
+2022-09-18 20:14:05,795   INFO       server               Получен запрос на соединение от ('127.0.0.1', 48718)
+2022-09-18 20:14:05,795   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Sun Sep 18 20:14:05 2022', 'account_name': 'user'}
+2022-09-18 20:14:05,795   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Sun Sep 18 20:14:05 2022', 'to_user': 'user', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 20:14:05,810   INFO       server               Отправлен ответ - ('127.0.0.1', 48718) - {'response': 200, 'time': 'Sun Sep 18 20:14:05 2022', 'to_user': 'user', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 20:14:06,311   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Sun Sep 18 20:14:05 2022', 'sender_user': 'user'}
+2022-09-18 20:16:53,021   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 139631984846400)>
+2022-09-18 20:16:53,888   INFO       server               Получен запрос на соединение от ('127.0.0.1', 45790)
+2022-09-18 20:16:53,888   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Sun Sep 18 20:16:53 2022', 'account_name': 'user-1'}
+2022-09-18 20:16:53,888   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Sun Sep 18 20:16:53 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 20:16:53,904   INFO       server               Отправлен ответ - ('127.0.0.1', 45790) - {'response': 200, 'time': 'Sun Sep 18 20:16:53 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 20:16:54,405   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Sun Sep 18 20:16:53 2022', 'sender_user': 'user-1'}
+2022-09-18 20:16:54,416   INFO       server               Отправлен ответ - ('127.0.0.1', 45790) - {'response': 202, 'to_user': 'user-1', 'load_clients': [['user-1', 'user-2', 'user'], []]}
+2022-09-18 20:16:54,879   INFO       server               Получен запрос на соединение от ('127.0.0.1', 45806)
+2022-09-18 20:16:54,879   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Sun Sep 18 20:16:54 2022', 'account_name': 'user-2'}
+2022-09-18 20:16:54,879   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Sun Sep 18 20:16:54 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 20:16:54,887   INFO       server               Отправлен ответ - ('127.0.0.1', 45806) - {'response': 200, 'time': 'Sun Sep 18 20:16:54 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 20:16:55,388   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Sun Sep 18 20:16:54 2022', 'sender_user': 'user-2'}
+2022-09-18 20:16:55,395   INFO       server               Отправлен ответ - ('127.0.0.1', 45806) - {'response': 202, 'to_user': 'user-2', 'load_clients': [['user-1', 'user-2', 'user'], []]}
+2022-09-18 20:18:12,827   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140081405568576)>
+2022-09-18 20:18:25,662   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140523744208448)>
+2022-09-18 20:18:26,506   INFO       server               Получен запрос на соединение от ('127.0.0.1', 57212)
+2022-09-18 20:18:26,506   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Sun Sep 18 20:18:26 2022', 'account_name': 'user-1'}
+2022-09-18 20:18:26,506   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Sun Sep 18 20:18:26 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 20:18:26,521   INFO       server               Отправлен ответ - ('127.0.0.1', 57212) - {'response': 200, 'time': 'Sun Sep 18 20:18:26 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 20:18:27,022   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Sun Sep 18 20:18:26 2022', 'sender_user': 'user-1'}
+2022-09-18 20:18:27,030   INFO       server               Отправлен ответ - ('127.0.0.1', 57212) - {'response': 202, 'to_user': 'user-1', 'load_clients': [['user-1', 'user-2', 'user'], []]}
+2022-09-18 20:18:27,507   INFO       server               Получен запрос на соединение от ('127.0.0.1', 57224)
+2022-09-18 20:18:59,158   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140085008475712)>
+2022-09-18 20:19:06,645   INFO       server               Получен запрос на соединение от ('127.0.0.1', 51586)
+2022-09-18 20:19:06,645   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Sun Sep 18 20:19:06 2022', 'account_name': 'user'}
+2022-09-18 20:19:06,645   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Sun Sep 18 20:19:06 2022', 'to_user': 'user', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 20:19:06,661   INFO       server               Отправлен ответ - ('127.0.0.1', 51586) - {'response': 200, 'time': 'Sun Sep 18 20:19:06 2022', 'to_user': 'user', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 20:19:07,162   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Sun Sep 18 20:19:06 2022', 'sender_user': 'user'}
+2022-09-18 20:19:07,165   INFO       server               Отправлен ответ - ('127.0.0.1', 51586) - {'response': 202, 'to_user': 'user', 'load_clients': [['user-1', 'user-2', 'user'], []]}
+2022-09-18 20:19:25,687   INFO       server               Получено сообщение от клиента - {'action': 'contacts', 'contacts': {'action': 'users', 'time': 'Sun Sep 18 20:19:25 2022', 'sender_user': 'user'}}
+2022-09-18 20:23:08,715   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140260507592256)>
+2022-09-18 20:23:16,414   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140586401867328)>
+2022-09-18 20:23:17,252   INFO       server               Получен запрос на соединение от ('127.0.0.1', 52474)
+2022-09-18 20:23:17,252   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Sun Sep 18 20:23:17 2022', 'account_name': 'user-1'}
+2022-09-18 20:23:17,252   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Sun Sep 18 20:23:17 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 20:23:17,273   INFO       server               Отправлен ответ - ('127.0.0.1', 52474) - {'response': 200, 'time': 'Sun Sep 18 20:23:17 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 20:23:17,774   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Sun Sep 18 20:23:17 2022', 'sender_user': 'user-1'}
+2022-09-18 20:23:17,784   INFO       server               Отправлен ответ - ('127.0.0.1', 52474) - {'response': 202, 'to_user': 'user-1', 'load_clients': [['user-1', 'user-2', 'user'], []]}
+2022-09-18 20:23:18,259   INFO       server               Получен запрос на соединение от ('127.0.0.1', 52480)
+2022-09-18 20:23:18,259   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Sun Sep 18 20:23:18 2022', 'account_name': 'user-2'}
+2022-09-18 20:23:18,259   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Sun Sep 18 20:23:18 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 20:23:18,269   INFO       server               Отправлен ответ - ('127.0.0.1', 52480) - {'response': 200, 'time': 'Sun Sep 18 20:23:18 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 20:23:18,770   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Sun Sep 18 20:23:18 2022', 'sender_user': 'user-2'}
+2022-09-18 20:23:18,777   INFO       server               Отправлен ответ - ('127.0.0.1', 52480) - {'response': 202, 'to_user': 'user-2', 'load_clients': [['user-1', 'user-2', 'user'], []]}
+2022-09-18 20:23:45,308   INFO       server               Получено сообщение от клиента - {'action': 'contacts', 'contacts': {'action': 'users', 'target_user': None, 'time': 'Sun Sep 18 20:23:45 2022', 'sender_user': 'user-1'}}
+2022-09-18 20:26:46,597   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 139754318014016)>
+2022-09-18 20:26:47,446   INFO       server               Получен запрос на соединение от ('127.0.0.1', 48314)
+2022-09-18 20:26:47,446   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Sun Sep 18 20:26:47 2022', 'account_name': 'user-1'}
+2022-09-18 20:26:47,446   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Sun Sep 18 20:26:47 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 20:26:47,462   INFO       server               Отправлен ответ - ('127.0.0.1', 48314) - {'response': 200, 'time': 'Sun Sep 18 20:26:47 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 20:26:47,963   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Sun Sep 18 20:26:47 2022', 'sender_user': 'user-1'}
+2022-09-18 20:26:47,966   INFO       server               Отправлен ответ - ('127.0.0.1', 48314) - {'response': 202, 'to_user': 'user-1', 'load_clients': [['user-1', 'user-2', 'user'], []]}
+2022-09-18 20:26:48,452   INFO       server               Получен запрос на соединение от ('127.0.0.1', 48320)
+2022-09-18 20:26:48,452   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Sun Sep 18 20:26:48 2022', 'account_name': 'user-2'}
+2022-09-18 20:26:48,452   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Sun Sep 18 20:26:48 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 20:26:48,460   INFO       server               Отправлен ответ - ('127.0.0.1', 48320) - {'response': 200, 'time': 'Sun Sep 18 20:26:48 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 20:26:48,961   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Sun Sep 18 20:26:48 2022', 'sender_user': 'user-2'}
+2022-09-18 20:26:48,968   INFO       server               Отправлен ответ - ('127.0.0.1', 48320) - {'response': 202, 'to_user': 'user-2', 'load_clients': [['user-1', 'user-2', 'user'], []]}
+2022-09-18 20:26:57,478   INFO       server               Получено сообщение от клиента - {'action': 'contacts', 'contacts': {'action': 'users', 'target_user': None, 'time': 'Sun Sep 18 20:26:57 2022', 'sender_user': 'user-1'}}
+2022-09-18 20:26:57,479   INFO       server               Отправлен ответ - ('127.0.0.1', 48314) - {'response': 202, 'to_user': 'user-1', 'contacts': ['user-1', 'user-2', 'user']}
+2022-09-18 20:27:31,519   INFO       server               Получено сообщение от клиента - {'action': 'contacts', 'contacts': {'action': 'get_contacts', 'time': 'Sun Sep 18 20:27:31 2022', 'sender_user': 'user-1'}}
+2022-09-18 20:29:54,951   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 139959503365696)>
+2022-09-18 20:30:10,051   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140694345426496)>
+2022-09-18 20:30:10,900   INFO       server               Получен запрос на соединение от ('127.0.0.1', 45696)
+2022-09-18 20:30:10,901   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Sun Sep 18 20:30:10 2022', 'account_name': 'user-1'}
+2022-09-18 20:30:10,901   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Sun Sep 18 20:30:10 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 20:30:10,917   INFO       server               Отправлен ответ - ('127.0.0.1', 45696) - {'response': 200, 'time': 'Sun Sep 18 20:30:10 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 20:30:11,418   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Sun Sep 18 20:30:10 2022', 'sender_user': 'user-1'}
+2022-09-18 20:30:11,423   INFO       server               Отправлен ответ - ('127.0.0.1', 45696) - {'response': 202, 'to_user': 'user-1', 'load_clients': [['user-1', 'user-2', 'user'], []]}
+2022-09-18 20:30:11,901   INFO       server               Получен запрос на соединение от ('127.0.0.1', 45708)
+2022-09-18 20:32:13,183   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 139945820497472)>
+2022-09-18 20:32:14,041   INFO       server               Получен запрос на соединение от ('127.0.0.1', 50670)
+2022-09-18 20:32:14,042   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Sun Sep 18 20:32:14 2022', 'account_name': 'user-1'}
+2022-09-18 20:32:14,042   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Sun Sep 18 20:32:14 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 20:32:14,057   INFO       server               Отправлен ответ - ('127.0.0.1', 50670) - {'response': 200, 'time': 'Sun Sep 18 20:32:14 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 20:32:14,557   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Sun Sep 18 20:32:14 2022', 'sender_user': 'user-1'}
+2022-09-18 20:32:14,568   INFO       server               Отправлен ответ - ('127.0.0.1', 50670) - {'response': 202, 'to_user': 'user-1', 'load_clients': [['user-1', 'user-2', 'user'], []]}
+2022-09-18 20:32:15,041   INFO       server               Получен запрос на соединение от ('127.0.0.1', 50684)
+2022-09-18 20:32:15,041   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Sun Sep 18 20:32:15 2022', 'account_name': 'user-2'}
+2022-09-18 20:32:15,041   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Sun Sep 18 20:32:15 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 20:32:15,048   INFO       server               Отправлен ответ - ('127.0.0.1', 50684) - {'response': 200, 'time': 'Sun Sep 18 20:32:15 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-18 20:32:15,549   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Sun Sep 18 20:32:15 2022', 'sender_user': 'user-2'}
+2022-09-18 20:32:15,556   INFO       server               Отправлен ответ - ('127.0.0.1', 50684) - {'response': 202, 'to_user': 'user-2', 'load_clients': [['user-1', 'user-2', 'user'], []]}
+2022-09-18 20:32:22,064   INFO       server               Получено сообщение от клиента - {'action': 'contacts', 'contacts': {'action': 'users', 'target_user': None, 'time': 'Sun Sep 18 20:32:21 2022', 'sender_user': 'user-1'}}
+2022-09-18 20:32:22,065   INFO       server               Отправлен ответ - ('127.0.0.1', 50670) - {'response': 202, 'to_user': 'user-1', 'contacts': ['user-1', 'user-2', 'user']}
+2022-09-18 20:32:29,575   INFO       server               Получено сообщение от клиента - {'action': 'contacts', 'contacts': {'action': 'users', 'target_user': None, 'time': 'Sun Sep 18 20:32:29 2022', 'sender_user': 'user-2'}}
+2022-09-18 20:32:29,577   INFO       server               Отправлен ответ - ('127.0.0.1', 50684) - {'response': 202, 'to_user': 'user-2', 'contacts': ['user-1', 'user-2', 'user']}
+2022-09-18 20:32:41,593   INFO       server               Получено сообщение от клиента - {'action': 'contacts', 'contacts': {'action': 'get_contacts', 'target_user': None, 'time': 'Sun Sep 18 20:32:41 2022', 'sender_user': 'user-1'}}
+2022-09-18 20:32:41,594   INFO       server               Запрошен список контактов - []
+2022-09-18 20:32:41,594   INFO       server               Отправлен ответ - ('127.0.0.1', 50670) - {'response': 202, 'to_user': 'user-1', 'contacts': []}
+2022-09-18 20:33:24,147   INFO       server               Получено сообщение от клиента - {'action': 'contacts', 'contacts': {'action': 'add_contact', 'target_user': 'user-2', 'time': 'Sun Sep 18 20:33:24 2022', 'sender_user': 'user-1'}}
+2022-09-18 20:33:24,164   INFO       server               Отправлен ответ - ('127.0.0.1', 50670) - {'response': 202, 'to_user': 'user-1', 'contacts': 'Пользователь user-2 добавлен в список контактов'}
+2022-09-18 20:33:37,181   INFO       server               Получено сообщение от клиента - {'action': 'contacts', 'contacts': {'action': 'get_contacts', 'target_user': None, 'time': 'Sun Sep 18 20:33:36 2022', 'sender_user': 'user-1'}}
+2022-09-18 20:33:37,186   INFO       server               Запрошен список контактов - ['user-2']
+2022-09-18 20:33:37,186   INFO       server               Отправлен ответ - ('127.0.0.1', 50670) - {'response': 202, 'to_user': 'user-1', 'contacts': ['user-2']}
+2022-09-18 20:34:00,216   INFO       server               Получено сообщение от клиента - {'action': 'contacts', 'contacts': {'action': 'add_contact', 'target_user': 'user-1', 'time': 'Sun Sep 18 20:33:59 2022', 'sender_user': 'user-2'}}
+2022-09-18 20:34:00,228   INFO       server               Отправлен ответ - ('127.0.0.1', 50684) - {'response': 202, 'to_user': 'user-2', 'contacts': 'Пользователь user-1 добавлен в список контактов'}
+2022-09-18 20:34:13,746   INFO       server               Получено сообщение от клиента - {'action': 'contacts', 'contacts': {'action': 'get_contacts', 'target_user': None, 'time': 'Sun Sep 18 20:34:13 2022', 'sender_user': 'user-2'}}
+2022-09-18 20:34:13,751   INFO       server               Запрошен список контактов - ['user-1']
+2022-09-18 20:34:13,751   INFO       server               Отправлен ответ - ('127.0.0.1', 50684) - {'response': 202, 'to_user': 'user-2', 'contacts': ['user-1']}
+2022-09-18 20:34:28,769   INFO       server               Получено сообщение от клиента - {'action': 'contacts', 'contacts': {'action': 'add_contact', 'target_user': 'user', 'time': 'Sun Sep 18 20:34:28 2022', 'sender_user': 'user-1'}}
+2022-09-18 20:34:28,780   INFO       server               Отправлен ответ - ('127.0.0.1', 50670) - {'response': 202, 'to_user': 'user-1', 'contacts': 'Пользователь user добавлен в список контактов'}
+2022-09-18 20:34:36,290   INFO       server               Получено сообщение от клиента - {'action': 'contacts', 'contacts': {'action': 'get_contacts', 'target_user': None, 'time': 'Sun Sep 18 20:34:35 2022', 'sender_user': 'user-1'}}
+2022-09-18 20:34:36,295   INFO       server               Запрошен список контактов - ['user-2', 'user']
+2022-09-18 20:34:36,296   INFO       server               Отправлен ответ - ('127.0.0.1', 50670) - {'response': 202, 'to_user': 'user-1', 'contacts': ['user-2', 'user']}
+2022-09-18 20:36:22,427   INFO       server               Получено сообщение от клиента - {'action': 'contacts', 'contacts': {'action': 'del_contact', 'target_user': 'user', 'time': 'Sun Sep 18 20:36:22 2022', 'sender_user': 'user-1'}}
+2022-09-18 20:36:22,438   INFO       server               Отправлен ответ - ('127.0.0.1', 50670) - {'response': 202, 'to_user': 'user-1', 'contacts': 'Пользователь user удален из списка контактов'}
+2022-09-18 20:36:47,970   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Sun Sep 18 20:36:47 2022', 'target_user': 'user-2', 'sender_user': 'user-1', 'message': 'hello'}
+2022-09-18 20:36:47,970   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Sun Sep 18 20:36:47 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'hello'}
+2022-09-18 20:36:47,970   INFO       server               Отправлен ответ - ('127.0.0.1', 50684) - {'response': 200, 'time': 'Sun Sep 18 20:36:47 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'hello'}
+2022-09-18 20:37:03,990   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Sun Sep 18 20:37:03 2022', 'target_user': 'user-1', 'sender_user': 'user-2', 'message': 'hi'}
+2022-09-18 20:37:03,991   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Sun Sep 18 20:37:03 2022', 'from_user': 'user-2', 'to_user': 'user-1', 'answer': 'hi'}
+2022-09-18 20:37:03,991   INFO       server               Отправлен ответ - ('127.0.0.1', 50670) - {'response': 200, 'time': 'Sun Sep 18 20:37:03 2022', 'from_user': 'user-2', 'to_user': 'user-1', 'answer': 'hi'}
+2022-09-18 20:37:25,019   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Sun Sep 18 20:37:24 2022', 'target_user': 'user-1', 'sender_user': 'user-2', 'message': 'How are You!'}
+2022-09-18 20:37:25,019   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Sun Sep 18 20:37:25 2022', 'from_user': 'user-2', 'to_user': 'user-1', 'answer': 'How are You!'}
+2022-09-18 20:37:25,020   INFO       server               Отправлен ответ - ('127.0.0.1', 50670) - {'response': 200, 'time': 'Sun Sep 18 20:37:25 2022', 'from_user': 'user-2', 'to_user': 'user-1', 'answer': 'How are You!'}
+2022-09-18 20:38:13,580   INFO       server               Получено сообщение от клиента - {'action': 'quit', 'time': 'Sun Sep 18 20:38:13 2022', 'account_name': 'user-1'}
+2022-09-18 20:38:37,616   INFO       server               Получено сообщение от клиента - {'action': 'quit', 'time': 'Sun Sep 18 20:38:37 2022', 'account_name': 'user-2'}
+2022-09-19 01:34:38,679   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140467739764288)>
+2022-09-19 01:35:32,154   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140521737233984)>
+2022-09-19 01:35:46,715   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140496967771712)>
+2022-09-19 01:35:59,259   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 139775502394944)>
+2022-09-19 01:39:29,161   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140227888490048)>
+2022-09-19 01:40:10,917   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140631918454336)>
+2022-09-19 01:40:45,207   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140449833231936)>
+2022-09-19 01:41:07,356   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140149398382144)>
+2022-09-19 11:58:24,698   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140173971760704)>
+2022-09-19 11:59:39,762   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140349910230592)>
+2022-09-19 12:02:59,410   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140412509169216)>
+2022-09-19 12:03:29,449   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 139854966629952)>
+2022-09-19 12:03:56,732   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140501235476032)>
+2022-09-19 12:05:01,150   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140494748984896)>
+2022-09-19 12:05:39,778   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140583503603264)>
+2022-09-19 12:06:23,737   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140487242229312)>
+2022-09-19 12:06:55,400   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140377352513088)>
+2022-09-19 12:09:32,496   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 139752790238784)>
+2022-09-19 12:09:40,195   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 139702219515456)>
+2022-09-19 12:09:41,014   INFO       server               Получен запрос на соединение от ('127.0.0.1', 49562)
+2022-09-19 12:09:41,014   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Mon Sep 19 12:09:41 2022', 'account_name': 'user-1'}
+2022-09-19 12:09:41,014   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Mon Sep 19 12:09:41 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 12:09:41,027   INFO       server               Отправлен ответ - ('127.0.0.1', 49562) - {'response': 200, 'time': 'Mon Sep 19 12:09:41 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 12:09:41,528   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Mon Sep 19 12:09:41 2022', 'sender_user': 'user-1'}
+2022-09-19 12:09:41,540   INFO       server               Отправлен ответ - ('127.0.0.1', 49562) - {'response': 202, 'to_user': 'user-1', 'load_clients': [['user-1', 'user-2', 'user'], ['user-2']]}
+2022-09-19 12:09:42,028   INFO       server               Получен запрос на соединение от ('127.0.0.1', 49568)
+2022-09-19 12:09:42,028   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Mon Sep 19 12:09:42 2022', 'account_name': 'user-2'}
+2022-09-19 12:09:42,029   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Mon Sep 19 12:09:42 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 12:09:42,036   INFO       server               Отправлен ответ - ('127.0.0.1', 49568) - {'response': 200, 'time': 'Mon Sep 19 12:09:42 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 12:09:42,537   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Mon Sep 19 12:09:42 2022', 'sender_user': 'user-2'}
+2022-09-19 12:09:42,575   INFO       server               Отправлен ответ - ('127.0.0.1', 49568) - {'response': 202, 'to_user': 'user-2', 'load_clients': [['user-1', 'user-2', 'user'], ['user-1']]}
+2022-09-19 12:11:47,289   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 139637567465024)>
+2022-09-19 12:13:29,141   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140706825578048)>
+2022-09-19 12:16:22,817   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140593961051712)>
+2022-09-19 12:19:25,429   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 139996002199104)>
+2022-09-19 12:19:26,234   INFO       server               Получен запрос на соединение от ('127.0.0.1', 55712)
+2022-09-19 12:19:27,241   INFO       server               Получен запрос на соединение от ('127.0.0.1', 55728)
+2022-09-19 12:19:27,242   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Mon Sep 19 12:19:27 2022', 'account_name': 'user-2'}
+2022-09-19 12:19:27,242   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Mon Sep 19 12:19:27 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 12:19:27,255   INFO       server               Отправлен ответ - ('127.0.0.1', 55728) - {'response': 200, 'time': 'Mon Sep 19 12:19:27 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 12:19:27,756   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Mon Sep 19 12:19:27 2022', 'sender_user': 'user-2'}
+2022-09-19 12:19:27,770   INFO       server               Отправлен ответ - ('127.0.0.1', 55728) - {'response': 202, 'to_user': 'user-2', 'load_clients': [['user-1', 'user-2', 'user'], ['user-1']]}
+2022-09-19 12:20:10,324   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Mon Sep 19 12:20:09 2022', 'target_user': 'user-2', 'sender_user': 'user-1', 'message': 'hello'}
+2022-09-19 12:25:41,606   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140351845901888)>
+2022-09-19 12:26:06,334   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140658646656576)>
+2022-09-19 12:26:07,157   INFO       server               Получен запрос на соединение от ('127.0.0.1', 45504)
+2022-09-19 12:26:07,157   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Mon Sep 19 12:26:07 2022', 'account_name': 'user-1'}
+2022-09-19 12:26:07,157   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Mon Sep 19 12:26:07 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 12:26:07,171   INFO       server               Отправлен ответ - ('127.0.0.1', 45504) - {'response': 200, 'time': 'Mon Sep 19 12:26:07 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 12:26:07,671   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Mon Sep 19 12:26:07 2022', 'sender_user': 'user-1'}
+2022-09-19 12:26:07,698   INFO       server               Отправлен ответ - ('127.0.0.1', 45504) - {'response': 202, 'to_user': 'user-1', 'load_clients': [['user-1', 'user-2', 'user'], ['user-2']]}
+2022-09-19 12:26:08,161   INFO       server               Получен запрос на соединение от ('127.0.0.1', 45514)
+2022-09-19 12:26:08,161   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Mon Sep 19 12:26:08 2022', 'account_name': 'user-2'}
+2022-09-19 12:26:08,161   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Mon Sep 19 12:26:08 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 12:26:08,169   INFO       server               Отправлен ответ - ('127.0.0.1', 45514) - {'response': 200, 'time': 'Mon Sep 19 12:26:08 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 12:26:08,670   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Mon Sep 19 12:26:08 2022', 'sender_user': 'user-2'}
+2022-09-19 12:26:08,676   INFO       server               Отправлен ответ - ('127.0.0.1', 45514) - {'response': 202, 'to_user': 'user-2', 'load_clients': [['user-1', 'user-2', 'user'], ['user-1']]}
+2022-09-19 12:26:33,708   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Mon Sep 19 12:26:33 2022', 'target_user': 'user-2', 'sender_user': 'user-1', 'message': 'hello'}
+2022-09-19 12:28:59,325   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 139754120881728)>
+2022-09-19 12:29:00,144   INFO       server               Получен запрос на соединение от ('127.0.0.1', 47938)
+2022-09-19 12:29:00,144   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Mon Sep 19 12:29:00 2022', 'account_name': 'user-1'}
+2022-09-19 12:29:00,144   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Mon Sep 19 12:29:00 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 12:29:00,159   INFO       server               Отправлен ответ - ('127.0.0.1', 47938) - {'response': 200, 'time': 'Mon Sep 19 12:29:00 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 12:29:00,660   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Mon Sep 19 12:29:00 2022', 'sender_user': 'user-1'}
+2022-09-19 12:29:00,694   INFO       server               Отправлен ответ - ('127.0.0.1', 47938) - {'response': 202, 'to_user': 'user-1', 'load_clients': [['user-1', 'user-2', 'user'], ['user-2']]}
+2022-09-19 12:29:01,155   INFO       server               Получен запрос на соединение от ('127.0.0.1', 47950)
+2022-09-19 12:29:01,156   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Mon Sep 19 12:29:01 2022', 'account_name': 'user-2'}
+2022-09-19 12:29:01,156   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Mon Sep 19 12:29:01 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 12:29:01,163   INFO       server               Отправлен ответ - ('127.0.0.1', 47950) - {'response': 200, 'time': 'Mon Sep 19 12:29:01 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 12:29:01,664   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Mon Sep 19 12:29:01 2022', 'sender_user': 'user-2'}
+2022-09-19 12:29:01,670   INFO       server               Отправлен ответ - ('127.0.0.1', 47950) - {'response': 202, 'to_user': 'user-2', 'load_clients': [['user-1', 'user-2', 'user'], ['user-1']]}
+2022-09-19 12:29:13,685   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Mon Sep 19 12:29:13 2022', 'target_user': 'user-2', 'sender_user': 'user-1', 'message': 'hello'}
+2022-09-19 12:31:39,912   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140004272318016)>
+2022-09-19 12:31:40,736   INFO       server               Получен запрос на соединение от ('127.0.0.1', 60954)
+2022-09-19 12:31:40,736   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Mon Sep 19 12:31:40 2022', 'account_name': 'user-1'}
+2022-09-19 12:31:40,736   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Mon Sep 19 12:31:40 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 12:31:40,763   INFO       server               Отправлен ответ - ('127.0.0.1', 60954) - {'response': 200, 'time': 'Mon Sep 19 12:31:40 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 12:31:41,264   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Mon Sep 19 12:31:40 2022', 'sender_user': 'user-1'}
+2022-09-19 12:31:41,304   INFO       server               Отправлен ответ - ('127.0.0.1', 60954) - {'response': 202, 'to_user': 'user-1', 'load_clients': [['user-1', 'user-2', 'user'], ['user-2']]}
+2022-09-19 12:31:41,736   INFO       server               Получен запрос на соединение от ('127.0.0.1', 60956)
+2022-09-19 12:31:41,736   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Mon Sep 19 12:31:41 2022', 'account_name': 'user-2'}
+2022-09-19 12:31:41,736   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Mon Sep 19 12:31:41 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 12:31:41,748   INFO       server               Отправлен ответ - ('127.0.0.1', 60956) - {'response': 200, 'time': 'Mon Sep 19 12:31:41 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 12:31:42,249   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Mon Sep 19 12:31:41 2022', 'sender_user': 'user-2'}
+2022-09-19 12:31:42,256   INFO       server               Отправлен ответ - ('127.0.0.1', 60956) - {'response': 202, 'to_user': 'user-2', 'load_clients': [['user-1', 'user-2', 'user'], ['user-1']]}
+2022-09-19 12:32:03,281   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Mon Sep 19 12:32:02 2022', 'target_user': 'user-2', 'sender_user': 'user-1', 'message': 'hello'}
+2022-09-19 12:37:12,695   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140684214085184)>
+2022-09-19 12:37:24,469   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140215372686912)>
+2022-09-19 12:37:25,277   INFO       server               Получен запрос на соединение от ('127.0.0.1', 33194)
+2022-09-19 12:37:25,277   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Mon Sep 19 12:37:25 2022', 'account_name': 'user-1'}
+2022-09-19 12:37:25,277   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Mon Sep 19 12:37:25 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 12:37:25,291   INFO       server               Отправлен ответ - ('127.0.0.1', 33194) - {'response': 200, 'time': 'Mon Sep 19 12:37:25 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 12:37:25,792   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Mon Sep 19 12:37:25 2022', 'sender_user': 'user-1'}
+2022-09-19 12:37:25,822   INFO       server               Отправлен ответ - ('127.0.0.1', 33194) - {'response': 202, 'to_user': 'user-1', 'load_clients': [['user-1', 'user-2', 'user'], ['user-2']]}
+2022-09-19 12:37:26,285   INFO       server               Получен запрос на соединение от ('127.0.0.1', 53756)
+2022-09-19 12:37:26,285   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Mon Sep 19 12:37:26 2022', 'account_name': 'user-2'}
+2022-09-19 12:37:26,285   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Mon Sep 19 12:37:26 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 12:37:26,293   INFO       server               Отправлен ответ - ('127.0.0.1', 53756) - {'response': 200, 'time': 'Mon Sep 19 12:37:26 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 12:37:26,794   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Mon Sep 19 12:37:26 2022', 'sender_user': 'user-2'}
+2022-09-19 12:37:26,800   INFO       server               Отправлен ответ - ('127.0.0.1', 53756) - {'response': 202, 'to_user': 'user-2', 'load_clients': [['user-1', 'user-2', 'user'], ['user-1']]}
+2022-09-19 12:38:03,843   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Mon Sep 19 12:38:03 2022', 'target_user': 'user-2', 'sender_user': 'user-1', 'message': 'hello'}
+2022-09-19 12:40:20,325   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140408936670784)>
+2022-09-19 12:40:21,154   INFO       server               Получен запрос на соединение от ('127.0.0.1', 51216)
+2022-09-19 12:40:21,154   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Mon Sep 19 12:40:21 2022', 'account_name': 'user-1'}
+2022-09-19 12:40:21,154   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Mon Sep 19 12:40:21 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 12:40:21,169   INFO       server               Отправлен ответ - ('127.0.0.1', 51216) - {'response': 200, 'time': 'Mon Sep 19 12:40:21 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 12:40:21,670   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Mon Sep 19 12:40:21 2022', 'sender_user': 'user-1'}
+2022-09-19 12:40:21,682   INFO       server               Отправлен ответ - ('127.0.0.1', 51216) - {'response': 202, 'to_user': 'user-1', 'load_clients': [['user-1', 'user-2', 'user'], ['user-2']]}
+2022-09-19 12:40:22,153   INFO       server               Получен запрос на соединение от ('127.0.0.1', 51228)
+2022-09-19 12:40:22,153   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Mon Sep 19 12:40:22 2022', 'account_name': 'user-2'}
+2022-09-19 12:40:22,153   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Mon Sep 19 12:40:22 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 12:40:22,168   INFO       server               Отправлен ответ - ('127.0.0.1', 51228) - {'response': 200, 'time': 'Mon Sep 19 12:40:22 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 12:40:22,669   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Mon Sep 19 12:40:22 2022', 'sender_user': 'user-2'}
+2022-09-19 12:40:22,708   INFO       server               Отправлен ответ - ('127.0.0.1', 51228) - {'response': 202, 'to_user': 'user-2', 'load_clients': [['user-1', 'user-2', 'user'], ['user-1']]}
+2022-09-19 12:41:07,262   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Mon Sep 19 12:41:07 2022', 'target_user': 'user-2', 'sender_user': 'user-1', 'message': 'hello'}
+2022-09-19 12:42:02,180   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 139870669055552)>
+2022-09-19 12:42:03,009   INFO       server               Получен запрос на соединение от ('127.0.0.1', 60868)
+2022-09-19 12:42:03,009   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Mon Sep 19 12:42:03 2022', 'account_name': 'user-1'}
+2022-09-19 12:42:03,009   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Mon Sep 19 12:42:03 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 12:42:03,023   INFO       server               Отправлен ответ - ('127.0.0.1', 60868) - {'response': 200, 'time': 'Mon Sep 19 12:42:03 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 12:42:03,524   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Mon Sep 19 12:42:03 2022', 'sender_user': 'user-1'}
+2022-09-19 12:42:03,538   INFO       server               Отправлен ответ - ('127.0.0.1', 60868) - {'response': 202, 'to_user': 'user-1', 'load_clients': [['user-1', 'user-2', 'user'], ['user-2']]}
+2022-09-19 12:42:04,005   INFO       server               Получен запрос на соединение от ('127.0.0.1', 60884)
+2022-09-19 12:42:04,006   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Mon Sep 19 12:42:04 2022', 'account_name': 'user-2'}
+2022-09-19 12:42:04,006   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Mon Sep 19 12:42:04 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 12:42:04,013   INFO       server               Отправлен ответ - ('127.0.0.1', 60884) - {'response': 200, 'time': 'Mon Sep 19 12:42:04 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 12:42:04,514   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Mon Sep 19 12:42:04 2022', 'sender_user': 'user-2'}
+2022-09-19 12:42:04,553   INFO       server               Отправлен ответ - ('127.0.0.1', 60884) - {'response': 202, 'to_user': 'user-2', 'load_clients': [['user-1', 'user-2', 'user'], ['user-1']]}
+2022-09-19 12:42:22,576   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Mon Sep 19 12:42:22 2022', 'target_user': 'user-2', 'sender_user': 'user-1', 'message': 'hello'}
+2022-09-19 12:56:20,632   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 139696990266944)>
+2022-09-19 12:57:14,126   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140242241398336)>
+2022-09-19 12:57:27,431   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140438910215744)>
+2022-09-19 14:23:07,392   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140533519033920)>
+2022-09-19 14:23:08,208   INFO       server               Получен запрос на соединение от ('127.0.0.1', 57786)
+2022-09-19 14:23:08,208   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Mon Sep 19 14:23:08 2022', 'account_name': 'user-1'}
+2022-09-19 14:23:08,208   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Mon Sep 19 14:23:08 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 14:23:08,222   INFO       server               Отправлен ответ - ('127.0.0.1', 57786) - {'response': 200, 'time': 'Mon Sep 19 14:23:08 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 14:23:08,723   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Mon Sep 19 14:23:08 2022', 'sender_user': 'user-1'}
+2022-09-19 14:23:08,738   INFO       server               Отправлен ответ - ('127.0.0.1', 57786) - {'response': 202, 'to_user': 'user-1', 'load_clients': [['user-1', 'user-2', 'user'], ['user-2']]}
+2022-09-19 14:23:09,225   INFO       server               Получен запрос на соединение от ('127.0.0.1', 57800)
+2022-09-19 14:23:09,225   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Mon Sep 19 14:23:09 2022', 'account_name': 'user-2'}
+2022-09-19 14:23:09,225   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Mon Sep 19 14:23:09 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 14:23:09,234   INFO       server               Отправлен ответ - ('127.0.0.1', 57800) - {'response': 200, 'time': 'Mon Sep 19 14:23:09 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 14:23:09,735   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Mon Sep 19 14:23:09 2022', 'sender_user': 'user-2'}
+2022-09-19 14:23:09,772   INFO       server               Отправлен ответ - ('127.0.0.1', 57800) - {'response': 202, 'to_user': 'user-2', 'load_clients': [['user-1', 'user-2', 'user'], ['user-1']]}
+2022-09-19 14:23:34,804   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Mon Sep 19 14:23:34 2022', 'target_user': 'user-2', 'sender_user': 'user-1', 'message': 'hello'}
+2022-09-19 14:23:34,821   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Mon Sep 19 14:23:34 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'hello'}
+2022-09-19 14:23:34,821   INFO       server               Отправлен ответ - ('127.0.0.1', 57800) - {'response': 200, 'time': 'Mon Sep 19 14:23:34 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'hello'}
+2022-09-19 14:24:02,856   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Mon Sep 19 14:24:02 2022', 'target_user': 'user-1', 'sender_user': 'user-2', 'message': 'hi'}
+2022-09-19 14:24:02,871   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Mon Sep 19 14:24:02 2022', 'from_user': 'user-2', 'to_user': 'user-1', 'answer': 'hi'}
+2022-09-19 14:24:02,871   INFO       server               Отправлен ответ - ('127.0.0.1', 57786) - {'response': 200, 'time': 'Mon Sep 19 14:24:02 2022', 'from_user': 'user-2', 'to_user': 'user-1', 'answer': 'hi'}
+2022-09-19 14:28:26,865   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140432355567168)>
+2022-09-19 14:30:48,923   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 139892985898560)>
+2022-09-19 14:30:49,749   INFO       server               Получен запрос на соединение от ('127.0.0.1', 38836)
+2022-09-19 14:30:49,749   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Mon Sep 19 14:30:49 2022', 'account_name': 'user-1'}
+2022-09-19 14:30:49,749   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Mon Sep 19 14:30:49 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 14:30:49,765   INFO       server               Отправлен ответ - ('127.0.0.1', 38836) - {'response': 200, 'time': 'Mon Sep 19 14:30:49 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 14:30:50,265   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Mon Sep 19 14:30:49 2022', 'sender_user': 'user-1'}
+2022-09-19 14:30:50,279   INFO       server               Отправлен ответ - ('127.0.0.1', 38836) - {'response': 202, 'to_user': 'user-1', 'load_clients': [['user-1', 'user-2', 'user'], ['user-2']]}
+2022-09-19 14:30:50,751   INFO       server               Получен запрос на соединение от ('127.0.0.1', 38842)
+2022-09-19 14:30:50,751   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Mon Sep 19 14:30:50 2022', 'account_name': 'user-2'}
+2022-09-19 14:30:50,751   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Mon Sep 19 14:30:50 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 14:30:50,759   INFO       server               Отправлен ответ - ('127.0.0.1', 38842) - {'response': 200, 'time': 'Mon Sep 19 14:30:50 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 14:30:51,260   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Mon Sep 19 14:30:50 2022', 'sender_user': 'user-2'}
+2022-09-19 14:30:51,298   INFO       server               Отправлен ответ - ('127.0.0.1', 38842) - {'response': 202, 'to_user': 'user-2', 'load_clients': [['user-1', 'user-2', 'user'], ['user-1']]}
+2022-09-19 14:31:09,320   INFO       server               Получено сообщение от клиента - {'action': 'quit', 'time': 'Mon Sep 19 14:31:09 2022', 'account_name': 'user-1'}
+2022-09-19 14:31:28,850   INFO       server               Получено сообщение от клиента - {'action': 'quit', 'time': 'Mon Sep 19 14:31:28 2022', 'account_name': 'user-2'}
+2022-09-19 14:31:52,952   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140629479466560)>
+2022-09-19 14:32:05,273   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 139821204579904)>
+2022-09-19 14:32:06,101   INFO       server               Получен запрос на соединение от ('127.0.0.1', 58880)
+2022-09-19 14:32:06,101   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Mon Sep 19 14:32:06 2022', 'account_name': 'user-1'}
+2022-09-19 14:32:06,101   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Mon Sep 19 14:32:06 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 14:32:06,119   INFO       server               Отправлен ответ - ('127.0.0.1', 58880) - {'response': 200, 'time': 'Mon Sep 19 14:32:06 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 14:32:06,620   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Mon Sep 19 14:32:06 2022', 'sender_user': 'user-1'}
+2022-09-19 14:32:06,634   INFO       server               Отправлен ответ - ('127.0.0.1', 58880) - {'response': 202, 'to_user': 'user-1', 'load_clients': [['user-1', 'user-2', 'user'], ['user-2']]}
+2022-09-19 14:32:07,103   INFO       server               Получен запрос на соединение от ('127.0.0.1', 58884)
+2022-09-19 14:32:11,610   INFO       server               Получено сообщение от клиента - {'action': 'quit', 'time': 'Mon Sep 19 14:32:11 2022', 'account_name': 'user-2'}
+2022-09-19 14:37:08,271   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140460045313600)>
+2022-09-19 14:37:09,102   INFO       server               Получен запрос на соединение от ('127.0.0.1', 37062)
+2022-09-19 14:37:09,102   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Mon Sep 19 14:37:09 2022', 'account_name': 'user-1'}
+2022-09-19 14:37:09,102   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Mon Sep 19 14:37:09 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 14:37:09,117   INFO       server               Отправлен ответ - ('127.0.0.1', 37062) - {'response': 200, 'time': 'Mon Sep 19 14:37:09 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 14:37:09,618   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Mon Sep 19 14:37:09 2022', 'sender_user': 'user-1'}
+2022-09-19 14:37:09,631   INFO       server               Отправлен ответ - ('127.0.0.1', 37062) - {'response': 202, 'to_user': 'user-1', 'load_clients': [['user-1', 'user-2', 'user'], ['user-2']]}
+2022-09-19 14:37:10,103   INFO       server               Получен запрос на соединение от ('127.0.0.1', 37070)
+2022-09-19 14:37:10,104   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Mon Sep 19 14:37:10 2022', 'account_name': 'user-2'}
+2022-09-19 14:37:10,104   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Mon Sep 19 14:37:10 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 14:37:10,111   INFO       server               Отправлен ответ - ('127.0.0.1', 37070) - {'response': 200, 'time': 'Mon Sep 19 14:37:10 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 14:37:10,612   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Mon Sep 19 14:37:10 2022', 'sender_user': 'user-2'}
+2022-09-19 14:37:10,652   INFO       server               Отправлен ответ - ('127.0.0.1', 37070) - {'response': 202, 'to_user': 'user-2', 'load_clients': [['user-1', 'user-2', 'user'], ['user-1']]}
+2022-09-19 14:37:39,688   INFO       server               Получено сообщение от клиента - {'action': 'quit', 'time': 'Mon Sep 19 14:37:39 2022', 'account_name': 'user-1'}
+2022-09-19 14:37:57,716   INFO       server               Получено сообщение от клиента - {'action': 'quit', 'time': 'Mon Sep 19 14:37:57 2022', 'account_name': 'user-2'}
+2022-09-19 14:43:11,910   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140400280675904)>
+2022-09-19 14:43:23,667   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140490112181824)>
+2022-09-19 14:43:29,076   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140535131743808)>
+2022-09-19 14:45:27,600   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 139773014124096)>
+2022-09-19 14:45:41,408   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 139738690037312)>
+2022-09-19 14:45:42,227   INFO       server               Получен запрос на соединение от ('127.0.0.1', 44932)
+2022-09-19 14:45:42,228   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Mon Sep 19 14:45:42 2022', 'account_name': 'user-1'}
+2022-09-19 14:45:42,228   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Mon Sep 19 14:45:42 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 14:45:42,240   INFO       server               Отправлен ответ - ('127.0.0.1', 44932) - {'response': 200, 'time': 'Mon Sep 19 14:45:42 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 14:45:42,741   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Mon Sep 19 14:45:42 2022', 'sender_user': 'user-1'}
+2022-09-19 14:45:42,755   INFO       server               Отправлен ответ - ('127.0.0.1', 44932) - {'response': 202, 'to_user': 'user-1', 'load_clients': [['user-1', 'user-2', 'user'], ['user-2']]}
+2022-09-19 14:45:43,238   INFO       server               Получен запрос на соединение от ('127.0.0.1', 44944)
+2022-09-19 14:45:43,238   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Mon Sep 19 14:45:43 2022', 'account_name': 'user-2'}
+2022-09-19 14:45:43,238   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Mon Sep 19 14:45:43 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 14:45:43,245   INFO       server               Отправлен ответ - ('127.0.0.1', 44944) - {'response': 200, 'time': 'Mon Sep 19 14:45:43 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 14:45:43,746   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Mon Sep 19 14:45:43 2022', 'sender_user': 'user-2'}
+2022-09-19 14:45:43,786   INFO       server               Отправлен ответ - ('127.0.0.1', 44944) - {'response': 202, 'to_user': 'user-2', 'load_clients': [['user-1', 'user-2', 'user'], ['user-1']]}
+2022-09-19 14:48:36,474   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140113440613952)>
+2022-09-19 14:52:49,172   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 139665377797696)>
+2022-09-19 14:53:09,338   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140028673730112)>
+2022-09-19 14:53:38,663   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140704142272064)>
+2022-09-19 14:54:19,425   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140523119257152)>
+2022-09-19 14:54:20,243   INFO       server               Получен запрос на соединение от ('127.0.0.1', 45906)
+2022-09-19 14:54:20,243   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Mon Sep 19 14:54:20 2022', 'account_name': 'user-1'}
+2022-09-19 14:54:20,243   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Mon Sep 19 14:54:20 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 14:54:20,258   INFO       server               Отправлен ответ - ('127.0.0.1', 45906) - {'response': 200, 'time': 'Mon Sep 19 14:54:20 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 14:54:20,759   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Mon Sep 19 14:54:20 2022', 'sender_user': 'user-1'}
+2022-09-19 14:54:20,772   INFO       server               Отправлен ответ - ('127.0.0.1', 45906) - {'response': 202, 'to_user': 'user-1', 'load_clients': [['user-1', 'user-2', 'user'], ['user-2']]}
+2022-09-19 14:54:21,257   INFO       server               Получен запрос на соединение от ('127.0.0.1', 45920)
+2022-09-19 14:54:21,257   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Mon Sep 19 14:54:21 2022', 'account_name': 'user-2'}
+2022-09-19 14:54:21,257   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Mon Sep 19 14:54:21 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 14:54:21,265   INFO       server               Отправлен ответ - ('127.0.0.1', 45920) - {'response': 200, 'time': 'Mon Sep 19 14:54:21 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 14:54:21,766   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Mon Sep 19 14:54:21 2022', 'sender_user': 'user-2'}
+2022-09-19 14:54:21,806   INFO       server               Отправлен ответ - ('127.0.0.1', 45920) - {'response': 202, 'to_user': 'user-2', 'load_clients': [['user-1', 'user-2', 'user'], ['user-1']]}
+2022-09-19 14:55:33,558   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140671882831424)>
+2022-09-19 14:59:48,155   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140290922587712)>
+2022-09-19 14:59:48,982   INFO       server               Получен запрос на соединение от ('127.0.0.1', 36116)
+2022-09-19 14:59:48,982   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Mon Sep 19 14:59:48 2022', 'account_name': 'user-1'}
+2022-09-19 14:59:48,982   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Mon Sep 19 14:59:48 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 14:59:48,996   INFO       server               Отправлен ответ - ('127.0.0.1', 36116) - {'response': 200, 'time': 'Mon Sep 19 14:59:48 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 14:59:49,497   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Mon Sep 19 14:59:48 2022', 'sender_user': 'user-1'}
+2022-09-19 14:59:49,509   INFO       server               Отправлен ответ - ('127.0.0.1', 36116) - {'response': 202, 'to_user': 'user-1', 'load_clients': [['user-1', 'user-2', 'user'], ['user-2']]}
+2022-09-19 14:59:49,989   INFO       server               Получен запрос на соединение от ('127.0.0.1', 36130)
+2022-09-19 14:59:49,989   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Mon Sep 19 14:59:49 2022', 'account_name': 'user-2'}
+2022-09-19 14:59:49,989   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Mon Sep 19 14:59:49 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 14:59:49,997   INFO       server               Отправлен ответ - ('127.0.0.1', 36130) - {'response': 200, 'time': 'Mon Sep 19 14:59:49 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 14:59:50,498   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Mon Sep 19 14:59:50 2022', 'sender_user': 'user-2'}
+2022-09-19 14:59:50,538   INFO       server               Отправлен ответ - ('127.0.0.1', 36130) - {'response': 202, 'to_user': 'user-2', 'load_clients': [['user-1', 'user-2', 'user'], ['user-1']]}
+2022-09-19 15:00:15,890   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 139718015264320)>
+2022-09-19 15:00:39,740   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 139622448047680)>
+2022-09-19 15:00:40,572   INFO       server               Получен запрос на соединение от ('127.0.0.1', 43646)
+2022-09-19 15:00:40,572   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Mon Sep 19 15:00:40 2022', 'account_name': 'user-1'}
+2022-09-19 15:00:40,573   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Mon Sep 19 15:00:40 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 15:00:40,587   INFO       server               Отправлен ответ - ('127.0.0.1', 43646) - {'response': 200, 'time': 'Mon Sep 19 15:00:40 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 15:00:41,088   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Mon Sep 19 15:00:40 2022', 'sender_user': 'user-1'}
+2022-09-19 15:00:41,103   INFO       server               Отправлен ответ - ('127.0.0.1', 43646) - {'response': 202, 'to_user': 'user-1', 'load_clients': [['user-1', 'user-2', 'user'], ['user-2']]}
+2022-09-19 15:00:41,571   INFO       server               Получен запрос на соединение от ('127.0.0.1', 43660)
+2022-09-19 15:00:41,571   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Mon Sep 19 15:00:41 2022', 'account_name': 'user-2'}
+2022-09-19 15:00:41,571   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Mon Sep 19 15:00:41 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 15:00:41,579   INFO       server               Отправлен ответ - ('127.0.0.1', 43660) - {'response': 200, 'time': 'Mon Sep 19 15:00:41 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 15:00:42,080   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Mon Sep 19 15:00:41 2022', 'sender_user': 'user-2'}
+2022-09-19 15:00:42,120   INFO       server               Отправлен ответ - ('127.0.0.1', 43660) - {'response': 202, 'to_user': 'user-2', 'load_clients': [['user-1', 'user-2', 'user'], ['user-1']]}
+2022-09-19 15:01:29,507   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 139947322058304)>
+2022-09-19 15:01:39,546   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140479781611072)>
+2022-09-19 15:01:40,367   INFO       server               Получен запрос на соединение от ('127.0.0.1', 42060)
+2022-09-19 15:01:40,368   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Mon Sep 19 15:01:40 2022', 'account_name': 'user-1'}
+2022-09-19 15:01:40,368   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Mon Sep 19 15:01:40 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 15:01:40,383   INFO       server               Отправлен ответ - ('127.0.0.1', 42060) - {'response': 200, 'time': 'Mon Sep 19 15:01:40 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 15:01:40,884   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Mon Sep 19 15:01:40 2022', 'sender_user': 'user-1'}
+2022-09-19 15:01:40,897   INFO       server               Отправлен ответ - ('127.0.0.1', 42060) - {'response': 202, 'to_user': 'user-1', 'load_clients': [['user-1', 'user-2', 'user'], ['user-2']]}
+2022-09-19 15:01:41,383   INFO       server               Получен запрос на соединение от ('127.0.0.1', 42064)
+2022-09-19 15:01:41,383   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Mon Sep 19 15:01:41 2022', 'account_name': 'user-2'}
+2022-09-19 15:01:41,383   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Mon Sep 19 15:01:41 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 15:01:41,392   INFO       server               Отправлен ответ - ('127.0.0.1', 42064) - {'response': 200, 'time': 'Mon Sep 19 15:01:41 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 15:01:41,893   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Mon Sep 19 15:01:41 2022', 'sender_user': 'user-2'}
+2022-09-19 15:01:41,932   INFO       server               Отправлен ответ - ('127.0.0.1', 42064) - {'response': 202, 'to_user': 'user-2', 'load_clients': [['user-1', 'user-2', 'user'], ['user-1']]}
+2022-09-19 15:09:06,750   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140411715397184)>
+2022-09-19 15:09:07,576   INFO       server               Получен запрос на соединение от ('127.0.0.1', 41930)
+2022-09-19 15:09:08,585   INFO       server               Получен запрос на соединение от ('127.0.0.1', 41940)
+2022-09-19 15:09:08,585   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Mon Sep 19 15:09:08 2022', 'account_name': 'user-2'}
+2022-09-19 15:09:08,586   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Mon Sep 19 15:09:08 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 15:09:08,602   INFO       server               Отправлен ответ - ('127.0.0.1', 41940) - {'response': 200, 'time': 'Mon Sep 19 15:09:08 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 15:09:09,103   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Mon Sep 19 15:09:08 2022', 'sender_user': 'user-2'}
+2022-09-19 15:09:09,117   INFO       server               Отправлен ответ - ('127.0.0.1', 41940) - {'response': 202, 'to_user': 'user-2', 'load_clients': [['user-1', 'user-2', 'user'], ['user-1']]}
+2022-09-19 15:11:03,972   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140297513936448)>
+2022-09-19 15:11:04,800   INFO       server               Получен запрос на соединение от ('127.0.0.1', 33664)
+2022-09-19 15:11:04,800   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Mon Sep 19 15:11:04 2022', 'account_name': 'user-1'}
+2022-09-19 15:11:04,800   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Mon Sep 19 15:11:04 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 15:11:04,814   INFO       server               Отправлен ответ - ('127.0.0.1', 33664) - {'response': 200, 'time': 'Mon Sep 19 15:11:04 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 15:11:05,314   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Mon Sep 19 15:11:04 2022', 'sender_user': 'user-1'}
+2022-09-19 15:11:05,318   INFO       server               Отправлен ответ - ('127.0.0.1', 33664) - {'response': 202, 'to_user': 'user-1', 'load_clients': [['user-1', 'user-2', 'user'], ['user-2']]}
+2022-09-19 15:11:05,813   INFO       server               Получен запрос на соединение от ('127.0.0.1', 49692)
+2022-09-19 15:11:05,813   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Mon Sep 19 15:11:05 2022', 'account_name': 'user-2'}
+2022-09-19 15:11:05,813   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Mon Sep 19 15:11:05 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 15:11:05,821   INFO       server               Отправлен ответ - ('127.0.0.1', 49692) - {'response': 200, 'time': 'Mon Sep 19 15:11:05 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 15:11:06,322   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Mon Sep 19 15:11:05 2022', 'sender_user': 'user-2'}
+2022-09-19 15:11:06,360   INFO       server               Отправлен ответ - ('127.0.0.1', 49692) - {'response': 202, 'to_user': 'user-2', 'load_clients': [['user-1', 'user-2', 'user'], ['user-1']]}
+2022-09-19 15:12:36,392   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140322393499200)>
+2022-09-19 15:12:37,212   INFO       server               Получен запрос на соединение от ('127.0.0.1', 39352)
+2022-09-19 15:12:37,212   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Mon Sep 19 15:12:37 2022', 'account_name': 'user-1'}
+2022-09-19 15:12:37,212   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Mon Sep 19 15:12:37 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 15:12:37,228   INFO       server               Отправлен ответ - ('127.0.0.1', 39352) - {'response': 200, 'time': 'Mon Sep 19 15:12:37 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 15:12:37,729   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Mon Sep 19 15:12:37 2022', 'sender_user': 'user-1'}
+2022-09-19 15:12:37,742   INFO       server               Отправлен ответ - ('127.0.0.1', 39352) - {'response': 202, 'to_user': 'user-1', 'load_clients': [['user-1', 'user-2', 'user'], ['user-2']]}
+2022-09-19 15:12:38,225   INFO       server               Получен запрос на соединение от ('127.0.0.1', 39358)
+2022-09-19 15:12:38,225   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Mon Sep 19 15:12:38 2022', 'account_name': 'user-2'}
+2022-09-19 15:12:38,225   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Mon Sep 19 15:12:38 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 15:12:38,232   INFO       server               Отправлен ответ - ('127.0.0.1', 39358) - {'response': 200, 'time': 'Mon Sep 19 15:12:38 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 15:12:38,733   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Mon Sep 19 15:12:38 2022', 'sender_user': 'user-2'}
+2022-09-19 15:12:38,773   INFO       server               Отправлен ответ - ('127.0.0.1', 39358) - {'response': 202, 'to_user': 'user-2', 'load_clients': [['user-1', 'user-2', 'user'], ['user-1']]}
+2022-09-19 16:13:34,697   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140311667615296)>
+2022-09-19 16:13:35,506   INFO       server               Получен запрос на соединение от ('127.0.0.1', 35680)
+2022-09-19 16:13:35,506   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Mon Sep 19 16:13:35 2022', 'account_name': 'user-1'}
+2022-09-19 16:13:35,506   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Mon Sep 19 16:13:35 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 16:13:35,521   INFO       server               Отправлен ответ - ('127.0.0.1', 35680) - {'response': 200, 'time': 'Mon Sep 19 16:13:35 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 16:13:36,022   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Mon Sep 19 16:13:35 2022', 'sender_user': 'user-1'}
+2022-09-19 16:13:36,034   INFO       server               Отправлен ответ - ('127.0.0.1', 35680) - {'response': 202, 'to_user': 'user-1', 'load_clients': [['user-1', 'user-2', 'user'], ['user-2']]}
+2022-09-19 16:13:36,516   INFO       server               Получен запрос на соединение от ('127.0.0.1', 35694)
+2022-09-19 16:15:28,818   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140398945838656)>
+2022-09-19 16:15:29,633   INFO       server               Получен запрос на соединение от ('127.0.0.1', 59518)
+2022-09-19 16:15:29,633   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Mon Sep 19 16:15:29 2022', 'account_name': 'user-1'}
+2022-09-19 16:15:29,633   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Mon Sep 19 16:15:29 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 16:15:29,648   INFO       server               Отправлен ответ - ('127.0.0.1', 59518) - {'response': 200, 'time': 'Mon Sep 19 16:15:29 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 16:15:30,149   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Mon Sep 19 16:15:29 2022', 'sender_user': 'user-1'}
+2022-09-19 16:15:30,162   INFO       server               Отправлен ответ - ('127.0.0.1', 59518) - {'response': 202, 'to_user': 'user-1', 'load_clients': [['user-1', 'user-2', 'user'], ['user-2']]}
+2022-09-19 16:15:30,639   INFO       server               Получен запрос на соединение от ('127.0.0.1', 59530)
+2022-09-19 16:22:53,899   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 139771896342080)>
+2022-09-19 16:22:54,702   INFO       server               Получен запрос на соединение от ('127.0.0.1', 43366)
+2022-09-19 16:22:54,702   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Mon Sep 19 16:22:54 2022', 'account_name': 'user-1'}
+2022-09-19 16:22:54,702   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Mon Sep 19 16:22:54 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 16:22:54,717   INFO       server               Отправлен ответ - ('127.0.0.1', 43366) - {'response': 200, 'time': 'Mon Sep 19 16:22:54 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 16:22:55,218   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Mon Sep 19 16:22:54 2022', 'sender_user': 'user-1'}
+2022-09-19 16:22:55,231   INFO       server               Отправлен ответ - ('127.0.0.1', 43366) - {'response': 202, 'to_user': 'user-1', 'load_clients': [['user-1', 'user-2', 'user'], ['user-2']]}
+2022-09-19 16:22:55,723   INFO       server               Получен запрос на соединение от ('127.0.0.1', 56790)
+2022-09-19 16:22:55,723   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Mon Sep 19 16:22:55 2022', 'account_name': 'user-2'}
+2022-09-19 16:22:55,723   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Mon Sep 19 16:22:55 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 16:22:55,731   INFO       server               Отправлен ответ - ('127.0.0.1', 56790) - {'response': 200, 'time': 'Mon Sep 19 16:22:55 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 16:22:56,232   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Mon Sep 19 16:22:55 2022', 'sender_user': 'user-2'}
+2022-09-19 16:22:56,271   INFO       server               Отправлен ответ - ('127.0.0.1', 56790) - {'response': 202, 'to_user': 'user-2', 'load_clients': [['user-1', 'user-2', 'user'], ['user-1']]}
+2022-09-19 16:24:26,454   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 139802076456512)>
+2022-09-19 16:25:05,117   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140446644512320)>
+2022-09-19 16:26:01,832   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140699303093824)>
+2022-09-19 16:26:02,649   INFO       server               Получен запрос на соединение от ('127.0.0.1', 57118)
+2022-09-19 16:26:02,649   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Mon Sep 19 16:26:02 2022', 'account_name': 'user-1'}
+2022-09-19 16:26:02,649   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Mon Sep 19 16:26:02 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 16:26:02,663   INFO       server               Отправлен ответ - ('127.0.0.1', 57118) - {'response': 200, 'time': 'Mon Sep 19 16:26:02 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 16:26:03,164   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Mon Sep 19 16:26:02 2022', 'sender_user': 'user-1'}
+2022-09-19 16:26:03,178   INFO       server               Отправлен ответ - ('127.0.0.1', 57118) - {'response': 202, 'to_user': 'user-1', 'load_clients': [['user-1', 'user-2', 'user'], ['user-2']]}
+2022-09-19 16:26:03,659   INFO       server               Получен запрос на соединение от ('127.0.0.1', 57126)
+2022-09-19 16:26:03,659   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Mon Sep 19 16:26:03 2022', 'account_name': 'user-2'}
+2022-09-19 16:26:03,659   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Mon Sep 19 16:26:03 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 16:26:03,667   INFO       server               Отправлен ответ - ('127.0.0.1', 57126) - {'response': 200, 'time': 'Mon Sep 19 16:26:03 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 16:26:04,167   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Mon Sep 19 16:26:03 2022', 'sender_user': 'user-2'}
+2022-09-19 16:26:04,205   INFO       server               Отправлен ответ - ('127.0.0.1', 57126) - {'response': 202, 'to_user': 'user-2', 'load_clients': [['user-1', 'user-2', 'user'], ['user-1']]}
+2022-09-19 16:27:03,734   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140504823703104)>
+2022-09-19 16:27:44,803   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140704355132992)>
+2022-09-19 16:27:45,628   INFO       server               Получен запрос на соединение от ('127.0.0.1', 54500)
+2022-09-19 16:27:45,628   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Mon Sep 19 16:27:45 2022', 'account_name': 'user-1'}
+2022-09-19 16:27:45,628   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Mon Sep 19 16:27:45 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 16:27:45,643   INFO       server               Отправлен ответ - ('127.0.0.1', 54500) - {'response': 200, 'time': 'Mon Sep 19 16:27:45 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 16:27:46,144   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Mon Sep 19 16:27:45 2022', 'sender_user': 'user-1'}
+2022-09-19 16:27:46,156   INFO       server               Отправлен ответ - ('127.0.0.1', 54500) - {'response': 202, 'to_user': 'user-1', 'load_clients': [['user-1', 'user-2', 'user'], ['user-2']]}
+2022-09-19 16:27:46,633   INFO       server               Получен запрос на соединение от ('127.0.0.1', 54516)
+2022-09-19 16:28:10,663   INFO       server               Получено сообщение от клиента - {'action': 'quit', 'time': 'Mon Sep 19 16:28:10 2022', 'account_name': 'user-2'}
+2022-09-19 16:28:19,176   INFO       server               Получено сообщение от клиента - {'action': 'quit', 'time': 'Mon Sep 19 16:28:18 2022', 'account_name': 'user-1'}
+2022-09-19 16:28:48,713   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140575778743872)>
+2022-09-19 16:31:13,319   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 139686477243968)>
+2022-09-19 16:31:14,133   INFO       server               Получен запрос на соединение от ('127.0.0.1', 39386)
+2022-09-19 16:31:14,133   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Mon Sep 19 16:31:14 2022', 'account_name': 'user-1'}
+2022-09-19 16:31:14,133   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Mon Sep 19 16:31:14 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 16:31:14,154   INFO       server               Отправлен ответ - ('127.0.0.1', 39386) - {'response': 200, 'time': 'Mon Sep 19 16:31:14 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 16:31:14,655   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Mon Sep 19 16:31:14 2022', 'sender_user': 'user-1'}
+2022-09-19 16:31:14,669   INFO       server               Отправлен ответ - ('127.0.0.1', 39386) - {'response': 202, 'to_user': 'user-1', 'load_clients': [['user-1', 'user-2', 'user'], ['user-2']]}
+2022-09-19 16:31:15,143   INFO       server               Получен запрос на соединение от ('127.0.0.1', 39390)
+2022-09-19 16:31:15,144   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Mon Sep 19 16:31:15 2022', 'account_name': 'user-2'}
+2022-09-19 16:31:15,144   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Mon Sep 19 16:31:15 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 16:31:15,151   INFO       server               Отправлен ответ - ('127.0.0.1', 39390) - {'response': 200, 'time': 'Mon Sep 19 16:31:15 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 16:31:15,652   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Mon Sep 19 16:31:15 2022', 'sender_user': 'user-2'}
+2022-09-19 16:31:15,692   INFO       server               Отправлен ответ - ('127.0.0.1', 39390) - {'response': 202, 'to_user': 'user-2', 'load_clients': [['user-1', 'user-2', 'user'], ['user-1']]}
+2022-09-19 16:31:41,224   INFO       server               Получено сообщение от клиента - {'action': 'quit', 'time': 'Mon Sep 19 16:31:41 2022', 'account_name': 'user-1'}
+2022-09-19 16:36:03,158   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140720132007488)>
+2022-09-19 16:36:03,975   INFO       server               Получен запрос на соединение от ('127.0.0.1', 49750)
+2022-09-19 16:36:03,975   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Mon Sep 19 16:36:03 2022', 'account_name': 'user-1'}
+2022-09-19 16:36:03,975   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Mon Sep 19 16:36:03 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 16:36:03,989   INFO       server               Отправлен ответ - ('127.0.0.1', 49750) - {'response': 200, 'time': 'Mon Sep 19 16:36:03 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 16:36:04,490   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Mon Sep 19 16:36:03 2022', 'sender_user': 'user-1'}
+2022-09-19 16:36:04,494   INFO       server               Отправлен ответ - ('127.0.0.1', 49750) - {'response': 202, 'to_user': 'user-1', 'load_clients': [['user-1', 'user-2', 'user'], ['user-2']]}
+2022-09-19 16:36:04,985   INFO       server               Получен запрос на соединение от ('127.0.0.1', 49766)
+2022-09-19 16:36:04,985   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Mon Sep 19 16:36:04 2022', 'account_name': 'user-2'}
+2022-09-19 16:36:04,985   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Mon Sep 19 16:36:04 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 16:36:04,992   INFO       server               Отправлен ответ - ('127.0.0.1', 49766) - {'response': 200, 'time': 'Mon Sep 19 16:36:04 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 16:36:05,493   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Mon Sep 19 16:36:05 2022', 'sender_user': 'user-2'}
+2022-09-19 16:36:05,531   INFO       server               Отправлен ответ - ('127.0.0.1', 49766) - {'response': 202, 'to_user': 'user-2', 'load_clients': [['user-1', 'user-2', 'user'], ['user-1']]}
+2022-09-19 16:36:26,055   INFO       server               Получено сообщение от клиента - {'action': 'quit', 'time': 'Mon Sep 19 16:36:25 2022', 'account_name': 'user-1'}
+2022-09-19 16:37:40,229   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140493442459200)>
+2022-09-19 16:38:07,834   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140687291655744)>
+2022-09-19 16:38:08,664   INFO       server               Получен запрос на соединение от ('127.0.0.1', 45370)
+2022-09-19 16:38:08,664   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Mon Sep 19 16:38:08 2022', 'account_name': 'user-1'}
+2022-09-19 16:38:08,664   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Mon Sep 19 16:38:08 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 16:38:08,677   INFO       server               Отправлен ответ - ('127.0.0.1', 45370) - {'response': 200, 'time': 'Mon Sep 19 16:38:08 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 16:38:09,178   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Mon Sep 19 16:38:08 2022', 'sender_user': 'user-1'}
+2022-09-19 16:38:09,189   INFO       server               Отправлен ответ - ('127.0.0.1', 45370) - {'response': 202, 'to_user': 'user-1', 'load_clients': [['user-1', 'user-2', 'user'], ['user-2']]}
+2022-09-19 16:38:09,669   INFO       server               Получен запрос на соединение от ('127.0.0.1', 45376)
+2022-09-19 16:38:09,669   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Mon Sep 19 16:38:09 2022', 'account_name': 'user-2'}
+2022-09-19 16:38:09,669   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Mon Sep 19 16:38:09 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 16:38:09,677   INFO       server               Отправлен ответ - ('127.0.0.1', 45376) - {'response': 200, 'time': 'Mon Sep 19 16:38:09 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 16:38:10,178   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Mon Sep 19 16:38:09 2022', 'sender_user': 'user-2'}
+2022-09-19 16:38:10,217   INFO       server               Отправлен ответ - ('127.0.0.1', 45376) - {'response': 202, 'to_user': 'user-2', 'load_clients': [['user-1', 'user-2', 'user'], ['user-1']]}
+2022-09-19 16:38:43,257   INFO       server               Получено сообщение от клиента - {'action': 'quit', 'time': 'Mon Sep 19 16:38:43 2022', 'account_name': 'user-2'}
+2022-09-19 16:39:18,862   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140074853017152)>
+2022-09-19 16:39:28,823   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140412324619840)>
+2022-09-19 16:39:29,626   INFO       server               Получен запрос на соединение от ('127.0.0.1', 37564)
+2022-09-19 16:39:29,627   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Mon Sep 19 16:39:29 2022', 'account_name': 'user-1'}
+2022-09-19 16:39:29,627   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Mon Sep 19 16:39:29 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 16:39:33,876   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140495091869248)>
+2022-09-19 16:39:34,687   INFO       server               Получен запрос на соединение от ('127.0.0.1', 37576)
+2022-09-19 16:39:34,687   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Mon Sep 19 16:39:34 2022', 'account_name': 'user-1'}
+2022-09-19 16:39:34,687   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Mon Sep 19 16:39:34 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 16:39:34,704   INFO       server               Отправлен ответ - ('127.0.0.1', 37576) - {'response': 200, 'time': 'Mon Sep 19 16:39:34 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 16:39:35,205   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Mon Sep 19 16:39:34 2022', 'sender_user': 'user-1'}
+2022-09-19 16:39:35,219   INFO       server               Отправлен ответ - ('127.0.0.1', 37576) - {'response': 202, 'to_user': 'user-1', 'load_clients': [['user-1', 'user-2', 'user'], ['user-2']]}
+2022-09-19 16:39:35,699   INFO       server               Получен запрос на соединение от ('127.0.0.1', 54942)
+2022-09-19 16:39:35,699   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Mon Sep 19 16:39:35 2022', 'account_name': 'user-2'}
+2022-09-19 16:39:35,699   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Mon Sep 19 16:39:35 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 16:39:35,718   INFO       server               Отправлен ответ - ('127.0.0.1', 54942) - {'response': 200, 'time': 'Mon Sep 19 16:39:35 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-19 16:39:36,219   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Mon Sep 19 16:39:35 2022', 'sender_user': 'user-2'}
+2022-09-19 16:39:36,257   INFO       server               Отправлен ответ - ('127.0.0.1', 54942) - {'response': 202, 'to_user': 'user-2', 'load_clients': [['user-1', 'user-2', 'user'], ['user-1']]}
+2022-09-19 16:39:46,270   INFO       server               Получено сообщение от клиента - {'action': 'quit', 'time': 'Mon Sep 19 16:39:46 2022', 'account_name': 'user-1'}
+2022-09-19 16:58:03,924   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140226961548864)>
+2022-09-19 17:00:18,295   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140568688272960)>
+2022-09-20 11:28:04,220   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140425188550208)>
+2022-09-20 11:30:21,043   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 139806391346752)>
+2022-09-20 11:30:39,114   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140255193409088)>
+2022-09-20 11:31:44,264   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140485867546176)>
+2022-09-20 11:32:02,382   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140685647488576)>
+2022-09-20 11:34:48,192   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140120250066496)>
+2022-09-20 11:35:08,174   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140224072721984)>
+2022-09-20 11:35:08,991   INFO       server               Получен запрос на соединение от ('127.0.0.1', 36414)
+2022-09-20 11:35:08,991   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Tue Sep 20 11:35:08 2022', 'account_name': 'user-1'}
+2022-09-20 11:35:08,991   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep 20 11:35:08 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-20 11:35:09,007   INFO       server               Отправлен ответ - ('127.0.0.1', 36414) - {'response': 200, 'time': 'Tue Sep 20 11:35:08 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-20 11:35:09,508   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Tue Sep 20 11:35:09 2022', 'sender_user': 'user-1'}
+2022-09-20 11:35:09,523   INFO       server               Отправлен ответ - ('127.0.0.1', 36414) - {'response': 202, 'to_user': 'user-1', 'load_clients': [['user-1'], []]}
+2022-09-20 11:35:09,999   INFO       server               Получен запрос на соединение от ('127.0.0.1', 43692)
+2022-09-20 11:35:10,000   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Tue Sep 20 11:35:09 2022', 'account_name': 'user-2'}
+2022-09-20 11:35:10,000   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep 20 11:35:10 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-20 11:35:10,011   INFO       server               Отправлен ответ - ('127.0.0.1', 43692) - {'response': 200, 'time': 'Tue Sep 20 11:35:10 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-20 11:35:10,512   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Tue Sep 20 11:35:10 2022', 'sender_user': 'user-2'}
+2022-09-20 11:35:10,514   INFO       server               Отправлен ответ - ('127.0.0.1', 43692) - {'response': 202, 'to_user': 'user-2', 'load_clients': [['user-1', 'user-2'], []]}
+2022-09-20 11:35:52,363   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140112276694592)>
+2022-09-20 11:35:53,261   INFO       server               Получен запрос на соединение от ('127.0.0.1', 60424)
+2022-09-20 11:35:53,261   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Tue Sep 20 11:35:53 2022', 'account_name': 'user-1'}
+2022-09-20 11:36:07,287   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140007903536704)>
+2022-09-20 11:38:29,497   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140571894818368)>
+2022-09-20 11:39:32,190   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 139722959300160)>
+2022-09-20 11:39:40,946   INFO       server               Получен запрос на соединение от ('127.0.0.1', 40498)
+2022-09-20 11:39:40,946   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Tue Sep 20 11:39:40 2022', 'account_name': 'user'}
+2022-09-20 11:39:40,946   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep 20 11:39:40 2022', 'to_user': 'user', 'alert': 'Подтверждение присутствия получено'}
+2022-09-20 11:39:40,962   INFO       server               Отправлен ответ - ('127.0.0.1', 40498) - {'response': 200, 'time': 'Tue Sep 20 11:39:40 2022', 'to_user': 'user', 'alert': 'Подтверждение присутствия получено'}
+2022-09-20 11:39:41,463   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Tue Sep 20 11:39:40 2022', 'sender_user': 'user'}
+2022-09-20 11:39:41,467   INFO       server               Отправлен ответ - ('127.0.0.1', 40498) - {'response': 202, 'to_user': 'user', 'load_clients': [['user-1', 'user-2', 'user'], []]}
+2022-09-20 11:40:20,032   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 139759896438336)>
+2022-09-20 11:40:30,039   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140643720177216)>
+2022-09-20 11:40:55,454   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140572246091328)>
+2022-09-20 11:41:08,173   INFO       server               Сервер запущен - <Thread(Thread-1 (init_socket), started daemon 140397540746816)>
+2022-09-20 11:41:08,976   INFO       server               Получен запрос на соединение от ('127.0.0.1', 56170)
+2022-09-20 11:41:08,976   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Tue Sep 20 11:41:08 2022', 'account_name': 'user-1'}
+2022-09-20 11:41:08,976   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep 20 11:41:08 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-20 11:41:08,991   INFO       server               Отправлен ответ - ('127.0.0.1', 56170) - {'response': 200, 'time': 'Tue Sep 20 11:41:08 2022', 'to_user': 'user-1', 'alert': 'Подтверждение присутствия получено'}
+2022-09-20 11:41:09,492   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Tue Sep 20 11:41:08 2022', 'sender_user': 'user-1'}
+2022-09-20 11:41:09,505   INFO       server               Отправлен ответ - ('127.0.0.1', 56170) - {'response': 202, 'to_user': 'user-1', 'load_clients': [['user-1', 'user-2', 'user'], []]}
+2022-09-20 11:41:09,990   INFO       server               Получен запрос на соединение от ('127.0.0.1', 51122)
+2022-09-20 11:41:09,990   INFO       server               Получено сообщение от клиента - {'action': 'presence', 'time': 'Tue Sep 20 11:41:09 2022', 'account_name': 'user-2'}
+2022-09-20 11:41:09,990   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep 20 11:41:09 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-20 11:41:09,998   INFO       server               Отправлен ответ - ('127.0.0.1', 51122) - {'response': 200, 'time': 'Tue Sep 20 11:41:09 2022', 'to_user': 'user-2', 'alert': 'Подтверждение присутствия получено'}
+2022-09-20 11:41:10,499   INFO       server               Получено сообщение от клиента - {'action': 'load_database', 'time': 'Tue Sep 20 11:41:10 2022', 'sender_user': 'user-2'}
+2022-09-20 11:41:10,504   INFO       server               Отправлен ответ - ('127.0.0.1', 51122) - {'response': 202, 'to_user': 'user-2', 'load_clients': [['user-1', 'user-2', 'user'], []]}
+2022-09-20 11:41:36,034   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Tue Sep 20 11:41:36 2022', 'target_user': 'user-2', 'sender_user': 'user-1', 'message': 'hello'}
+2022-09-20 11:41:36,050   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep 20 11:41:36 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'hello'}
+2022-09-20 11:41:36,050   INFO       server               Отправлен ответ - ('127.0.0.1', 51122) - {'response': 200, 'time': 'Tue Sep 20 11:41:36 2022', 'from_user': 'user-1', 'to_user': 'user-2', 'answer': 'hello'}
+2022-09-20 11:42:07,587   INFO       server               Получено сообщение от клиента - {'action': 'msg', 'time': 'Tue Sep 20 11:42:07 2022', 'target_user': 'user', 'sender_user': 'user-1', 'message': 'hello'}
+2022-09-20 11:42:07,602   INFO       server               Сформирован ответ - {'response': 200, 'time': 'Tue Sep 20 11:42:07 2022', 'from_user': 'user-1', 'to_user': 'user', 'answer': 'hello'}
